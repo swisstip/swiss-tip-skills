@@ -8,7 +8,7 @@ admin console visualizes progress and records human decisions.
 ## Install
 
 ```text
-/plugin marketplace add <this repository>
+/plugin marketplace add https://github.com/swisstip/swiss-tip-skills
 /plugin install swisstip-kb-builder@swisstip
 ```
 
