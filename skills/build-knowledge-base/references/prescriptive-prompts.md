@@ -49,7 +49,7 @@ themselves. We read the rules later, from a saved snapshot.
 ```text
 You are reading ONE saved official page and proposing knowledge entries.
 
-Reading view: .local/<pack>/text/documents/<record-id>.md
+Reading view: .local/<pack>/text/reading/<record-id>.md
 Record:       .local/<pack>/text/documents/<record-id>.json
 Publisher:    <publisher> (<level>)
 Our questions: <path to the acceptance questions>
@@ -69,7 +69,7 @@ at the granularity of one question. For each concept give:
   questions     one sample question per query language, written from these facts, in a
                 user's voice, never copied from a test case
   required_context      which of country / canton / city the answer depends on
-  required_user_facts   what the caller must ask the user, as field plus description
+  required_user_facts   what the caller must ask the user, as name, status and instruction
   not_served    what a reader could wrongly expect this concept to cover
   facts         1 to 6 entries, each with:
                   statement    one self-contained English sentence, fully supported by

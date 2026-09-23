@@ -1,79 +1,129 @@
 # Swiss TIP knowledge-base builder
 
-A Claude Code plugin that builds a grounded, citable knowledge base out of official web
-pages, end to end: discover the sources, crawl them, write concepts and facts that cite
-saved pages block by block, take a person through review, build and validate a release,
-and author the suites that judge it.
-
-The release it produces is served by the [Swiss TIP MCP server](https://github.com/swisstip/swiss-tip),
-so an assistant can answer from cited official pages instead of from memory.
+A Claude Code plugin that turns a high-level Swiss public-information topic into a
+grounded, citable knowledge pack. Claude discovers official sources and coordinates
+subagents; the Swiss TIP workflow engine persists proposals and enforces approvals; the
+admin console visualizes progress and records human decisions.
 
 ## Install
 
-```
+```text
 /plugin marketplace add <this repository>
 /plugin install swisstip-kb-builder@swisstip
 ```
 
-Then say what you want built:
+Then ask Claude Code:
 
-> Build a knowledge base about self-employment and founding a business in Switzerland,
-> for the Canton and City of Zurich.
+> Build a knowledge base about starting as a self-employed sole proprietor in the
+> Canton of Zurich.
 
-The skill takes it from there: it sets the workspace up, scaffolds the pack, and works
-through the eleven steps, stopping at the two steps that belong to a person.
+The plugin bootstraps a Python 3.14 workspace with permission, initializes durable
+workflow state and guides the A1-A6 process. It supports:
 
-## What gets installed, and when
+- `full-review`: a person reviews every gate and fact;
+- `fast-track`: deterministic policy may send typed descriptive source metadata and
+	retrieval-only non-blocking regression variants to a separate frontier-model reviewer;
+	source boundaries, navigation dispositions, every served fact, blocking test policy and
+	attestation remain human.
 
-Nothing until you agree. On the first run the skill offers to create a workspace `.venv`
-and install the published `swisstip-builder` and `swisstip-mcp` packages into it, using
-[uv](https://docs.astral.sh/uv/), which also downloads the Python 3.14 the packages
-need. `uv` itself is never installed silently - the bootstrap script prints the one
-command and stops.
+## Architecture
 
-Hybrid search additionally needs [Ollama](https://ollama.com) serving
-`qwen3-embedding:0.6b`, about 600 MB. It is optional: everything else works with lexical
-search, and the tooling says when it is running without it.
+| Repository | Ownership |
+| --- | --- |
+| `swiss-tip-skills` | Claude skill, subagent briefs, portable templates and thin helper scripts |
+| `swiss-tip` | Workflow state machine, risk routing, approval integrity, deterministic pipeline and admin-console control room |
+| `swiss-tip-mvp` or another pack workspace | Approved catalogues, curation, releases and reports |
+
+Workflow state lives under `.local/<pack>/autopilot/`, not in Claude's conversation and
+not in the release directory. A restarted Claude session resumes from verified files.
+
+## Setup
+
+Nothing is installed until the operator agrees. For development against this workspace:
 
 ```shell
-python skills/build-knowledge-base/scripts/bootstrap.py --workspace . --with-ollama
-python skills/build-knowledge-base/scripts/doctor.py --workspace . --pack <pack>
+python skills/build-knowledge-base/scripts/bootstrap.py --workspace . --source ../swiss-tip
+.venv/Scripts/python.exe skills/build-knowledge-base/scripts/scaffold.py \
+	--workspace . --pack <pack> --title "<title>" --scope "<topic>" \
+	--assistant-model "<actual Claude model identity>"
 ```
 
-## What is in here
+The published builder may lag the governed workflow. Bootstrap fails closed when the
+installed package has no `swisstip-autopilot`. `--legacy-manual` remains available for
+recovery but provides no A1-A6 guarantees.
 
-| Path | What it is |
+Hybrid retrieval optionally needs [Ollama](https://ollama.com) with
+`qwen3-embedding:0.6b`; lexical serving does not.
+
+## Human control room
+
+```shell
+.venv/Scripts/python.exe -m swisstip.admin_console.app --packs-dir . --actor "<name>"
+```
+
+Open `http://127.0.0.1:8765/packs/<pack>/workflow`. The screen shows verified state,
+gate status, proposal details and the event stream. It records source-budget
+confirmation, fact-review completion and final readiness attestation as the console
+actor. Claude's CLI intentionally cannot approve or attest.
+
+### Offline team mock
+
+For a predictable walkthrough with no network, Ollama or model calls, seed four real
+workflow scenes and run the actual control room:
+
+```powershell
+..\.venv\Scripts\python.exe skills\build-knowledge-base\scripts\mock_demo.py `
+	--workspace .local\swisstip-team-demo --reset --serve
+```
+
+Open `http://127.0.0.1:8765/packs/demo-01-scope/workflow`. The pack picker also
+contains A2 catalogue, network-confirmation, and fast-track support-review scenes.
+Approvals modify only the isolated mock workspace. Rerun with `--reset --serve` to
+restore all scenes.
+
+For a continuous interactive run, leave the control room running and start the
+explicitly labelled offline coordinator in a second terminal:
+
+```powershell
+..\.venv\Scripts\python.exe -u skills\build-knowledge-base\scripts\mock_claude.py `
+	--workspace .local\swisstip-team-demo --pack demo-01-scope
+```
+
+In `demo-01-scope`, approve A1, approve the A2 proposal that appears, type the pack
+name to confirm the network plan, and approve A3. The control room polls every two
+seconds. The companion prints `MOCK CLAUDE` activity and performs the genuine
+coordinator-owned promotions, offline acquisition receipts, extraction validation,
+and proposal submissions. It stops at every human-owned decision. Its synthetic HTML
+fixture is local: the process makes no network, Ollama or model calls. Stop it with
+Ctrl+C.
+
+## Claude subscription, no API key
+
+The scaffold creates `config/semantic-models.toml` with `assistant_exchange` and
+`frontier-review`. Python writes structured request files and Claude Code subagents
+answer them through the subscription. Model identity is explicit and checkpointed; no
+Anthropic credential is exported to the workspace.
+
+## Contents
+
+| Path | Purpose |
 | --- | --- |
-| `skills/build-knowledge-base/SKILL.md` | The pipeline: eleven steps, five invariants, two human gates |
-| `skills/build-knowledge-base/references/` | The step commands, the curation and suite schemas, troubleshooting, the limits, and fully specified prompts for smaller models |
-| `skills/build-knowledge-base/scripts/` | `bootstrap.py`, `scaffold.py`, `doctor.py`, `replay.py` |
-| `skills/build-knowledge-base/templates/` | Starting points for `acceptance.yaml` and `regression.yaml` |
-| `skills/build-knowledge-base/data/places/` | The Swiss place register and its aliases, so a caller can name a canton or a city instead of a code |
-| `agents/` | Four subagents: scout, reader, classifier, test author |
+| `skills/build-knowledge-base/SKILL.md` | Governed state-by-state coordinator workflow |
+| `skills/build-knowledge-base/references/` | Pipeline, schemas, hard rules and troubleshooting |
+| `skills/build-knowledge-base/scripts/` | Bootstrap, governed scaffold, doctor and replay helpers |
+| `skills/build-knowledge-base/templates/` | Suite and semantic-model starting points |
+| `skills/build-knowledge-base/data/places/` | Swiss place register and aliases |
+| `agents/` | Scope planner, scouts, readers, classifier, independent frontier reviewer and test author |
+| `tests/` | Offline plugin and upstream-contract checks |
 
-Everything the pipeline needs that is not inside a published package ships here, so a
-workspace with no clone of the Swiss TIP repositories can run the whole thing. That
-includes the replay runner (`replay.py`) and the place files, which otherwise live only
-in the packs repository.
+## Boundaries
 
-## What it does not do
-
-It builds Swiss packs: the catalogue validator requires a Swiss country code and the
-release validator knows Swiss jurisdiction codes. It ships no live-caller harness, so it
-proves the server, not the assistant answering over it. It does no OCR. And it does not
-review or attest on your behalf - `references/limits.md` is the full list, and it is
-worth reading before starting rather than after.
-
-## Two steps stay human
-
-A person confirms every fact against its excerpt in the review console, and a person
-attests the release. The skill prepares both - a review brief that orders the queue
-hardest-first, an attestation packet that says plainly what is being taken
-responsibility for - and then stops. An agent that marks its own work reviewed produces
-a release whose limitations lie to every caller that reads them.
+The plugin builds Swiss packs only. It does no OCR and ships no live-caller harness.
+No agent marks its own work human-reviewed or supplies another person's attestation.
+The local demo is a cooperative same-user setup: actor and observed-model names are
+audited assertions, not cryptographic credentials. Use an isolated coordinator and
+hosted authenticated console for an adversarial deployment.
 
 ## Licence
 
-Apache-2.0. `skills/build-knowledge-base/scripts/replay.py` is derived from the Swiss TIP
-packs repository, and the place files are built from the Federal Statistical Office's
-register of municipalities; see [NOTICE](NOTICE).
+Apache-2.0. See [NOTICE](NOTICE) for derived code, place data and quoted-source terms.

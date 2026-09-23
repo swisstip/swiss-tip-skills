@@ -1,30 +1,29 @@
-"""Create the pack layout the knowledge builder expects, in a workspace without the repositories.
+"""Initialize a governed knowledge-base workflow and its workspace support files.
 
     python scaffold.py --workspace . --pack mvp-selfemployed \
         --title "Self-employment and founding a business" \
         --canton CH-ZH --topic legal-form:"Legal form and registration" \
         --topic social-insurance:"Social insurance of the self-employed"
 
-Writes, under the workspace:
+Governed mode writes, under the workspace:
 
-    releases/<pack>/sources.json   a valid, empty source catalogue (draft-1)
-    releases/<pack>/curation.yaml  the manifest and the topics, with no concepts yet
+    .local/<pack>/autopilot/       durable workflow, policy and event log
+    config/semantic-models.toml    explicit Claude Code assistant_exchange profile
     config/places/                 the Swiss place register and aliases, so a caller
                                    can name a canton or a city instead of its code
-    .local/<pack>/worklist.md      the resumable plan
     .gitignore                     keeps .local/ out of Git
 
-The catalogue is validated with the builder's own validator before it is
-written, so a scaffolded pack can never start life in a shape the planner
-refuses. `curation.yaml` is deliberately left without concepts: the build
-refuses it until the first one is written from a saved page, which is the
-correct state for a pack that has read nothing yet.
+No incomplete file is written under releases/. Claude submits A1-A5 proposals
+through swisstip-autopilot and approved artifacts are promoted by the upstream
+workflow engine. --legacy-manual retains the earlier scaffold for recovery.
 
 Run with the workspace interpreter created by bootstrap.py.
 """
 
 import argparse
+import hashlib
 import json
+import re
 import shutil
 import sys
 from datetime import date
@@ -32,6 +31,7 @@ from pathlib import Path
 
 HERE = Path(__file__).resolve().parent
 PLACE_DATA = HERE.parent / "data" / "places"
+SEMANTIC_TEMPLATE = HERE.parent / "templates" / "semantic-models.toml"
 
 CRAWL_PROFILES = {
     "smoke": {"max_depth": 0, "max_pages": 1, "max_requests": 5, "max_total_bytes": 3000000,
@@ -230,28 +230,68 @@ def main():
     parser.add_argument("--topic", action="append", type=parse_topic, default=[], metavar="id:Label",
                         help="planning topic, repeatable; at least one is needed")
     parser.add_argument("--no-places", action="store_true", help="do not copy the Swiss place register")
+    parser.add_argument("--assistant-model", help="actual Claude model identity for assistant_exchange")
+    parser.add_argument("--frontier-model", help="actual independent reviewer model identity; required and distinct in fast track")
+    parser.add_argument("--review-mode", choices=("full-review", "fast-track"), default="full-review")
+    parser.add_argument("--delegation-profile", help="required by fast-track; usually frontier-review")
+    parser.add_argument("--legacy-manual", action="store_true",
+                        help="write the old empty catalogue and curation instead of initializing autopilot")
     parser.add_argument("--force", action="store_true", help="overwrite existing files")
     args = parser.parse_args()
+    if re.fullmatch(r"[a-z0-9]+(?:-[a-z0-9]+)*", args.pack) is None:
+        parser.error("--pack must be a lowercase kebab-case identifier")
 
     topics = args.topic or [("general", "General")]
     workspace = Path(args.workspace).resolve()
     pack_dir = workspace / "releases" / args.pack
 
-    data = catalogue(args.pack, args.title, args.scope, args.canton, topics)
-    try:
-        from swisstip.ingestion.catalog import dump_source_catalog
-        rendered = dump_source_catalog(data)
-    except ImportError:
-        print("warning: swisstip-builder is not installed here, so the catalogue was not validated")
-        rendered = json.dumps(data, ensure_ascii=False, indent=2) + "\n"
-    except Exception as exc:  # the validator refused it
-        print("the scaffolded catalogue does not validate: %s" % exc)
-        return 1
+    if not args.legacy_manual:
+        if not args.assistant_model:
+            parser.error("governed mode needs --assistant-model with Claude Code's actual model identity")
+        if args.review_mode == "fast-track" and not args.delegation_profile:
+            parser.error("fast-track mode needs --delegation-profile")
+        if args.review_mode == "fast-track" and (
+                not args.frontier_model or args.frontier_model == args.assistant_model):
+            parser.error("fast-track mode needs an explicit --frontier-model distinct from --assistant-model")
+        from swisstip.builder.autopilot.models import (Actor, ActorKind, AuthenticationKind,
+                                                       ReviewMode)
+        from swisstip.builder.autopilot.service import AutopilotService
+        frontier_model = args.frontier_model or args.assistant_model
+        prompt = HERE.parents[2] / "agents" / "kb-frontier-reviewer.md"
+        response_schema = HERE.parent / "templates" / "frontier-review-response.schema.json"
+        prompt_sha = hashlib.sha256(prompt.read_bytes()).hexdigest()
+        schema_sha = hashlib.sha256(response_schema.read_bytes()).hexdigest()
+        actor = Actor(kind=ActorKind.COORDINATOR, actor_id="claude-code",
+                      authentication=AuthenticationKind.LOCAL_ASSERTED)
+        AutopilotService(workspace, args.pack).initialize(
+            args.scope, ReviewMode(args.review_mode), actor,
+            delegation_profile=args.delegation_profile,
+            delegation_model=frontier_model if args.review_mode == "fast-track" else None,
+            delegation_prompt_sha256=prompt_sha if args.review_mode == "fast-track" else None,
+            delegation_response_schema_sha256=schema_sha if args.review_mode == "fast-track" else None)
+        template = SEMANTIC_TEMPLATE.read_text(encoding="utf-8")
+        write(workspace / "config" / "semantic-models.toml",
+                            template.replace("__ASSISTANT_MODEL__", args.assistant_model)
+                                            .replace("__FRONTIER_MODEL__", frontier_model), args.force)
 
-    write(pack_dir / "sources.json", rendered, args.force)
-    write(pack_dir / "sources.md",
-          "# %s - source inventory\n\n**Last update:** %s\n\nOne link list per planning topic; "
-          "every page the catalogue intends to save.\n" % (args.title, date.today().isoformat()), args.force)
+    if args.legacy_manual:
+        data = catalogue(args.pack, args.title, args.scope, args.canton, topics)
+        try:
+            from swisstip.ingestion.catalog import dump_source_catalog
+            rendered = dump_source_catalog(data)
+        except ImportError:
+            print("warning: swisstip-builder is not installed here, so the catalogue was not validated")
+            rendered = json.dumps(data, ensure_ascii=False, indent=2) + "\n"
+        except Exception as exc:  # the validator refused it
+            print("the scaffolded catalogue does not validate: %s" % exc)
+            return 1
+
+        write(pack_dir / "sources.json", rendered, args.force)
+        write(pack_dir / "sources.md",
+              "# %s - source inventory\n\n**Last update:** %s\n\n"
+              "Every explicit Markdown link is a download target. Link only approved HTTPS URLs inside a "
+              "sources.json host and path allowlist; render all other URLs as inline code.\n" %
+              (args.title, date.today().isoformat()), args.force)
 
     places = not args.no_places
     if places:
@@ -264,15 +304,19 @@ def main():
             shutil.copyfile(PLACE_DATA / name, target)
             print("wrote %s" % target)
 
-    write(pack_dir / "curation.yaml", curation(args.pack, args.title, args.scope, topics, places), args.force)
-    write(workspace / ".local" / args.pack / "worklist.md",
-          WORKLIST.format(pack=args.pack, today=date.today().isoformat()), args.force)
+    if args.legacy_manual:
+        write(pack_dir / "curation.yaml", curation(args.pack, args.title, args.scope, topics, places), args.force)
+        write(workspace / ".local" / args.pack / "worklist.md",
+              WORKLIST.format(pack=args.pack, today=date.today().isoformat()), args.force)
     gitignore = workspace / ".gitignore"
     if not gitignore.exists():
         write(gitignore, ".venv/\n.local/\n", args.force)
 
-    print("\nThe acceptance and regression suites are written in step 8; templates are next to this script")
-    print("in ../templates/. Next: discover the sources and fill releases/%s/sources.json." % args.pack)
+    if args.legacy_manual:
+        print("\nLegacy manual scaffold created. Next: discover sources and edit the pack files.")
+    else:
+        print("\nGoverned workflow initialized. No incomplete release artifact was written.")
+        print("Next: submit the A1 scope proposal through swisstip-autopilot, then approve it in the console.")
     return 0
 
 

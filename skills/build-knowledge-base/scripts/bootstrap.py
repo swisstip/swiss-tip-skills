@@ -69,6 +69,9 @@ def report(workspace, base_url):
                 capture_output=True, text=True)
             version = proc.stdout.strip() if proc.returncode == 0 else "not installed"
             print("  %-18s %s" % (package, version))
+        probe = subprocess.run([str(python), "-c", "import swisstip.builder.autopilot.cli"],
+                               capture_output=True, text=True)
+        print("governed autopilot: %s" % ("available" if probe.returncode == 0 else "NOT AVAILABLE"))
     print("ollama:           %s" % (shutil.which("ollama") or "not on PATH"))
     tags = ollama_reachable(base_url)
     if tags is None:
@@ -124,7 +127,10 @@ def main():
             return 4
         targets = []
         for name in SOURCE_COMPONENTS:
-            targets += ["--editable", str(source / name)]
+            target = str(source / name)
+            if name == "packages/extraction" and args.office:
+                target += "[office]"
+            targets += ["--editable", target]
     else:
         pin = ("==" + args.version) if args.version else ""
         extra = "[office]" if args.office else ""
@@ -142,10 +148,18 @@ def main():
         else:
             run(["ollama", "pull", args.embedding_model])
 
+    capability = subprocess.run([str(python), "-c", "import swisstip.builder.autopilot.cli"],
+                                capture_output=True, text=True)
+    if capability.returncode:
+        print("installed builder has no governed autopilot CLI; use a current --source checkout or "
+              "explicit legacy-manual mode")
+        return 5
+
     print("")
     report(workspace, args.ollama_url)
     print("\nNext: scaffold a pack")
-    print("    %s scaffold.py --workspace %s --pack <pack> --title \"<title>\"" % (python, workspace))
+    print("    %s %s --workspace %s --pack <pack> --title \"<title>\" --scope \"<topic>\" "
+          "--assistant-model \"<actual Claude model>\"" % (python, HERE / "scaffold.py", workspace))
     return 0
 
 

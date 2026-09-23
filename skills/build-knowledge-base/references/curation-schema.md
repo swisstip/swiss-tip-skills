@@ -53,8 +53,9 @@ A concept is one thing a user wants to know, at the granularity of one question.
   - Muss ich mein Einzelunternehmen im Handelsregister eintragen?           # from a test case
   required_context: [country, canton]      # which parts of the place the answer depends on
   required_user_facts:
-  - field: annual_turnover
-    description: expected annual turnover of the business in CHF
+  - name: annual_turnover
+    status: required
+    instruction: Ask for the expected annual turnover of the business in CHF.
   not_served:                   # what a reader could wrongly expect this to cover
   - the individual decision of the register office
   facts: [...]
@@ -85,18 +86,20 @@ query that means one. Prefer the specific phrase.
     evidence:
     - document_id: doc-<id>
       first_block: 84
-      anchor:
-        source_url: https://...
-        block_ids: [doc-<id>:b00084]
-        heading_path: [Handelsregister, Eintragung, Einzelunternehmen]
       basis:
         level: federal            # federal | cantonal | municipal
         kind: act                 # act | ordinance | treaty | directive | guidance | directory | summary
+        norm: <the norm and article as the excerpt states it>
 ```
 
-The build fills in offsets, hashes and the excerpt text from the record; you supply the
-block IDs. `basis` weighs in search - an act outranks a portal summary of the same rule -
-while the publisher's level alone never does.
+Supply `document_id`, `first_block` and optional `last_block`; omit `anchor`. The build
+fills in the complete anchor, offsets, hashes and excerpt from the record when run with
+`--update-curation`. An act, ordinance, treaty or directive basis requires `norm`.
+`basis` weighs in search while the publisher's level alone never does.
+
+New governed packs set `coverage_policy: enforce` and
+`boilerplate_min_pages: 5` at the top level. Every curation-candidate content section
+must then be cited or have a reviewed disposition.
 
 ## What the build checks
 
@@ -111,7 +114,7 @@ while the publisher's level alone never does.
 | `review_status` | Written by | Meaning |
 | --- | --- | --- |
 | `assistant-authored-unreviewed` | An agent, reading a saved page | Proposed, nobody has checked it |
-| `model-candidate` | The concept-extraction pipeline | Proposed and model-reviewed, nobody has checked it |
+| `model-candidate-automated-review` | The concept-extraction pipeline | Proposed and model-reviewed, nobody has checked it |
 | `human-reviewed` | The admin console's confirm action, only | A named person compared it with its excerpt on a named date |
 
 `human-reviewed` is not a claim that the rule is in force, that the page is still live,

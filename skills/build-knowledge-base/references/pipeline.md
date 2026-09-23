@@ -1,25 +1,23 @@
-# The pipeline, step by step
+# The governed pipeline, step by step
 
 Every command runs with the workspace interpreter. On Windows that is
 `.venv\Scripts\python.exe`, elsewhere `.venv/bin/python`; this file writes `PY` for
 it, `SCRIPTS` for `${CLAUDE_PLUGIN_ROOT}/skills/build-knowledge-base/scripts` (this plugin's
 scripts) and `<pack>` for the pack name. `--packs-dir .` names the workspace, whose layout
 is `releases/<pack>/` (what you keep) and `.local/<pack>/` (the run: saved pages, text
-records, reports - never committed, never edited by hand).
+records, reports - never committed, never edited by hand). Durable coordination lives
+under `.local/<pack>/autopilot/` and is read through `swisstip-autopilot status`.
 
-| Step | Output |
-| ---: | --- |
-| 1 Scope and questions | `docs/<pack>-acceptance-questions.md` in the workspace |
-| 2 Catalogue | `releases/<pack>/sources.json`, `sources.md` |
-| 3 Acquire | `.local/<pack>/pages/`, `plan.json`, `gap-report.md` |
-| 4 Extract | `.local/<pack>/text/` |
-| 5 Curate | `releases/<pack>/curation.yaml` |
-| 6 Build and accept | `release.json`, `build-report.json`, `acceptance-report.json` |
-| 7 Human review | review statuses in `curation.yaml`, rebuilt release |
-| 8 Suites | `acceptance.yaml`, `regression.yaml` |
-| 9 Replay and index | `regression-report.json`, `semantic-index.json` |
-| 10 Readiness | `readiness.json` |
-| 11 Documents | coverage and limitations, in the user's own repository or folder |
+| Step | Approval | Output |
+| ---: | --- | --- |
+| 1 Scope and questions | A1 | scope proposal and user questions |
+| 2 Catalogue | A2 | approved `sources.json`, `sources.md` |
+| 3 Acquire and extract | A3 | saved pages, validated text and exception proposal |
+| 4 Curate and classify | A4 | proposed curation, dispositions and risk register |
+| 5 Build and review facts | fact-review checkpoint | release candidate and review statuses |
+| 6 Suites | A5 | `acceptance.yaml`, `regression.yaml` |
+| 7 Replay, index and validate | deterministic checkpoint | reports and semantic index |
+| 8 Readiness and documents | A6 | `readiness.json`, coverage and limitations |
 
 ## 1. Scope and the questions
 
@@ -35,8 +33,8 @@ deadline that no source has been read for yet; and the user facts the answer dep
 Add five questions the release must **decline**, with the reason each one is out of
 scope. A pack that answers everything is a pack with no boundary.
 
-The user approves the scope statement and the questions before step 2. This is the only
-approval before the review queue.
+The user approves the scope statement, questions, review mode and budgets at A1 before
+source discovery.
 
 ## 2. Catalogue
 
@@ -45,6 +43,11 @@ path prefixes, authority, jurisdiction, language, crawl profile, planning topics
 discovery record (how the page was found, from which official page, on which date). It
 carries URLs and planning metadata only - never page content. `sources.md` is the human
 link list, grouped by topic.
+
+Every explicit HTTP(S) Markdown link in `sources.md` becomes a download target. Link
+only A2-approved HTTPS URLs inside a selected source's host/path allowlist. Render
+rejected, failed and unapproved URLs as inline code. Changing either catalogue file
+after planning requires a fresh run.
 
 Tight allowlists are the point. A prefix of `/` is defensible only for a small site;
 anywhere else it invites the crawler into news and unrelated topics.
@@ -60,8 +63,12 @@ resolved by more discovery or a narrower scope - not by crawling and hoping.
 ## 3. Acquire
 
 ```shell
-PY -m swisstip.builder.cli <pack> --packs-dir . --until gaps --download --workers 4
+PY -m swisstip.builder.cli <pack> --packs-dir . --until gaps --download --workers 4 --no-source-plugins
 ```
+
+Governed mode disables source plugins until their metadata hosts, document hosts,
+requests and bytes can be represented in the A2 plan. A plugin-enabled plan is refused
+at network confirmation.
 
 The downloader follows the catalogue and nothing else, saving every target byte for byte
 under `.local/<pack>/pages/`. Then read `gap-report.md` and classify every gap:
@@ -178,13 +185,9 @@ because the knowledge is missing is not quarantined; it is a gap.
 
 ## 10. Readiness
 
-```shell
-PY -m swisstip.builder.cli <pack> --packs-dir . --from accept --until ready --attested-by "<name>"
-```
-
-Gates run on the current files and `readiness.json` is bound to the bytes of
-`release.json` and the digest of the suite. Print the attestation packet and stop; the
-person runs this with their own name.
+The workflow screen prints the attestation packet and exposes the only governed
+attestation action. It runs G1-G6 with the console actor. Claude never invokes
+`--attested-by` directly.
 
 ## 11. Documents
 

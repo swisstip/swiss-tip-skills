@@ -25,6 +25,7 @@ MODULES = [
     ("swisstip.extraction.extract_cli", "text extraction"),
     ("swisstip.concepts.concepts_cli", "model-proposed concepts"),
     ("swisstip.builder.cli", "the pipeline stages"),
+    ("swisstip.builder.autopilot.cli", "the governed A1-A6 workflow CLI"),
     ("swisstip.admin_console.app", "the review console"),
 ]
 DISTRIBUTIONS = ["swisstip-core", "swisstip-builder", "swisstip-mcp"]
@@ -84,12 +85,35 @@ def check_workspace(workspace):
         path = workspace / "config" / "places" / name
         check("places/%s" % name, "OK" if path.is_file() else "NOTE",
               str(path) if path.is_file() else "absent; the release then accepts jurisdiction codes only")
+    config = workspace / "config" / "semantic-models.toml"
+    if config.is_file():
+        try:
+            from swisstip.concepts.providers.config import load_config
+            loaded = load_config(config)
+            check("semantic-models.toml", "OK", "active profile %s" % loaded["active_profile"])
+        except Exception as exc:
+            check("semantic-models.toml", "MISSING", "%s: %s" % (type(exc).__name__, exc))
+    else:
+        check("semantic-models.toml", "NOTE", "absent; model extraction needs an explicit --config")
 
 
 def check_pack(workspace, pack):
     pack_dir = Path(workspace).resolve() / "releases" / pack
     run_dir = Path(workspace).resolve() / ".local" / pack
-    check("pack directory", "OK" if pack_dir.is_dir() else "MISSING", str(pack_dir))
+    workflow_path = run_dir / "autopilot" / "workflow.json"
+    workflow = None
+    if workflow_path.is_file():
+        try:
+            from swisstip.builder.autopilot.service import AutopilotService
+            workflow = AutopilotService(workspace, pack).status()
+            check("autopilot workflow", "OK", "%s, revision %s" % (workflow.state.value, workflow.revision))
+        except Exception as exc:
+            check("autopilot workflow", "MISSING", "%s: %s" % (type(exc).__name__, exc))
+    else:
+        check("autopilot workflow", "NOTE", "not initialized")
+    missing_pack_state = "NOTE" if workflow is not None else "MISSING"
+    detail = str(pack_dir) if pack_dir.is_dir() else "not created yet; governed drafts remain under .local before promotion"
+    check("pack directory", "OK" if pack_dir.is_dir() else missing_pack_state, detail)
     if not pack_dir.is_dir():
         return
     for name, state in (("sources.json", "MISSING"), ("curation.yaml", "MISSING"),
@@ -120,17 +144,25 @@ def check_pack(workspace, pack):
                   % (len(loaded.concepts), len(facts),
                      ", ".join("%s %s" % (count, name) for name, count in sorted(statuses.items())) or "none"))
         except Exception as exc:  # the validator refused it, which is a finding
-            check("curation loads", "NOTE", "%s: %s" % (type(exc).__name__, " ".join(str(exc).split())[:150]))
+            check("curation loads", "MISSING", "%s: %s" % (type(exc).__name__, " ".join(str(exc).split())[:150]))
 
     release, readiness = pack_dir / "release.json", pack_dir / "readiness.json"
     if release.is_file() and readiness.is_file():
         try:
-            release_id = json.loads(release.read_text(encoding="utf-8"))["release_id"]
-            attested = json.loads(readiness.read_text(encoding="utf-8")).get("release_id")
-            check("readiness matches release", "OK" if attested == release_id else "NOTE",
-                  "%s vs %s" % (attested, release_id) if attested != release_id else release_id)
-        except (ValueError, KeyError) as exc:
+            from swisstip.core.readiness import readiness_status
+            semantic = None
+            index_path = pack_dir / "semantic-index.json"
+            if index_path.is_file():
+                from swisstip.core.release import load_release
+                from swisstip.runtime.semantic import load_index, semantic_index_binding
+                index = load_index(index_path, load_release(release))
+                semantic = semantic_index_binding(index_path, index)
+            status = readiness_status(release, semantic_index=semantic)
+            check("readiness matches release", "OK" if status["status"] == "ready" else "NOTE",
+                  status.get("release_id") or status.get("reason", "candidate"))
+        except (OSError, ValueError, KeyError) as exc:
             check("readiness matches release", "NOTE", str(exc))
+
 
 
 def main():

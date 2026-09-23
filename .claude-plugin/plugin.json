@@ -1,9 +1,9 @@
 {
   "name": "swisstip-kb-builder",
   "description": "Build a grounded, citable knowledge base of Swiss public information from official pages: discover sources, crawl, curate with block-level citations, review, build and validate a release.",
-  "version": "0.1.0",
+  "version": "0.3.0",
   "author": { "name": "Alexander Bobrovsky" },
-  "homepage": "https://github.com/swisstip/swiss-tip",
+  "homepage": "https://github.com/swisstip/swiss-tip-skills",
   "license": "Apache-2.0",
   "keywords": ["knowledge-base", "mcp", "grounding", "switzerland", "curation", "crawler"]
 }

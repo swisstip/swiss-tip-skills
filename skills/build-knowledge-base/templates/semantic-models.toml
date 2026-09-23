@@ -1,0 +1,34 @@
+schema_version = "swisstip.semantic-models/v2"
+active_profile = "assistant_exchange"
+
+[generation]
+temperature = 0.0
+max_output_tokens = 8192
+
+[extraction]
+chunk_content_characters = 6400
+chunk_overlap_characters = 400
+max_concepts_per_chunk = 6
+max_model_requests_per_page = 12
+max_model_requests_per_run = 400
+max_total_input_characters = 1200000
+max_characters_per_document = 120000
+max_review_input_characters = 64000
+review_fallback_batch_size = 2
+classify_basis = true
+
+[retries]
+max_retries = 3
+backoff_seconds = 2.0
+max_backoff_seconds = 30.0
+max_retry_after_seconds = 300.0
+
+[profiles.assistant_exchange]
+adapter = "exchange"
+model = "__ASSISTANT_MODEL__"
+provider = "anthropic-assistant"
+
+[profiles.frontier-review]
+adapter = "exchange"
+model = "__FRONTIER_MODEL__"
+provider = "anthropic-assistant"

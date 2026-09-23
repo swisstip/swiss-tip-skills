@@ -58,15 +58,16 @@ extend the extractor upstream, with tests, and raise its version. The answer is 
 paraphrase what a browser shows into a fact - that statement would cite an excerpt that
 does not contain it.
 
-## Review does not scale by agent
+## Review does not disappear in fast track
 
-Every fact needs a person to compare it with its excerpt. A 600-fact pack is a real
-review session, and confirming in bulk groups is a weaker claim than reading card by
-card. Both are legitimate; the release must say which one happened, with numbers.
+Every served fact needs a person to compare it with its excerpt in both modes. Fast
+track currently delegates only typed descriptive source metadata and retrieval-only
+non-blocking regression variants. Navigation dispositions and every served fact remain
+human-routed. Fast track does not reduce the fact-review queue.
 
 ## What a release never asserts
 
 That the rule is in force today, that the page still says this, that the answer applies
-to the user's case, or that a lawyer has seen it. A release asserts: on this date, this
-page said this, and a person confirmed the statement matches the excerpt. The
-limitations must say the rest in the words the caller reads.
+to the user's case, or that a lawyer has seen it. Both workflow modes require a person
+to confirm every served statement against its excerpt. Limitations state bulk and
+card-by-card review counts in absolute numbers.

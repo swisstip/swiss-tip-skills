@@ -24,7 +24,8 @@ from pathlib import Path
 
 from swisstip.build.acceptance import load_regression
 from swisstip.runtime.acceptance import check_acceptance, issues_of, regression_report
-from swisstip.runtime.semantic import OllamaEmbedder, SemanticError, SemanticSearch, load_index
+from swisstip.runtime.semantic import (DEFAULT_CANDIDATE_LIMIT, DEFAULT_MIN_SCORE, OllamaEmbedder,
+                                       SemanticError, SemanticSearch, load_index, semantic_index_binding)
 from swisstip.runtime.service import ReleaseService
 
 try:  # the case catalogue is not in every published version
@@ -36,10 +37,14 @@ except ImportError:  # pragma: no cover - depends on the installed version
 
 def hybrid_service(pack_dir, ollama_url, timeout):
     service = ReleaseService.from_file(pack_dir / "release.json")
-    index = load_index(pack_dir / "semantic-index.json", service.release)
+    index_path = pack_dir / "semantic-index.json"
+    index = load_index(index_path, service.release)
     service.semantic_search = SemanticSearch(index, OllamaEmbedder(model=index.model, base_url=ollama_url,
-                                                                   timeout_seconds=timeout))
-    return service
+                                                                   timeout_seconds=timeout),
+                                             min_score=DEFAULT_MIN_SCORE,
+                                             candidate_limit=DEFAULT_CANDIDATE_LIMIT)
+    return service, semantic_index_binding(index_path, index, min_score=DEFAULT_MIN_SCORE,
+                                           candidate_limit=DEFAULT_CANDIDATE_LIMIT)
 
 
 def write_catalogue(pack_dir):
@@ -84,16 +89,18 @@ def main():
 
     acceptance, regression, combined = load_regression(pack_dir)
     reports = {"lexical": check_acceptance(ReleaseService.from_file(pack_dir / "release.json"), combined)}
+    semantic_binding = None
     exit_code = 0
     if args.lexical_only:
         reports["hybrid"] = "not run (--lexical-only)"
     else:
         try:
-            reports["hybrid"] = check_acceptance(hybrid_service(pack_dir, args.ollama_url, args.timeout), combined)
+            service, semantic_binding = hybrid_service(pack_dir, args.ollama_url, args.timeout)
+            reports["hybrid"] = check_acceptance(service, combined)
         except (OSError, ValueError, SemanticError) as exc:
             reports["hybrid"] = "semantic search unavailable: %s" % exc
             exit_code = 2
-    report = regression_report(reports, acceptance.digest(), regression.digest())
+    report = regression_report(reports, acceptance.digest(), regression.digest(), semantic_binding)
 
     for mode, run in report["runs"].items():
         if "skipped" in run:

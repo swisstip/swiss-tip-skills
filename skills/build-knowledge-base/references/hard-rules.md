@@ -40,9 +40,9 @@ Two common temptations, both refusals:
 ## 4. Review status belongs to the person
 
 An agent writes `assistant-authored-unreviewed` for a hand-authored statement, or
-`model-candidate` for one packaged by the extraction pipeline. `human-reviewed` and
-`reviewed_by` are written by the admin console's confirm action, operated by a person
-looking at the excerpt.
+`model-candidate-automated-review` for one packaged by the extraction pipeline.
+`human-reviewed` and `reviewed_by` are written by the admin console's confirm action,
+operated by a person looking at the excerpt.
 
 Setting it in the file directly forges a review. The release's limitations then state a
 review that did not happen, and every caller repeats that claim.
@@ -70,3 +70,17 @@ A stage that fails, a case that is quarantined, a question no source covers, a
 contradiction you could not resolve: these go in the report to the user and on the
 worklist. A pipeline whose problems are smoothed over in the summary is worse than one
 that stops, because the release still ships.
+
+## 9. Workflow state is not chat state
+
+Read `.local/<pack>/autopilot/workflow.json` through `swisstip-autopilot status` before
+every action. Submit proposals through the CLI and record human decisions in the
+control room. Never write workflow, approval, delegated-decision or readiness files by
+hand. A new Claude session resumes from verified files, not from a summary in chat.
+
+## 10. Fast track is routed by code
+
+Claude never decides that its own output is low risk. In this implementation every
+served fact remains human-reviewed. A separate frontier-reviewer may approve, reject or
+escalate only typed descriptive source metadata and retrieval-only non-blocking
+regression variants. Navigation dispositions remain human-routed.
