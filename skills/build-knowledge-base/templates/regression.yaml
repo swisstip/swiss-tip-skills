@@ -1,0 +1,99 @@
+# Regression suite of the <pack> pack: breadth, not the gate.
+#
+# Many queries per concept, in every query language, with the noise real users produce.
+# Retrieval only - no answer is judged here. A case ID may appear in this file or in
+# acceptance.yaml, never in both, and a question is never repeated between them.
+#
+# Rules: a query never contains the words of the expected answer; a German case must be
+# answerable from the German page; follow the pack's own ratio of cases per fact.
+# Field meanings: references/test-suites.md.
+
+schema_version: swiss-tip-acceptance/v1
+pack: <pack>
+
+cases:
+
+# -------------------------------------------------------- plain questions, per concept
+- case_id: Q-EN-1
+  label: '<concept>: <what is asked>'
+  question: <a plain English question a user would type>
+  language: en
+  expected_answer: Search finds <concept-id> with a strong match; resolve serves it.
+  steps:
+  - search:
+      query: <the same question>
+      expect_concept: <concept-id>
+      expect_strength: strong
+  - resolve:
+      concept_ids: [<concept-id>]
+      jurisdiction: {canton_code: CH-ZH}
+      expect_status: {<concept-id>: SUPPORTED}
+
+- case_id: Q-DE-1
+  label: '<concept>: <what is asked>, German'
+  question: <the same subject, phrased from the page's own vocabulary>
+  language: de
+  expected_answer: Search finds <concept-id>; resolve serves it.
+  steps:
+  - search:
+      query: <the German question>
+      expect_concept: <concept-id>
+
+# ------------------------------------------------------------------------------ noise
+- case_id: N-1
+  label: keyword-only query
+  question: <three or four keywords, no punctuation, as typed in a hurry>
+  expected_answer: Search finds <concept-id> despite the noisy phrasing.
+  steps:
+  - search:
+      query: <the keywords>
+      expect_concept: <concept-id>
+
+# --------------------------------------------------------------- the place, three ways
+- case_id: CTX-1
+  label: place given as a city name
+  question: <a question whose answer depends on the place>
+  expected_answer: Resolve serves <concept-id> for the named place.
+  steps:
+  - resolve:
+      concept_ids: [<concept-id>]
+      jurisdiction: {city: <city name, not a code>}
+      expect_status: {<concept-id>: SUPPORTED}
+
+# ---------------------------------------------------------------------- dated answers
+- case_id: DATE-1
+  label: <what is dated about this>
+  question: <a question whose answer depends on a date>
+  expected_answer: Resolve applies the fact valid for the requested date.
+  steps:
+  - resolve:
+      concept_ids: [<concept-id>]
+      jurisdiction: {canton_code: CH-ZH}
+      expect_status: {<concept-id>: SUPPORTED}
+
+# --------------------------------------------------------------------- out of scope
+- case_id: OOS-1
+  label: <a neighbouring subject the pack does not cover>
+  question: <a question that must not match a concept strongly>
+  expected_answer: Search reports a weak or absent match and the caller declines.
+  steps:
+  - search:
+      query: <the question>
+      expect_strength: weak
+
+# ------------------------------------------------------- a case kept under quarantine
+# Only after a measured failure. The reason names what was measured, on which release.
+- case_id: Q-EN-99
+  label: <what fails>
+  question: <the question>
+  expected_answer: Search finds <concept-id> when the measured retrieval defect is fixed.
+  blocking: false
+  quarantine_reason: >-
+    <concept-id> is not among the first three hybrid hits; measured on
+    <release-id>. Kept so the limit stays visible.
+  steps:
+  - search:
+      query: <the question>
+      retrieval: hybrid
+      expect_concept: <concept-id>
+      expect_strength: strong

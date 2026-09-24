@@ -1,0 +1,72 @@
+# Acceptance suite of the <pack> pack: the gate.
+#
+# Every question of the scope document, with the tool calls a correct caller makes, the
+# claims the served facts must carry, and - for a live-caller run - the patterns the
+# answer must and must not contain. The build's accept stage replays this file with no
+# model and fails on any blocking case.
+#
+# Field meanings and the rules that keep the suite honest: references/test-suites.md.
+# Replace every <placeholder> and delete the examples that do not apply.
+
+schema_version: swiss-tip-acceptance/v1
+pack: <pack>
+policy:
+  as_of: snapshot        # dates are judged against the snapshot, not today
+  answer_check: advisory # the answer block guides a live run; it does not block the gate
+
+cases:
+
+# ---------------------------------------------------------------- a primary question
+- case_id: UAT-1
+  label: <what this case is about, in four words>
+  question: >-
+    <the question in a user's words, with the noise a real user adds>
+  expected_answer: >-
+    <what a correct answer must establish, written from the BUILT and REVIEWED release.
+    No claim here that a reviewed fact does not carry.>
+  trap: <the specific wrong answer a general assistant gives>
+  steps:
+  - search:
+      query: <the query a caller would send, in the page's language where that is the point>
+      expect_concept: <concept-id>
+      expect_strength: strong
+  - resolve:
+      concept_ids: [<concept-id>]
+      jurisdiction: {canton_code: CH-ZH}
+      expect_status: {<concept-id>: SUPPORTED}
+  claims:
+  - claim: <what the caller must be able to say>
+    concept: <concept-id>
+    statement_contains: [<words of our English statement>]
+    excerpt_contains: [<a phrase of the official page, copied verbatim from release.json>]
+  answer:
+    criteria: [C1, C2, C3]
+    must_mention:
+      <name>: '<regex the answer must match>'
+    must_not:
+      <name>: '<regex for the trap>'
+    cites:
+      <name>: <host or path fragment of the page that must be cited>
+    resolved: [<concept-id>]
+
+# ------------------------------------------------------------------- a decline case
+# Asserts the server's behaviour only: no answer of the calling model is judged.
+- case_id: DECLINE-1
+  label: <why this is out of scope>
+  question: <a question the release must refuse>
+  steps:
+  - resolve:
+      concept_ids: [<concept-id>]
+      jurisdiction: {canton_code: <a canton the pack does not publish for>}
+      expect_status: {<concept-id>: OUT_OF_COVERAGE}
+
+# --------------------------------------------------------------------- a place case
+# Only if the pack publishes cantonal or municipal procedure for one place.
+- case_id: PLACE-1
+  label: another municipality of the same canton
+  question: <the same question, asked for a place the pack does not serve deeply>
+  steps:
+  - resolve:
+      concept_ids: [<municipal-concept-id>]
+      jurisdiction: {canton_code: CH-ZH, municipality_id: <CH-ZH-nnn>}
+      expect_status: {<municipal-concept-id>: OUT_OF_COVERAGE}

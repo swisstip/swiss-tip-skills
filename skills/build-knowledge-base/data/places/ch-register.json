@@ -1,0 +1,8555 @@
+{
+ "schema_version": "swiss-tip-places/v1",
+ "country": "CH",
+ "title": "Amtliches Gemeindeverzeichnis der Schweiz (official register of Swiss municipalities), snapshot of 18.09.2026",
+ "publisher": "Federal Statistical Office FSO",
+ "url": "https://www.agvchapp.bfs.admin.ch/api/communes/snapshot?date=18-09-2026",
+ "accessed_on": "2026-09-18",
+ "raw_sha256": "e0748c06c754dbde20f04425a7f58c2a718e77982ea10fb8f969ac9d21a83b7d",
+ "places": [
+  {
+   "code": "CH-AG",
+   "name": "Aargau"
+  },
+  {
+   "code": "CH-AI",
+   "name": "Appenzell Innerrhoden"
+  },
+  {
+   "code": "CH-AR",
+   "name": "Appenzell Ausserrhoden"
+  },
+  {
+   "code": "CH-BE",
+   "name": "Bern / Berne"
+  },
+  {
+   "code": "CH-BL",
+   "name": "Basel-Landschaft"
+  },
+  {
+   "code": "CH-BS",
+   "name": "Basel-Stadt"
+  },
+  {
+   "code": "CH-FR",
+   "name": "Fribourg / Freiburg"
+  },
+  {
+   "code": "CH-GE",
+   "name": "Genève"
+  },
+  {
+   "code": "CH-GL",
+   "name": "Glarus"
+  },
+  {
+   "code": "CH-GR",
+   "name": "Graubünden / Grigioni / Grischun"
+  },
+  {
+   "code": "CH-JU",
+   "name": "Jura"
+  },
+  {
+   "code": "CH-LU",
+   "name": "Luzern"
+  },
+  {
+   "code": "CH-NE",
+   "name": "Neuchâtel"
+  },
+  {
+   "code": "CH-NW",
+   "name": "Nidwalden"
+  },
+  {
+   "code": "CH-OW",
+   "name": "Obwalden"
+  },
+  {
+   "code": "CH-SG",
+   "name": "St. Gallen"
+  },
+  {
+   "code": "CH-SH",
+   "name": "Schaffhausen"
+  },
+  {
+   "code": "CH-SO",
+   "name": "Solothurn"
+  },
+  {
+   "code": "CH-SZ",
+   "name": "Schwyz"
+  },
+  {
+   "code": "CH-TG",
+   "name": "Thurgau"
+  },
+  {
+   "code": "CH-TI",
+   "name": "Ticino"
+  },
+  {
+   "code": "CH-UR",
+   "name": "Uri"
+  },
+  {
+   "code": "CH-VD",
+   "name": "Vaud"
+  },
+  {
+   "code": "CH-VS",
+   "name": "Valais / Wallis"
+  },
+  {
+   "code": "CH-ZG",
+   "name": "Zug"
+  },
+  {
+   "code": "CH-ZH",
+   "name": "Zürich"
+  },
+  {
+   "code": "CH-AG-4001",
+   "name": "Aarau"
+  },
+  {
+   "code": "CH-AG-4002",
+   "name": "Biberstein"
+  },
+  {
+   "code": "CH-AG-4003",
+   "name": "Buchs (AG)"
+  },
+  {
+   "code": "CH-AG-4004",
+   "name": "Densbüren"
+  },
+  {
+   "code": "CH-AG-4005",
+   "name": "Erlinsbach (AG)"
+  },
+  {
+   "code": "CH-AG-4006",
+   "name": "Gränichen"
+  },
+  {
+   "code": "CH-AG-4007",
+   "name": "Hirschthal"
+  },
+  {
+   "code": "CH-AG-4008",
+   "name": "Küttigen"
+  },
+  {
+   "code": "CH-AG-4009",
+   "name": "Muhen"
+  },
+  {
+   "code": "CH-AG-4010",
+   "name": "Oberentfelden"
+  },
+  {
+   "code": "CH-AG-4012",
+   "name": "Suhr"
+  },
+  {
+   "code": "CH-AG-4013",
+   "name": "Unterentfelden"
+  },
+  {
+   "code": "CH-AG-4021",
+   "name": "Baden"
+  },
+  {
+   "code": "CH-AG-4022",
+   "name": "Bellikon"
+  },
+  {
+   "code": "CH-AG-4023",
+   "name": "Bergdietikon"
+  },
+  {
+   "code": "CH-AG-4024",
+   "name": "Birmenstorf (AG)"
+  },
+  {
+   "code": "CH-AG-4026",
+   "name": "Ennetbaden"
+  },
+  {
+   "code": "CH-AG-4027",
+   "name": "Fislisbach"
+  },
+  {
+   "code": "CH-AG-4028",
+   "name": "Freienwil"
+  },
+  {
+   "code": "CH-AG-4029",
+   "name": "Gebenstorf"
+  },
+  {
+   "code": "CH-AG-4030",
+   "name": "Killwangen"
+  },
+  {
+   "code": "CH-AG-4031",
+   "name": "Künten"
+  },
+  {
+   "code": "CH-AG-4032",
+   "name": "Mägenwil"
+  },
+  {
+   "code": "CH-AG-4033",
+   "name": "Mellingen"
+  },
+  {
+   "code": "CH-AG-4034",
+   "name": "Neuenhof"
+  },
+  {
+   "code": "CH-AG-4035",
+   "name": "Niederrohrdorf"
+  },
+  {
+   "code": "CH-AG-4037",
+   "name": "Oberrohrdorf"
+  },
+  {
+   "code": "CH-AG-4038",
+   "name": "Obersiggenthal"
+  },
+  {
+   "code": "CH-AG-4039",
+   "name": "Remetschwil"
+  },
+  {
+   "code": "CH-AG-4040",
+   "name": "Spreitenbach"
+  },
+  {
+   "code": "CH-AG-4041",
+   "name": "Stetten (AG)"
+  },
+  {
+   "code": "CH-AG-4044",
+   "name": "Untersiggenthal"
+  },
+  {
+   "code": "CH-AG-4045",
+   "name": "Wettingen"
+  },
+  {
+   "code": "CH-AG-4046",
+   "name": "Wohlenschwil"
+  },
+  {
+   "code": "CH-AG-4047",
+   "name": "Würenlingen"
+  },
+  {
+   "code": "CH-AG-4048",
+   "name": "Würenlos"
+  },
+  {
+   "code": "CH-AG-4049",
+   "name": "Ehrendingen"
+  },
+  {
+   "code": "CH-AG-4061",
+   "name": "Arni (AG)"
+  },
+  {
+   "code": "CH-AG-4062",
+   "name": "Berikon"
+  },
+  {
+   "code": "CH-AG-4063",
+   "name": "Bremgarten (AG)"
+  },
+  {
+   "code": "CH-AG-4064",
+   "name": "Büttikon"
+  },
+  {
+   "code": "CH-AG-4065",
+   "name": "Dottikon"
+  },
+  {
+   "code": "CH-AG-4066",
+   "name": "Eggenwil"
+  },
+  {
+   "code": "CH-AG-4067",
+   "name": "Fischbach-Göslikon"
+  },
+  {
+   "code": "CH-AG-4068",
+   "name": "Hägglingen"
+  },
+  {
+   "code": "CH-AG-4071",
+   "name": "Jonen"
+  },
+  {
+   "code": "CH-AG-4072",
+   "name": "Niederwil (AG)"
+  },
+  {
+   "code": "CH-AG-4073",
+   "name": "Oberlunkhofen"
+  },
+  {
+   "code": "CH-AG-4074",
+   "name": "Oberwil-Lieli"
+  },
+  {
+   "code": "CH-AG-4075",
+   "name": "Rudolfstetten-Friedlisberg"
+  },
+  {
+   "code": "CH-AG-4076",
+   "name": "Sarmenstorf"
+  },
+  {
+   "code": "CH-AG-4077",
+   "name": "Tägerig"
+  },
+  {
+   "code": "CH-AG-4078",
+   "name": "Uezwil"
+  },
+  {
+   "code": "CH-AG-4079",
+   "name": "Unterlunkhofen"
+  },
+  {
+   "code": "CH-AG-4080",
+   "name": "Villmergen"
+  },
+  {
+   "code": "CH-AG-4081",
+   "name": "Widen"
+  },
+  {
+   "code": "CH-AG-4082",
+   "name": "Wohlen (AG)"
+  },
+  {
+   "code": "CH-AG-4083",
+   "name": "Zufikon"
+  },
+  {
+   "code": "CH-AG-4084",
+   "name": "Islisberg"
+  },
+  {
+   "code": "CH-AG-4091",
+   "name": "Auenstein"
+  },
+  {
+   "code": "CH-AG-4092",
+   "name": "Birr"
+  },
+  {
+   "code": "CH-AG-4093",
+   "name": "Birrhard"
+  },
+  {
+   "code": "CH-AG-4095",
+   "name": "Brugg"
+  },
+  {
+   "code": "CH-AG-4099",
+   "name": "Habsburg"
+  },
+  {
+   "code": "CH-AG-4100",
+   "name": "Hausen (AG)"
+  },
+  {
+   "code": "CH-AG-4104",
+   "name": "Lupfig"
+  },
+  {
+   "code": "CH-AG-4105",
+   "name": "Mandach"
+  },
+  {
+   "code": "CH-AG-4106",
+   "name": "Mönthal"
+  },
+  {
+   "code": "CH-AG-4107",
+   "name": "Mülligen"
+  },
+  {
+   "code": "CH-AG-4110",
+   "name": "Remigen"
+  },
+  {
+   "code": "CH-AG-4111",
+   "name": "Riniken"
+  },
+  {
+   "code": "CH-AG-4112",
+   "name": "Rüfenach"
+  },
+  {
+   "code": "CH-AG-4117",
+   "name": "Thalheim (AG)"
+  },
+  {
+   "code": "CH-AG-4120",
+   "name": "Veltheim (AG)"
+  },
+  {
+   "code": "CH-AG-4121",
+   "name": "Villigen"
+  },
+  {
+   "code": "CH-AG-4123",
+   "name": "Windisch"
+  },
+  {
+   "code": "CH-AG-4124",
+   "name": "Bözberg"
+  },
+  {
+   "code": "CH-AG-4125",
+   "name": "Schinznach"
+  },
+  {
+   "code": "CH-AG-4131",
+   "name": "Beinwil am See"
+  },
+  {
+   "code": "CH-AG-4132",
+   "name": "Birrwil"
+  },
+  {
+   "code": "CH-AG-4134",
+   "name": "Dürrenäsch"
+  },
+  {
+   "code": "CH-AG-4135",
+   "name": "Gontenschwil"
+  },
+  {
+   "code": "CH-AG-4136",
+   "name": "Holziken"
+  },
+  {
+   "code": "CH-AG-4137",
+   "name": "Leimbach (AG)"
+  },
+  {
+   "code": "CH-AG-4138",
+   "name": "Leutwil"
+  },
+  {
+   "code": "CH-AG-4139",
+   "name": "Menziken"
+  },
+  {
+   "code": "CH-AG-4140",
+   "name": "Oberkulm"
+  },
+  {
+   "code": "CH-AG-4141",
+   "name": "Reinach (AG)"
+  },
+  {
+   "code": "CH-AG-4142",
+   "name": "Schlossrued"
+  },
+  {
+   "code": "CH-AG-4143",
+   "name": "Schmiedrued"
+  },
+  {
+   "code": "CH-AG-4144",
+   "name": "Schöftland"
+  },
+  {
+   "code": "CH-AG-4145",
+   "name": "Teufenthal (AG)"
+  },
+  {
+   "code": "CH-AG-4146",
+   "name": "Unterkulm"
+  },
+  {
+   "code": "CH-AG-4147",
+   "name": "Zetzwil"
+  },
+  {
+   "code": "CH-AG-4161",
+   "name": "Eiken"
+  },
+  {
+   "code": "CH-AG-4163",
+   "name": "Frick"
+  },
+  {
+   "code": "CH-AG-4164",
+   "name": "Gansingen"
+  },
+  {
+   "code": "CH-AG-4165",
+   "name": "Gipf-Oberfrick"
+  },
+  {
+   "code": "CH-AG-4169",
+   "name": "Kaisten"
+  },
+  {
+   "code": "CH-AG-4170",
+   "name": "Laufenburg"
+  },
+  {
+   "code": "CH-AG-4172",
+   "name": "Münchwilen (AG)"
+  },
+  {
+   "code": "CH-AG-4173",
+   "name": "Oberhof"
+  },
+  {
+   "code": "CH-AG-4175",
+   "name": "Oeschgen"
+  },
+  {
+   "code": "CH-AG-4176",
+   "name": "Schwaderloch"
+  },
+  {
+   "code": "CH-AG-4177",
+   "name": "Sisseln"
+  },
+  {
+   "code": "CH-AG-4181",
+   "name": "Wittnau"
+  },
+  {
+   "code": "CH-AG-4182",
+   "name": "Wölflinswil"
+  },
+  {
+   "code": "CH-AG-4183",
+   "name": "Zeihen"
+  },
+  {
+   "code": "CH-AG-4184",
+   "name": "Mettauertal"
+  },
+  {
+   "code": "CH-AG-4185",
+   "name": "Böztal"
+  },
+  {
+   "code": "CH-AG-4186",
+   "name": "Herznach-Ueken"
+  },
+  {
+   "code": "CH-AG-4191",
+   "name": "Ammerswil"
+  },
+  {
+   "code": "CH-AG-4192",
+   "name": "Boniswil"
+  },
+  {
+   "code": "CH-AG-4193",
+   "name": "Brunegg"
+  },
+  {
+   "code": "CH-AG-4194",
+   "name": "Dintikon"
+  },
+  {
+   "code": "CH-AG-4195",
+   "name": "Egliswil"
+  },
+  {
+   "code": "CH-AG-4196",
+   "name": "Fahrwangen"
+  },
+  {
+   "code": "CH-AG-4197",
+   "name": "Hallwil"
+  },
+  {
+   "code": "CH-AG-4198",
+   "name": "Hendschiken"
+  },
+  {
+   "code": "CH-AG-4199",
+   "name": "Holderbank (AG)"
+  },
+  {
+   "code": "CH-AG-4200",
+   "name": "Hunzenschwil"
+  },
+  {
+   "code": "CH-AG-4201",
+   "name": "Lenzburg"
+  },
+  {
+   "code": "CH-AG-4202",
+   "name": "Meisterschwanden"
+  },
+  {
+   "code": "CH-AG-4203",
+   "name": "Möriken-Wildegg"
+  },
+  {
+   "code": "CH-AG-4204",
+   "name": "Niederlenz"
+  },
+  {
+   "code": "CH-AG-4205",
+   "name": "Othmarsingen"
+  },
+  {
+   "code": "CH-AG-4206",
+   "name": "Rupperswil"
+  },
+  {
+   "code": "CH-AG-4207",
+   "name": "Schafisheim"
+  },
+  {
+   "code": "CH-AG-4208",
+   "name": "Seengen"
+  },
+  {
+   "code": "CH-AG-4209",
+   "name": "Seon"
+  },
+  {
+   "code": "CH-AG-4210",
+   "name": "Staufen"
+  },
+  {
+   "code": "CH-AG-4221",
+   "name": "Abtwil"
+  },
+  {
+   "code": "CH-AG-4222",
+   "name": "Aristau"
+  },
+  {
+   "code": "CH-AG-4223",
+   "name": "Auw"
+  },
+  {
+   "code": "CH-AG-4224",
+   "name": "Beinwil (Freiamt)"
+  },
+  {
+   "code": "CH-AG-4226",
+   "name": "Besenbüren"
+  },
+  {
+   "code": "CH-AG-4227",
+   "name": "Bettwil"
+  },
+  {
+   "code": "CH-AG-4228",
+   "name": "Boswil"
+  },
+  {
+   "code": "CH-AG-4229",
+   "name": "Bünzen"
+  },
+  {
+   "code": "CH-AG-4230",
+   "name": "Buttwil"
+  },
+  {
+   "code": "CH-AG-4231",
+   "name": "Dietwil"
+  },
+  {
+   "code": "CH-AG-4232",
+   "name": "Geltwil"
+  },
+  {
+   "code": "CH-AG-4233",
+   "name": "Kallern"
+  },
+  {
+   "code": "CH-AG-4234",
+   "name": "Merenschwand"
+  },
+  {
+   "code": "CH-AG-4235",
+   "name": "Mühlau"
+  },
+  {
+   "code": "CH-AG-4236",
+   "name": "Muri (AG)"
+  },
+  {
+   "code": "CH-AG-4237",
+   "name": "Oberrüti"
+  },
+  {
+   "code": "CH-AG-4238",
+   "name": "Rottenschwil"
+  },
+  {
+   "code": "CH-AG-4239",
+   "name": "Sins"
+  },
+  {
+   "code": "CH-AG-4240",
+   "name": "Waltenschwil"
+  },
+  {
+   "code": "CH-AG-4251",
+   "name": "Hellikon"
+  },
+  {
+   "code": "CH-AG-4252",
+   "name": "Kaiseraugst"
+  },
+  {
+   "code": "CH-AG-4253",
+   "name": "Magden"
+  },
+  {
+   "code": "CH-AG-4254",
+   "name": "Möhlin"
+  },
+  {
+   "code": "CH-AG-4255",
+   "name": "Mumpf"
+  },
+  {
+   "code": "CH-AG-4256",
+   "name": "Obermumpf"
+  },
+  {
+   "code": "CH-AG-4257",
+   "name": "Olsberg"
+  },
+  {
+   "code": "CH-AG-4258",
+   "name": "Rheinfelden"
+  },
+  {
+   "code": "CH-AG-4259",
+   "name": "Schupfart"
+  },
+  {
+   "code": "CH-AG-4260",
+   "name": "Stein (AG)"
+  },
+  {
+   "code": "CH-AG-4261",
+   "name": "Wallbach"
+  },
+  {
+   "code": "CH-AG-4262",
+   "name": "Wegenstetten"
+  },
+  {
+   "code": "CH-AG-4263",
+   "name": "Zeiningen"
+  },
+  {
+   "code": "CH-AG-4264",
+   "name": "Zuzgen"
+  },
+  {
+   "code": "CH-AG-4271",
+   "name": "Aarburg"
+  },
+  {
+   "code": "CH-AG-4273",
+   "name": "Bottenwil"
+  },
+  {
+   "code": "CH-AG-4274",
+   "name": "Brittnau"
+  },
+  {
+   "code": "CH-AG-4275",
+   "name": "Kirchleerau"
+  },
+  {
+   "code": "CH-AG-4276",
+   "name": "Kölliken"
+  },
+  {
+   "code": "CH-AG-4277",
+   "name": "Moosleerau"
+  },
+  {
+   "code": "CH-AG-4279",
+   "name": "Murgenthal"
+  },
+  {
+   "code": "CH-AG-4280",
+   "name": "Oftringen"
+  },
+  {
+   "code": "CH-AG-4281",
+   "name": "Reitnau"
+  },
+  {
+   "code": "CH-AG-4282",
+   "name": "Rothrist"
+  },
+  {
+   "code": "CH-AG-4283",
+   "name": "Safenwil"
+  },
+  {
+   "code": "CH-AG-4284",
+   "name": "Staffelbach"
+  },
+  {
+   "code": "CH-AG-4285",
+   "name": "Strengelbach"
+  },
+  {
+   "code": "CH-AG-4286",
+   "name": "Uerkheim"
+  },
+  {
+   "code": "CH-AG-4287",
+   "name": "Vordemwald"
+  },
+  {
+   "code": "CH-AG-4288",
+   "name": "Wiliberg"
+  },
+  {
+   "code": "CH-AG-4289",
+   "name": "Zofingen"
+  },
+  {
+   "code": "CH-AG-4303",
+   "name": "Böttstein"
+  },
+  {
+   "code": "CH-AG-4304",
+   "name": "Döttingen"
+  },
+  {
+   "code": "CH-AG-4305",
+   "name": "Endingen"
+  },
+  {
+   "code": "CH-AG-4306",
+   "name": "Fisibach"
+  },
+  {
+   "code": "CH-AG-4307",
+   "name": "Full-Reuenthal"
+  },
+  {
+   "code": "CH-AG-4309",
+   "name": "Klingnau"
+  },
+  {
+   "code": "CH-AG-4310",
+   "name": "Koblenz"
+  },
+  {
+   "code": "CH-AG-4311",
+   "name": "Leibstadt"
+  },
+  {
+   "code": "CH-AG-4312",
+   "name": "Lengnau (AG)"
+  },
+  {
+   "code": "CH-AG-4313",
+   "name": "Leuggern"
+  },
+  {
+   "code": "CH-AG-4314",
+   "name": "Mellikon"
+  },
+  {
+   "code": "CH-AG-4318",
+   "name": "Schneisingen"
+  },
+  {
+   "code": "CH-AG-4319",
+   "name": "Siglistorf"
+  },
+  {
+   "code": "CH-AG-4320",
+   "name": "Tegerfelden"
+  },
+  {
+   "code": "CH-AG-4324",
+   "name": "Zurzach"
+  },
+  {
+   "code": "CH-AI-3101",
+   "name": "Appenzell"
+  },
+  {
+   "code": "CH-AI-3102",
+   "name": "Gonten"
+  },
+  {
+   "code": "CH-AI-3104",
+   "name": "Schlatt-Haslen"
+  },
+  {
+   "code": "CH-AI-3111",
+   "name": "Oberegg"
+  },
+  {
+   "code": "CH-AI-3112",
+   "name": "Schwende-Rüte"
+  },
+  {
+   "code": "CH-AR-3001",
+   "name": "Herisau"
+  },
+  {
+   "code": "CH-AR-3002",
+   "name": "Hundwil"
+  },
+  {
+   "code": "CH-AR-3003",
+   "name": "Schönengrund"
+  },
+  {
+   "code": "CH-AR-3004",
+   "name": "Schwellbrunn"
+  },
+  {
+   "code": "CH-AR-3005",
+   "name": "Stein (AR)"
+  },
+  {
+   "code": "CH-AR-3006",
+   "name": "Urnäsch"
+  },
+  {
+   "code": "CH-AR-3007",
+   "name": "Waldstatt"
+  },
+  {
+   "code": "CH-AR-3021",
+   "name": "Bühler"
+  },
+  {
+   "code": "CH-AR-3022",
+   "name": "Gais"
+  },
+  {
+   "code": "CH-AR-3023",
+   "name": "Speicher"
+  },
+  {
+   "code": "CH-AR-3024",
+   "name": "Teufen (AR)"
+  },
+  {
+   "code": "CH-AR-3025",
+   "name": "Trogen"
+  },
+  {
+   "code": "CH-AR-3031",
+   "name": "Grub (AR)"
+  },
+  {
+   "code": "CH-AR-3032",
+   "name": "Heiden"
+  },
+  {
+   "code": "CH-AR-3033",
+   "name": "Lutzenberg"
+  },
+  {
+   "code": "CH-AR-3034",
+   "name": "Rehetobel"
+  },
+  {
+   "code": "CH-AR-3035",
+   "name": "Reute (AR)"
+  },
+  {
+   "code": "CH-AR-3036",
+   "name": "Wald (AR)"
+  },
+  {
+   "code": "CH-AR-3037",
+   "name": "Walzenhausen"
+  },
+  {
+   "code": "CH-AR-3038",
+   "name": "Wolfhalden"
+  },
+  {
+   "code": "CH-BE-301",
+   "name": "Aarberg"
+  },
+  {
+   "code": "CH-BE-302",
+   "name": "Bargen (BE)"
+  },
+  {
+   "code": "CH-BE-303",
+   "name": "Grossaffoltern"
+  },
+  {
+   "code": "CH-BE-304",
+   "name": "Kallnach"
+  },
+  {
+   "code": "CH-BE-305",
+   "name": "Kappelen"
+  },
+  {
+   "code": "CH-BE-306",
+   "name": "Lyss"
+  },
+  {
+   "code": "CH-BE-307",
+   "name": "Meikirch"
+  },
+  {
+   "code": "CH-BE-309",
+   "name": "Radelfingen"
+  },
+  {
+   "code": "CH-BE-310",
+   "name": "Rapperswil (BE)"
+  },
+  {
+   "code": "CH-BE-311",
+   "name": "Schüpfen"
+  },
+  {
+   "code": "CH-BE-312",
+   "name": "Seedorf (BE)"
+  },
+  {
+   "code": "CH-BE-321",
+   "name": "Aarwangen"
+  },
+  {
+   "code": "CH-BE-322",
+   "name": "Auswil"
+  },
+  {
+   "code": "CH-BE-323",
+   "name": "Bannwil"
+  },
+  {
+   "code": "CH-BE-324",
+   "name": "Bleienbach"
+  },
+  {
+   "code": "CH-BE-325",
+   "name": "Busswil bei Melchnau"
+  },
+  {
+   "code": "CH-BE-326",
+   "name": "Gondiswil"
+  },
+  {
+   "code": "CH-BE-329",
+   "name": "Langenthal"
+  },
+  {
+   "code": "CH-BE-331",
+   "name": "Lotzwil"
+  },
+  {
+   "code": "CH-BE-332",
+   "name": "Madiswil"
+  },
+  {
+   "code": "CH-BE-333",
+   "name": "Melchnau"
+  },
+  {
+   "code": "CH-BE-335",
+   "name": "Oeschenbach"
+  },
+  {
+   "code": "CH-BE-336",
+   "name": "Reisiswil"
+  },
+  {
+   "code": "CH-BE-337",
+   "name": "Roggwil (BE)"
+  },
+  {
+   "code": "CH-BE-338",
+   "name": "Rohrbach"
+  },
+  {
+   "code": "CH-BE-339",
+   "name": "Rohrbachgraben"
+  },
+  {
+   "code": "CH-BE-340",
+   "name": "Rütschelen"
+  },
+  {
+   "code": "CH-BE-341",
+   "name": "Schwarzhäusern"
+  },
+  {
+   "code": "CH-BE-342",
+   "name": "Thunstetten"
+  },
+  {
+   "code": "CH-BE-344",
+   "name": "Ursenbach"
+  },
+  {
+   "code": "CH-BE-345",
+   "name": "Wynau"
+  },
+  {
+   "code": "CH-BE-351",
+   "name": "Bern"
+  },
+  {
+   "code": "CH-BE-352",
+   "name": "Bolligen"
+  },
+  {
+   "code": "CH-BE-353",
+   "name": "Bremgarten bei Bern"
+  },
+  {
+   "code": "CH-BE-354",
+   "name": "Kirchlindach"
+  },
+  {
+   "code": "CH-BE-355",
+   "name": "Köniz"
+  },
+  {
+   "code": "CH-BE-356",
+   "name": "Muri bei Bern"
+  },
+  {
+   "code": "CH-BE-357",
+   "name": "Oberbalm"
+  },
+  {
+   "code": "CH-BE-358",
+   "name": "Stettlen"
+  },
+  {
+   "code": "CH-BE-359",
+   "name": "Vechigen"
+  },
+  {
+   "code": "CH-BE-360",
+   "name": "Wohlen bei Bern"
+  },
+  {
+   "code": "CH-BE-361",
+   "name": "Zollikofen"
+  },
+  {
+   "code": "CH-BE-362",
+   "name": "Ittigen"
+  },
+  {
+   "code": "CH-BE-363",
+   "name": "Ostermundigen"
+  },
+  {
+   "code": "CH-BE-371",
+   "name": "Biel/Bienne"
+  },
+  {
+   "code": "CH-BE-372",
+   "name": "Evilard"
+  },
+  {
+   "code": "CH-BE-381",
+   "name": "Arch"
+  },
+  {
+   "code": "CH-BE-382",
+   "name": "Büetigen"
+  },
+  {
+   "code": "CH-BE-383",
+   "name": "Büren an der Aare"
+  },
+  {
+   "code": "CH-BE-385",
+   "name": "Diessbach bei Büren"
+  },
+  {
+   "code": "CH-BE-386",
+   "name": "Dotzigen"
+  },
+  {
+   "code": "CH-BE-387",
+   "name": "Lengnau (BE)"
+  },
+  {
+   "code": "CH-BE-388",
+   "name": "Leuzigen"
+  },
+  {
+   "code": "CH-BE-389",
+   "name": "Meienried"
+  },
+  {
+   "code": "CH-BE-390",
+   "name": "Meinisberg"
+  },
+  {
+   "code": "CH-BE-391",
+   "name": "Oberwil bei Büren"
+  },
+  {
+   "code": "CH-BE-392",
+   "name": "Pieterlen"
+  },
+  {
+   "code": "CH-BE-393",
+   "name": "Rüti bei Büren"
+  },
+  {
+   "code": "CH-BE-394",
+   "name": "Wengi"
+  },
+  {
+   "code": "CH-BE-401",
+   "name": "Aefligen"
+  },
+  {
+   "code": "CH-BE-402",
+   "name": "Alchenstorf"
+  },
+  {
+   "code": "CH-BE-403",
+   "name": "Bäriswil"
+  },
+  {
+   "code": "CH-BE-404",
+   "name": "Burgdorf"
+  },
+  {
+   "code": "CH-BE-405",
+   "name": "Ersigen"
+  },
+  {
+   "code": "CH-BE-406",
+   "name": "Hasle bei Burgdorf"
+  },
+  {
+   "code": "CH-BE-407",
+   "name": "Heimiswil"
+  },
+  {
+   "code": "CH-BE-408",
+   "name": "Hellsau"
+  },
+  {
+   "code": "CH-BE-409",
+   "name": "Hindelbank"
+  },
+  {
+   "code": "CH-BE-410",
+   "name": "Höchstetten"
+  },
+  {
+   "code": "CH-BE-411",
+   "name": "Kernenried"
+  },
+  {
+   "code": "CH-BE-412",
+   "name": "Kirchberg (BE)"
+  },
+  {
+   "code": "CH-BE-413",
+   "name": "Koppigen"
+  },
+  {
+   "code": "CH-BE-414",
+   "name": "Krauchthal"
+  },
+  {
+   "code": "CH-BE-415",
+   "name": "Lyssach"
+  },
+  {
+   "code": "CH-BE-418",
+   "name": "Oberburg"
+  },
+  {
+   "code": "CH-BE-420",
+   "name": "Rüdtligen-Alchenflüh"
+  },
+  {
+   "code": "CH-BE-421",
+   "name": "Rumendingen"
+  },
+  {
+   "code": "CH-BE-422",
+   "name": "Rüti bei Lyssach"
+  },
+  {
+   "code": "CH-BE-423",
+   "name": "Willadingen"
+  },
+  {
+   "code": "CH-BE-424",
+   "name": "Wynigen"
+  },
+  {
+   "code": "CH-BE-431",
+   "name": "Corgémont"
+  },
+  {
+   "code": "CH-BE-432",
+   "name": "Cormoret"
+  },
+  {
+   "code": "CH-BE-433",
+   "name": "Cortébert"
+  },
+  {
+   "code": "CH-BE-434",
+   "name": "Courtelary"
+  },
+  {
+   "code": "CH-BE-435",
+   "name": "La Ferrière"
+  },
+  {
+   "code": "CH-BE-437",
+   "name": "Mont-Tramelan"
+  },
+  {
+   "code": "CH-BE-438",
+   "name": "Orvin"
+  },
+  {
+   "code": "CH-BE-441",
+   "name": "Renan (BE)"
+  },
+  {
+   "code": "CH-BE-442",
+   "name": "Romont (BE)"
+  },
+  {
+   "code": "CH-BE-443",
+   "name": "Saint-Imier"
+  },
+  {
+   "code": "CH-BE-444",
+   "name": "Sonceboz-Sombeval"
+  },
+  {
+   "code": "CH-BE-445",
+   "name": "Sonvilier"
+  },
+  {
+   "code": "CH-BE-446",
+   "name": "Tramelan"
+  },
+  {
+   "code": "CH-BE-448",
+   "name": "Villeret"
+  },
+  {
+   "code": "CH-BE-449",
+   "name": "Sauge"
+  },
+  {
+   "code": "CH-BE-450",
+   "name": "Péry-La Heutte"
+  },
+  {
+   "code": "CH-BE-491",
+   "name": "Brüttelen"
+  },
+  {
+   "code": "CH-BE-492",
+   "name": "Erlach"
+  },
+  {
+   "code": "CH-BE-493",
+   "name": "Finsterhennen"
+  },
+  {
+   "code": "CH-BE-494",
+   "name": "Gals"
+  },
+  {
+   "code": "CH-BE-495",
+   "name": "Gampelen"
+  },
+  {
+   "code": "CH-BE-496",
+   "name": "Ins"
+  },
+  {
+   "code": "CH-BE-497",
+   "name": "Lüscherz"
+  },
+  {
+   "code": "CH-BE-498",
+   "name": "Müntschemier"
+  },
+  {
+   "code": "CH-BE-499",
+   "name": "Siselen"
+  },
+  {
+   "code": "CH-BE-500",
+   "name": "Treiten"
+  },
+  {
+   "code": "CH-BE-501",
+   "name": "Tschugg"
+  },
+  {
+   "code": "CH-BE-502",
+   "name": "Vinelz"
+  },
+  {
+   "code": "CH-BE-533",
+   "name": "Bätterkinden"
+  },
+  {
+   "code": "CH-BE-535",
+   "name": "Deisswil bei Münchenbuchsee"
+  },
+  {
+   "code": "CH-BE-538",
+   "name": "Fraubrunnen"
+  },
+  {
+   "code": "CH-BE-540",
+   "name": "Jegenstorf"
+  },
+  {
+   "code": "CH-BE-541",
+   "name": "Iffwil"
+  },
+  {
+   "code": "CH-BE-543",
+   "name": "Mattstetten"
+  },
+  {
+   "code": "CH-BE-544",
+   "name": "Moosseedorf"
+  },
+  {
+   "code": "CH-BE-546",
+   "name": "Münchenbuchsee"
+  },
+  {
+   "code": "CH-BE-551",
+   "name": "Urtenen-Schönbühl"
+  },
+  {
+   "code": "CH-BE-552",
+   "name": "Utzenstorf"
+  },
+  {
+   "code": "CH-BE-553",
+   "name": "Wiggiswil"
+  },
+  {
+   "code": "CH-BE-554",
+   "name": "Wiler bei Utzenstorf"
+  },
+  {
+   "code": "CH-BE-556",
+   "name": "Zielebach"
+  },
+  {
+   "code": "CH-BE-557",
+   "name": "Zuzwil (BE)"
+  },
+  {
+   "code": "CH-BE-561",
+   "name": "Adelboden"
+  },
+  {
+   "code": "CH-BE-562",
+   "name": "Aeschi bei Spiez"
+  },
+  {
+   "code": "CH-BE-563",
+   "name": "Frutigen"
+  },
+  {
+   "code": "CH-BE-564",
+   "name": "Kandergrund"
+  },
+  {
+   "code": "CH-BE-565",
+   "name": "Kandersteg"
+  },
+  {
+   "code": "CH-BE-566",
+   "name": "Krattigen"
+  },
+  {
+   "code": "CH-BE-567",
+   "name": "Reichenbach im Kandertal"
+  },
+  {
+   "code": "CH-BE-571",
+   "name": "Beatenberg"
+  },
+  {
+   "code": "CH-BE-572",
+   "name": "Bönigen"
+  },
+  {
+   "code": "CH-BE-573",
+   "name": "Brienz (BE)"
+  },
+  {
+   "code": "CH-BE-574",
+   "name": "Brienzwiler"
+  },
+  {
+   "code": "CH-BE-575",
+   "name": "Därligen"
+  },
+  {
+   "code": "CH-BE-576",
+   "name": "Grindelwald"
+  },
+  {
+   "code": "CH-BE-577",
+   "name": "Gsteigwiler"
+  },
+  {
+   "code": "CH-BE-578",
+   "name": "Gündlischwand"
+  },
+  {
+   "code": "CH-BE-579",
+   "name": "Habkern"
+  },
+  {
+   "code": "CH-BE-580",
+   "name": "Hofstetten bei Brienz"
+  },
+  {
+   "code": "CH-BE-581",
+   "name": "Interlaken"
+  },
+  {
+   "code": "CH-BE-582",
+   "name": "Iseltwald"
+  },
+  {
+   "code": "CH-BE-584",
+   "name": "Lauterbrunnen"
+  },
+  {
+   "code": "CH-BE-585",
+   "name": "Leissigen"
+  },
+  {
+   "code": "CH-BE-586",
+   "name": "Lütschental"
+  },
+  {
+   "code": "CH-BE-587",
+   "name": "Matten bei Interlaken"
+  },
+  {
+   "code": "CH-BE-588",
+   "name": "Niederried bei Interlaken"
+  },
+  {
+   "code": "CH-BE-589",
+   "name": "Oberried am Brienzersee"
+  },
+  {
+   "code": "CH-BE-590",
+   "name": "Ringgenberg (BE)"
+  },
+  {
+   "code": "CH-BE-591",
+   "name": "Saxeten"
+  },
+  {
+   "code": "CH-BE-592",
+   "name": "Schwanden bei Brienz"
+  },
+  {
+   "code": "CH-BE-593",
+   "name": "Unterseen"
+  },
+  {
+   "code": "CH-BE-594",
+   "name": "Wilderswil"
+  },
+  {
+   "code": "CH-BE-602",
+   "name": "Arni (BE)"
+  },
+  {
+   "code": "CH-BE-603",
+   "name": "Biglen"
+  },
+  {
+   "code": "CH-BE-605",
+   "name": "Bowil"
+  },
+  {
+   "code": "CH-BE-606",
+   "name": "Brenzikofen"
+  },
+  {
+   "code": "CH-BE-607",
+   "name": "Freimettigen"
+  },
+  {
+   "code": "CH-BE-608",
+   "name": "Grosshöchstetten"
+  },
+  {
+   "code": "CH-BE-609",
+   "name": "Häutligen"
+  },
+  {
+   "code": "CH-BE-610",
+   "name": "Herbligen"
+  },
+  {
+   "code": "CH-BE-611",
+   "name": "Kiesen"
+  },
+  {
+   "code": "CH-BE-612",
+   "name": "Konolfingen"
+  },
+  {
+   "code": "CH-BE-613",
+   "name": "Landiswil"
+  },
+  {
+   "code": "CH-BE-614",
+   "name": "Linden"
+  },
+  {
+   "code": "CH-BE-615",
+   "name": "Mirchel"
+  },
+  {
+   "code": "CH-BE-616",
+   "name": "Münsingen"
+  },
+  {
+   "code": "CH-BE-617",
+   "name": "Niederhünigen"
+  },
+  {
+   "code": "CH-BE-619",
+   "name": "Oberdiessbach"
+  },
+  {
+   "code": "CH-BE-620",
+   "name": "Oberthal"
+  },
+  {
+   "code": "CH-BE-622",
+   "name": "Oppligen"
+  },
+  {
+   "code": "CH-BE-623",
+   "name": "Rubigen"
+  },
+  {
+   "code": "CH-BE-626",
+   "name": "Walkringen"
+  },
+  {
+   "code": "CH-BE-627",
+   "name": "Worb"
+  },
+  {
+   "code": "CH-BE-628",
+   "name": "Zäziwil"
+  },
+  {
+   "code": "CH-BE-629",
+   "name": "Oberhünigen"
+  },
+  {
+   "code": "CH-BE-630",
+   "name": "Allmendingen"
+  },
+  {
+   "code": "CH-BE-632",
+   "name": "Wichtrach"
+  },
+  {
+   "code": "CH-BE-662",
+   "name": "Ferenbalm"
+  },
+  {
+   "code": "CH-BE-663",
+   "name": "Frauenkappelen"
+  },
+  {
+   "code": "CH-BE-665",
+   "name": "Gurbrü"
+  },
+  {
+   "code": "CH-BE-666",
+   "name": "Kriechenwil"
+  },
+  {
+   "code": "CH-BE-667",
+   "name": "Laupen"
+  },
+  {
+   "code": "CH-BE-668",
+   "name": "Mühleberg"
+  },
+  {
+   "code": "CH-BE-669",
+   "name": "Münchenwiler"
+  },
+  {
+   "code": "CH-BE-670",
+   "name": "Neuenegg"
+  },
+  {
+   "code": "CH-BE-671",
+   "name": "Wileroltigen"
+  },
+  {
+   "code": "CH-BE-681",
+   "name": "Belprahon"
+  },
+  {
+   "code": "CH-BE-683",
+   "name": "Champoz"
+  },
+  {
+   "code": "CH-BE-687",
+   "name": "Corcelles (BE)"
+  },
+  {
+   "code": "CH-BE-690",
+   "name": "Court"
+  },
+  {
+   "code": "CH-BE-691",
+   "name": "Crémines"
+  },
+  {
+   "code": "CH-BE-692",
+   "name": "Eschert"
+  },
+  {
+   "code": "CH-BE-694",
+   "name": "Grandval"
+  },
+  {
+   "code": "CH-BE-696",
+   "name": "Loveresse"
+  },
+  {
+   "code": "CH-BE-701",
+   "name": "Perrefitte"
+  },
+  {
+   "code": "CH-BE-703",
+   "name": "Reconvilier"
+  },
+  {
+   "code": "CH-BE-704",
+   "name": "Roches (BE)"
+  },
+  {
+   "code": "CH-BE-706",
+   "name": "Saicourt"
+  },
+  {
+   "code": "CH-BE-707",
+   "name": "Saules (BE)"
+  },
+  {
+   "code": "CH-BE-708",
+   "name": "Schelten"
+  },
+  {
+   "code": "CH-BE-709",
+   "name": "Seehof"
+  },
+  {
+   "code": "CH-BE-711",
+   "name": "Sorvilier"
+  },
+  {
+   "code": "CH-BE-713",
+   "name": "Tavannes"
+  },
+  {
+   "code": "CH-BE-715",
+   "name": "Rebévelier"
+  },
+  {
+   "code": "CH-BE-716",
+   "name": "Petit-Val"
+  },
+  {
+   "code": "CH-BE-717",
+   "name": "Valbirse"
+  },
+  {
+   "code": "CH-BE-723",
+   "name": "La Neuveville"
+  },
+  {
+   "code": "CH-BE-724",
+   "name": "Nods"
+  },
+  {
+   "code": "CH-BE-726",
+   "name": "Plateau de Diesse"
+  },
+  {
+   "code": "CH-BE-731",
+   "name": "Aegerten"
+  },
+  {
+   "code": "CH-BE-732",
+   "name": "Bellmund"
+  },
+  {
+   "code": "CH-BE-733",
+   "name": "Brügg"
+  },
+  {
+   "code": "CH-BE-734",
+   "name": "Bühl"
+  },
+  {
+   "code": "CH-BE-735",
+   "name": "Epsach"
+  },
+  {
+   "code": "CH-BE-736",
+   "name": "Hagneck"
+  },
+  {
+   "code": "CH-BE-737",
+   "name": "Hermrigen"
+  },
+  {
+   "code": "CH-BE-738",
+   "name": "Jens"
+  },
+  {
+   "code": "CH-BE-739",
+   "name": "Ipsach"
+  },
+  {
+   "code": "CH-BE-740",
+   "name": "Ligerz"
+  },
+  {
+   "code": "CH-BE-741",
+   "name": "Merzligen"
+  },
+  {
+   "code": "CH-BE-742",
+   "name": "Mörigen"
+  },
+  {
+   "code": "CH-BE-743",
+   "name": "Nidau"
+  },
+  {
+   "code": "CH-BE-744",
+   "name": "Orpund"
+  },
+  {
+   "code": "CH-BE-745",
+   "name": "Port"
+  },
+  {
+   "code": "CH-BE-746",
+   "name": "Safnern"
+  },
+  {
+   "code": "CH-BE-747",
+   "name": "Scheuren"
+  },
+  {
+   "code": "CH-BE-748",
+   "name": "Schwadernau"
+  },
+  {
+   "code": "CH-BE-749",
+   "name": "Studen (BE)"
+  },
+  {
+   "code": "CH-BE-750",
+   "name": "Sutz-Lattrigen"
+  },
+  {
+   "code": "CH-BE-751",
+   "name": "Täuffelen"
+  },
+  {
+   "code": "CH-BE-754",
+   "name": "Walperswil"
+  },
+  {
+   "code": "CH-BE-755",
+   "name": "Worben"
+  },
+  {
+   "code": "CH-BE-756",
+   "name": "Twann-Tüscherz"
+  },
+  {
+   "code": "CH-BE-761",
+   "name": "Därstetten"
+  },
+  {
+   "code": "CH-BE-762",
+   "name": "Diemtigen"
+  },
+  {
+   "code": "CH-BE-763",
+   "name": "Erlenbach im Simmental"
+  },
+  {
+   "code": "CH-BE-766",
+   "name": "Oberwil im Simmental"
+  },
+  {
+   "code": "CH-BE-767",
+   "name": "Reutigen"
+  },
+  {
+   "code": "CH-BE-768",
+   "name": "Spiez"
+  },
+  {
+   "code": "CH-BE-769",
+   "name": "Wimmis"
+  },
+  {
+   "code": "CH-BE-770",
+   "name": "Stocken-Höfen"
+  },
+  {
+   "code": "CH-BE-782",
+   "name": "Guttannen"
+  },
+  {
+   "code": "CH-BE-783",
+   "name": "Hasliberg"
+  },
+  {
+   "code": "CH-BE-784",
+   "name": "Innertkirchen"
+  },
+  {
+   "code": "CH-BE-785",
+   "name": "Meiringen"
+  },
+  {
+   "code": "CH-BE-786",
+   "name": "Schattenhalb"
+  },
+  {
+   "code": "CH-BE-791",
+   "name": "Boltigen"
+  },
+  {
+   "code": "CH-BE-792",
+   "name": "Lenk"
+  },
+  {
+   "code": "CH-BE-793",
+   "name": "St. Stephan"
+  },
+  {
+   "code": "CH-BE-794",
+   "name": "Zweisimmen"
+  },
+  {
+   "code": "CH-BE-841",
+   "name": "Gsteig"
+  },
+  {
+   "code": "CH-BE-842",
+   "name": "Lauenen"
+  },
+  {
+   "code": "CH-BE-843",
+   "name": "Saanen"
+  },
+  {
+   "code": "CH-BE-852",
+   "name": "Guggisberg"
+  },
+  {
+   "code": "CH-BE-853",
+   "name": "Rüschegg"
+  },
+  {
+   "code": "CH-BE-855",
+   "name": "Schwarzenburg"
+  },
+  {
+   "code": "CH-BE-861",
+   "name": "Belp"
+  },
+  {
+   "code": "CH-BE-863",
+   "name": "Burgistein"
+  },
+  {
+   "code": "CH-BE-866",
+   "name": "Gerzensee"
+  },
+  {
+   "code": "CH-BE-867",
+   "name": "Gurzelen"
+  },
+  {
+   "code": "CH-BE-868",
+   "name": "Jaberg"
+  },
+  {
+   "code": "CH-BE-869",
+   "name": "Kaufdorf"
+  },
+  {
+   "code": "CH-BE-870",
+   "name": "Kehrsatz"
+  },
+  {
+   "code": "CH-BE-872",
+   "name": "Kirchdorf (BE)"
+  },
+  {
+   "code": "CH-BE-877",
+   "name": "Niedermuhlern"
+  },
+  {
+   "code": "CH-BE-879",
+   "name": "Riggisberg"
+  },
+  {
+   "code": "CH-BE-880",
+   "name": "Rüeggisberg"
+  },
+  {
+   "code": "CH-BE-883",
+   "name": "Seftigen"
+  },
+  {
+   "code": "CH-BE-884",
+   "name": "Toffen"
+  },
+  {
+   "code": "CH-BE-885",
+   "name": "Uttigen"
+  },
+  {
+   "code": "CH-BE-886",
+   "name": "Wattenwil"
+  },
+  {
+   "code": "CH-BE-888",
+   "name": "Wald (BE)"
+  },
+  {
+   "code": "CH-BE-889",
+   "name": "Thurnen"
+  },
+  {
+   "code": "CH-BE-901",
+   "name": "Eggiwil"
+  },
+  {
+   "code": "CH-BE-902",
+   "name": "Langnau im Emmental"
+  },
+  {
+   "code": "CH-BE-903",
+   "name": "Lauperswil"
+  },
+  {
+   "code": "CH-BE-904",
+   "name": "Röthenbach im Emmental"
+  },
+  {
+   "code": "CH-BE-905",
+   "name": "Rüderswil"
+  },
+  {
+   "code": "CH-BE-906",
+   "name": "Schangnau"
+  },
+  {
+   "code": "CH-BE-907",
+   "name": "Signau"
+  },
+  {
+   "code": "CH-BE-908",
+   "name": "Trub"
+  },
+  {
+   "code": "CH-BE-909",
+   "name": "Trubschachen"
+  },
+  {
+   "code": "CH-BE-921",
+   "name": "Amsoldingen"
+  },
+  {
+   "code": "CH-BE-922",
+   "name": "Blumenstein"
+  },
+  {
+   "code": "CH-BE-923",
+   "name": "Buchholterberg"
+  },
+  {
+   "code": "CH-BE-924",
+   "name": "Eriz"
+  },
+  {
+   "code": "CH-BE-925",
+   "name": "Fahrni"
+  },
+  {
+   "code": "CH-BE-927",
+   "name": "Heiligenschwendi"
+  },
+  {
+   "code": "CH-BE-928",
+   "name": "Heimberg"
+  },
+  {
+   "code": "CH-BE-929",
+   "name": "Hilterfingen"
+  },
+  {
+   "code": "CH-BE-931",
+   "name": "Homberg"
+  },
+  {
+   "code": "CH-BE-932",
+   "name": "Horrenbach-Buchen"
+  },
+  {
+   "code": "CH-BE-934",
+   "name": "Oberhofen am Thunersee"
+  },
+  {
+   "code": "CH-BE-935",
+   "name": "Oberlangenegg"
+  },
+  {
+   "code": "CH-BE-936",
+   "name": "Pohlern"
+  },
+  {
+   "code": "CH-BE-938",
+   "name": "Sigriswil"
+  },
+  {
+   "code": "CH-BE-939",
+   "name": "Steffisburg"
+  },
+  {
+   "code": "CH-BE-940",
+   "name": "Teuffenthal (BE)"
+  },
+  {
+   "code": "CH-BE-941",
+   "name": "Thierachern"
+  },
+  {
+   "code": "CH-BE-942",
+   "name": "Thun"
+  },
+  {
+   "code": "CH-BE-943",
+   "name": "Uebeschi"
+  },
+  {
+   "code": "CH-BE-944",
+   "name": "Uetendorf"
+  },
+  {
+   "code": "CH-BE-945",
+   "name": "Unterlangenegg"
+  },
+  {
+   "code": "CH-BE-946",
+   "name": "Wachseldorn"
+  },
+  {
+   "code": "CH-BE-948",
+   "name": "Forst-Längenbühl"
+  },
+  {
+   "code": "CH-BE-951",
+   "name": "Affoltern im Emmental"
+  },
+  {
+   "code": "CH-BE-952",
+   "name": "Dürrenroth"
+  },
+  {
+   "code": "CH-BE-953",
+   "name": "Eriswil"
+  },
+  {
+   "code": "CH-BE-954",
+   "name": "Huttwil"
+  },
+  {
+   "code": "CH-BE-955",
+   "name": "Lützelflüh"
+  },
+  {
+   "code": "CH-BE-956",
+   "name": "Rüegsau"
+  },
+  {
+   "code": "CH-BE-957",
+   "name": "Sumiswald"
+  },
+  {
+   "code": "CH-BE-958",
+   "name": "Trachselwald"
+  },
+  {
+   "code": "CH-BE-959",
+   "name": "Walterswil (BE)"
+  },
+  {
+   "code": "CH-BE-960",
+   "name": "Wyssachen"
+  },
+  {
+   "code": "CH-BE-971",
+   "name": "Attiswil"
+  },
+  {
+   "code": "CH-BE-972",
+   "name": "Berken"
+  },
+  {
+   "code": "CH-BE-973",
+   "name": "Bettenhausen"
+  },
+  {
+   "code": "CH-BE-975",
+   "name": "Farnern"
+  },
+  {
+   "code": "CH-BE-976",
+   "name": "Graben"
+  },
+  {
+   "code": "CH-BE-977",
+   "name": "Heimenhausen"
+  },
+  {
+   "code": "CH-BE-979",
+   "name": "Herzogenbuchsee"
+  },
+  {
+   "code": "CH-BE-980",
+   "name": "Inkwil"
+  },
+  {
+   "code": "CH-BE-981",
+   "name": "Niederbipp"
+  },
+  {
+   "code": "CH-BE-982",
+   "name": "Niederönz"
+  },
+  {
+   "code": "CH-BE-983",
+   "name": "Oberbipp"
+  },
+  {
+   "code": "CH-BE-985",
+   "name": "Ochlenberg"
+  },
+  {
+   "code": "CH-BE-987",
+   "name": "Rumisberg"
+  },
+  {
+   "code": "CH-BE-988",
+   "name": "Seeberg"
+  },
+  {
+   "code": "CH-BE-989",
+   "name": "Thörigen"
+  },
+  {
+   "code": "CH-BE-990",
+   "name": "Walliswil bei Niederbipp"
+  },
+  {
+   "code": "CH-BE-991",
+   "name": "Walliswil bei Wangen"
+  },
+  {
+   "code": "CH-BE-992",
+   "name": "Wangen an der Aare"
+  },
+  {
+   "code": "CH-BE-995",
+   "name": "Wiedlisbach"
+  },
+  {
+   "code": "CH-BL-2761",
+   "name": "Aesch (BL)"
+  },
+  {
+   "code": "CH-BL-2762",
+   "name": "Allschwil"
+  },
+  {
+   "code": "CH-BL-2763",
+   "name": "Arlesheim"
+  },
+  {
+   "code": "CH-BL-2764",
+   "name": "Biel-Benken"
+  },
+  {
+   "code": "CH-BL-2765",
+   "name": "Binningen"
+  },
+  {
+   "code": "CH-BL-2766",
+   "name": "Birsfelden"
+  },
+  {
+   "code": "CH-BL-2767",
+   "name": "Bottmingen"
+  },
+  {
+   "code": "CH-BL-2768",
+   "name": "Ettingen"
+  },
+  {
+   "code": "CH-BL-2769",
+   "name": "Münchenstein"
+  },
+  {
+   "code": "CH-BL-2770",
+   "name": "Muttenz"
+  },
+  {
+   "code": "CH-BL-2771",
+   "name": "Oberwil (BL)"
+  },
+  {
+   "code": "CH-BL-2772",
+   "name": "Pfeffingen"
+  },
+  {
+   "code": "CH-BL-2773",
+   "name": "Reinach (BL)"
+  },
+  {
+   "code": "CH-BL-2774",
+   "name": "Schönenbuch"
+  },
+  {
+   "code": "CH-BL-2775",
+   "name": "Therwil"
+  },
+  {
+   "code": "CH-BL-2781",
+   "name": "Blauen"
+  },
+  {
+   "code": "CH-BL-2782",
+   "name": "Brislach"
+  },
+  {
+   "code": "CH-BL-2783",
+   "name": "Burg im Leimental"
+  },
+  {
+   "code": "CH-BL-2784",
+   "name": "Dittingen"
+  },
+  {
+   "code": "CH-BL-2785",
+   "name": "Duggingen"
+  },
+  {
+   "code": "CH-BL-2786",
+   "name": "Grellingen"
+  },
+  {
+   "code": "CH-BL-2787",
+   "name": "Laufen"
+  },
+  {
+   "code": "CH-BL-2788",
+   "name": "Liesberg"
+  },
+  {
+   "code": "CH-BL-2789",
+   "name": "Nenzlingen"
+  },
+  {
+   "code": "CH-BL-2790",
+   "name": "Roggenburg"
+  },
+  {
+   "code": "CH-BL-2791",
+   "name": "Röschenz"
+  },
+  {
+   "code": "CH-BL-2792",
+   "name": "Wahlen"
+  },
+  {
+   "code": "CH-BL-2793",
+   "name": "Zwingen"
+  },
+  {
+   "code": "CH-BL-2821",
+   "name": "Arisdorf"
+  },
+  {
+   "code": "CH-BL-2822",
+   "name": "Augst"
+  },
+  {
+   "code": "CH-BL-2823",
+   "name": "Bubendorf"
+  },
+  {
+   "code": "CH-BL-2824",
+   "name": "Frenkendorf"
+  },
+  {
+   "code": "CH-BL-2825",
+   "name": "Füllinsdorf"
+  },
+  {
+   "code": "CH-BL-2826",
+   "name": "Giebenach"
+  },
+  {
+   "code": "CH-BL-2827",
+   "name": "Hersberg"
+  },
+  {
+   "code": "CH-BL-2828",
+   "name": "Lausen"
+  },
+  {
+   "code": "CH-BL-2829",
+   "name": "Liestal"
+  },
+  {
+   "code": "CH-BL-2830",
+   "name": "Lupsingen"
+  },
+  {
+   "code": "CH-BL-2831",
+   "name": "Pratteln"
+  },
+  {
+   "code": "CH-BL-2832",
+   "name": "Ramlinsburg"
+  },
+  {
+   "code": "CH-BL-2833",
+   "name": "Seltisberg"
+  },
+  {
+   "code": "CH-BL-2834",
+   "name": "Ziefen"
+  },
+  {
+   "code": "CH-BL-2841",
+   "name": "Anwil"
+  },
+  {
+   "code": "CH-BL-2842",
+   "name": "Böckten"
+  },
+  {
+   "code": "CH-BL-2843",
+   "name": "Buckten"
+  },
+  {
+   "code": "CH-BL-2844",
+   "name": "Buus"
+  },
+  {
+   "code": "CH-BL-2845",
+   "name": "Diepflingen"
+  },
+  {
+   "code": "CH-BL-2846",
+   "name": "Gelterkinden"
+  },
+  {
+   "code": "CH-BL-2847",
+   "name": "Häfelfingen"
+  },
+  {
+   "code": "CH-BL-2848",
+   "name": "Hemmiken"
+  },
+  {
+   "code": "CH-BL-2849",
+   "name": "Itingen"
+  },
+  {
+   "code": "CH-BL-2850",
+   "name": "Känerkinden"
+  },
+  {
+   "code": "CH-BL-2851",
+   "name": "Kilchberg (BL)"
+  },
+  {
+   "code": "CH-BL-2852",
+   "name": "Läufelfingen"
+  },
+  {
+   "code": "CH-BL-2853",
+   "name": "Maisprach"
+  },
+  {
+   "code": "CH-BL-2854",
+   "name": "Nusshof"
+  },
+  {
+   "code": "CH-BL-2855",
+   "name": "Oltingen"
+  },
+  {
+   "code": "CH-BL-2856",
+   "name": "Ormalingen"
+  },
+  {
+   "code": "CH-BL-2857",
+   "name": "Rickenbach (BL)"
+  },
+  {
+   "code": "CH-BL-2858",
+   "name": "Rothenfluh"
+  },
+  {
+   "code": "CH-BL-2859",
+   "name": "Rümlingen"
+  },
+  {
+   "code": "CH-BL-2860",
+   "name": "Rünenberg"
+  },
+  {
+   "code": "CH-BL-2861",
+   "name": "Sissach"
+  },
+  {
+   "code": "CH-BL-2862",
+   "name": "Tecknau"
+  },
+  {
+   "code": "CH-BL-2863",
+   "name": "Tenniken"
+  },
+  {
+   "code": "CH-BL-2864",
+   "name": "Thürnen"
+  },
+  {
+   "code": "CH-BL-2865",
+   "name": "Wenslingen"
+  },
+  {
+   "code": "CH-BL-2866",
+   "name": "Wintersingen"
+  },
+  {
+   "code": "CH-BL-2867",
+   "name": "Wittinsburg"
+  },
+  {
+   "code": "CH-BL-2868",
+   "name": "Zeglingen"
+  },
+  {
+   "code": "CH-BL-2869",
+   "name": "Zunzgen"
+  },
+  {
+   "code": "CH-BL-2881",
+   "name": "Arboldswil"
+  },
+  {
+   "code": "CH-BL-2882",
+   "name": "Bennwil"
+  },
+  {
+   "code": "CH-BL-2883",
+   "name": "Bretzwil"
+  },
+  {
+   "code": "CH-BL-2884",
+   "name": "Diegten"
+  },
+  {
+   "code": "CH-BL-2885",
+   "name": "Eptingen"
+  },
+  {
+   "code": "CH-BL-2886",
+   "name": "Hölstein"
+  },
+  {
+   "code": "CH-BL-2887",
+   "name": "Lampenberg"
+  },
+  {
+   "code": "CH-BL-2888",
+   "name": "Langenbruck"
+  },
+  {
+   "code": "CH-BL-2889",
+   "name": "Lauwil"
+  },
+  {
+   "code": "CH-BL-2890",
+   "name": "Liedertswil"
+  },
+  {
+   "code": "CH-BL-2891",
+   "name": "Niederdorf"
+  },
+  {
+   "code": "CH-BL-2892",
+   "name": "Oberdorf (BL)"
+  },
+  {
+   "code": "CH-BL-2893",
+   "name": "Reigoldswil"
+  },
+  {
+   "code": "CH-BL-2894",
+   "name": "Titterten"
+  },
+  {
+   "code": "CH-BL-2895",
+   "name": "Waldenburg"
+  },
+  {
+   "code": "CH-BS-2701",
+   "name": "Basel"
+  },
+  {
+   "code": "CH-BS-2702",
+   "name": "Bettingen"
+  },
+  {
+   "code": "CH-BS-2703",
+   "name": "Riehen"
+  },
+  {
+   "code": "CH-FR-2008",
+   "name": "Châtillon (FR)"
+  },
+  {
+   "code": "CH-FR-2011",
+   "name": "Cugy (FR)"
+  },
+  {
+   "code": "CH-FR-2022",
+   "name": "Gletterens"
+  },
+  {
+   "code": "CH-FR-2025",
+   "name": "Lully (FR)"
+  },
+  {
+   "code": "CH-FR-2029",
+   "name": "Montagny (FR)"
+  },
+  {
+   "code": "CH-FR-2035",
+   "name": "Nuvilly"
+  },
+  {
+   "code": "CH-FR-2038",
+   "name": "Prévondavaux"
+  },
+  {
+   "code": "CH-FR-2041",
+   "name": "Saint-Aubin (FR)"
+  },
+  {
+   "code": "CH-FR-2043",
+   "name": "Sévaz"
+  },
+  {
+   "code": "CH-FR-2044",
+   "name": "Surpierre"
+  },
+  {
+   "code": "CH-FR-2045",
+   "name": "Vallon"
+  },
+  {
+   "code": "CH-FR-2050",
+   "name": "Les Montets"
+  },
+  {
+   "code": "CH-FR-2051",
+   "name": "Delley-Portalban"
+  },
+  {
+   "code": "CH-FR-2053",
+   "name": "Belmont-Broye"
+  },
+  {
+   "code": "CH-FR-2054",
+   "name": "Estavayer"
+  },
+  {
+   "code": "CH-FR-2055",
+   "name": "Cheyres-Châbles"
+  },
+  {
+   "code": "CH-FR-2056",
+   "name": "Fétigny-Ménières"
+  },
+  {
+   "code": "CH-FR-2063",
+   "name": "Billens-Hennens"
+  },
+  {
+   "code": "CH-FR-2067",
+   "name": "Le Châtelard"
+  },
+  {
+   "code": "CH-FR-2068",
+   "name": "Châtonnaye"
+  },
+  {
+   "code": "CH-FR-2079",
+   "name": "Grangettes"
+  },
+  {
+   "code": "CH-FR-2086",
+   "name": "Massonnens"
+  },
+  {
+   "code": "CH-FR-2087",
+   "name": "Mézières (FR)"
+  },
+  {
+   "code": "CH-FR-2096",
+   "name": "Romont (FR)"
+  },
+  {
+   "code": "CH-FR-2097",
+   "name": "Rue"
+  },
+  {
+   "code": "CH-FR-2099",
+   "name": "Siviriez"
+  },
+  {
+   "code": "CH-FR-2102",
+   "name": "Ursy"
+  },
+  {
+   "code": "CH-FR-2113",
+   "name": "Vuisternens-devant-Romont"
+  },
+  {
+   "code": "CH-FR-2114",
+   "name": "Villorsonnens"
+  },
+  {
+   "code": "CH-FR-2115",
+   "name": "Torny"
+  },
+  {
+   "code": "CH-FR-2117",
+   "name": "Villaz"
+  },
+  {
+   "code": "CH-FR-2121",
+   "name": "Haut-Intyamon"
+  },
+  {
+   "code": "CH-FR-2122",
+   "name": "Pont-en-Ogoz"
+  },
+  {
+   "code": "CH-FR-2123",
+   "name": "Botterens"
+  },
+  {
+   "code": "CH-FR-2124",
+   "name": "Broc"
+  },
+  {
+   "code": "CH-FR-2125",
+   "name": "Bulle"
+  },
+  {
+   "code": "CH-FR-2128",
+   "name": "Châtel-sur-Montsalvens"
+  },
+  {
+   "code": "CH-FR-2129",
+   "name": "Corbières"
+  },
+  {
+   "code": "CH-FR-2130",
+   "name": "Crésuz"
+  },
+  {
+   "code": "CH-FR-2131",
+   "name": "Echarlens"
+  },
+  {
+   "code": "CH-FR-2134",
+   "name": "Grandvillard"
+  },
+  {
+   "code": "CH-FR-2135",
+   "name": "Gruyères"
+  },
+  {
+   "code": "CH-FR-2137",
+   "name": "Hauteville"
+  },
+  {
+   "code": "CH-FR-2138",
+   "name": "Jaun"
+  },
+  {
+   "code": "CH-FR-2140",
+   "name": "Marsens"
+  },
+  {
+   "code": "CH-FR-2143",
+   "name": "Morlon"
+  },
+  {
+   "code": "CH-FR-2145",
+   "name": "Le Pâquier (FR)"
+  },
+  {
+   "code": "CH-FR-2147",
+   "name": "Pont-la-Ville"
+  },
+  {
+   "code": "CH-FR-2148",
+   "name": "Riaz"
+  },
+  {
+   "code": "CH-FR-2149",
+   "name": "La Roche"
+  },
+  {
+   "code": "CH-FR-2152",
+   "name": "Sâles"
+  },
+  {
+   "code": "CH-FR-2153",
+   "name": "Sorens"
+  },
+  {
+   "code": "CH-FR-2155",
+   "name": "Vaulruz"
+  },
+  {
+   "code": "CH-FR-2160",
+   "name": "Vuadens"
+  },
+  {
+   "code": "CH-FR-2162",
+   "name": "Bas-Intyamon"
+  },
+  {
+   "code": "CH-FR-2163",
+   "name": "Val-de-Charmey"
+  },
+  {
+   "code": "CH-FR-2173",
+   "name": "Autigny"
+  },
+  {
+   "code": "CH-FR-2174",
+   "name": "Avry"
+  },
+  {
+   "code": "CH-FR-2175",
+   "name": "Belfaux"
+  },
+  {
+   "code": "CH-FR-2177",
+   "name": "Chénens"
+  },
+  {
+   "code": "CH-FR-2183",
+   "name": "Corminboeuf"
+  },
+  {
+   "code": "CH-FR-2186",
+   "name": "Cottens (FR)"
+  },
+  {
+   "code": "CH-FR-2194",
+   "name": "Ferpicloz"
+  },
+  {
+   "code": "CH-FR-2196",
+   "name": "Fribourg"
+  },
+  {
+   "code": "CH-FR-2197",
+   "name": "Givisiez"
+  },
+  {
+   "code": "CH-FR-2198",
+   "name": "Granges-Paccot"
+  },
+  {
+   "code": "CH-FR-2206",
+   "name": "Marly"
+  },
+  {
+   "code": "CH-FR-2208",
+   "name": "Matran"
+  },
+  {
+   "code": "CH-FR-2211",
+   "name": "Neyruz (FR)"
+  },
+  {
+   "code": "CH-FR-2216",
+   "name": "Pierrafortscha"
+  },
+  {
+   "code": "CH-FR-2220",
+   "name": "Le Mouret"
+  },
+  {
+   "code": "CH-FR-2226",
+   "name": "Treyvaux"
+  },
+  {
+   "code": "CH-FR-2228",
+   "name": "Villars-sur-Glâne"
+  },
+  {
+   "code": "CH-FR-2230",
+   "name": "Villarsel-sur-Marly"
+  },
+  {
+   "code": "CH-FR-2233",
+   "name": "Hauterive (FR)"
+  },
+  {
+   "code": "CH-FR-2234",
+   "name": "La Brillaz"
+  },
+  {
+   "code": "CH-FR-2235",
+   "name": "La Sonnaz"
+  },
+  {
+   "code": "CH-FR-2236",
+   "name": "Gibloux"
+  },
+  {
+   "code": "CH-FR-2237",
+   "name": "Prez"
+  },
+  {
+   "code": "CH-FR-2238",
+   "name": "Bois-d'Amont"
+  },
+  {
+   "code": "CH-FR-2239",
+   "name": "Grolley-Ponthaux"
+  },
+  {
+   "code": "CH-FR-2250",
+   "name": "Courgevaux"
+  },
+  {
+   "code": "CH-FR-2254",
+   "name": "Courtepin"
+  },
+  {
+   "code": "CH-FR-2257",
+   "name": "Cressier (FR)"
+  },
+  {
+   "code": "CH-FR-2258",
+   "name": "Fräschels"
+  },
+  {
+   "code": "CH-FR-2261",
+   "name": "Greng"
+  },
+  {
+   "code": "CH-FR-2262",
+   "name": "Gurmels"
+  },
+  {
+   "code": "CH-FR-2265",
+   "name": "Kerzers"
+  },
+  {
+   "code": "CH-FR-2266",
+   "name": "Kleinbösingen"
+  },
+  {
+   "code": "CH-FR-2271",
+   "name": "Meyriez"
+  },
+  {
+   "code": "CH-FR-2272",
+   "name": "Misery-Courtion"
+  },
+  {
+   "code": "CH-FR-2274",
+   "name": "Muntelier"
+  },
+  {
+   "code": "CH-FR-2275",
+   "name": "Murten"
+  },
+  {
+   "code": "CH-FR-2276",
+   "name": "Ried bei Kerzers"
+  },
+  {
+   "code": "CH-FR-2284",
+   "name": "Mont-Vully"
+  },
+  {
+   "code": "CH-FR-2292",
+   "name": "Brünisried"
+  },
+  {
+   "code": "CH-FR-2293",
+   "name": "Düdingen"
+  },
+  {
+   "code": "CH-FR-2294",
+   "name": "Giffers"
+  },
+  {
+   "code": "CH-FR-2295",
+   "name": "Bösingen"
+  },
+  {
+   "code": "CH-FR-2296",
+   "name": "Heitenried"
+  },
+  {
+   "code": "CH-FR-2299",
+   "name": "Plaffeien"
+  },
+  {
+   "code": "CH-FR-2300",
+   "name": "Plasselb"
+  },
+  {
+   "code": "CH-FR-2301",
+   "name": "Rechthalten"
+  },
+  {
+   "code": "CH-FR-2303",
+   "name": "St. Silvester"
+  },
+  {
+   "code": "CH-FR-2304",
+   "name": "St. Ursen"
+  },
+  {
+   "code": "CH-FR-2305",
+   "name": "Schmitten (FR)"
+  },
+  {
+   "code": "CH-FR-2306",
+   "name": "Tafers"
+  },
+  {
+   "code": "CH-FR-2307",
+   "name": "Tentlingen"
+  },
+  {
+   "code": "CH-FR-2308",
+   "name": "Ueberstorf"
+  },
+  {
+   "code": "CH-FR-2309",
+   "name": "Wünnewil-Flamatt"
+  },
+  {
+   "code": "CH-FR-2321",
+   "name": "Attalens"
+  },
+  {
+   "code": "CH-FR-2323",
+   "name": "Bossonnens"
+  },
+  {
+   "code": "CH-FR-2325",
+   "name": "Châtel-Saint-Denis"
+  },
+  {
+   "code": "CH-FR-2328",
+   "name": "Granges (Veveyse)"
+  },
+  {
+   "code": "CH-FR-2333",
+   "name": "Remaufens"
+  },
+  {
+   "code": "CH-FR-2335",
+   "name": "Saint-Martin (FR)"
+  },
+  {
+   "code": "CH-FR-2336",
+   "name": "Semsales"
+  },
+  {
+   "code": "CH-FR-2337",
+   "name": "Le Flon"
+  },
+  {
+   "code": "CH-FR-2338",
+   "name": "La Verrerie"
+  },
+  {
+   "code": "CH-GE-6601",
+   "name": "Aire-la-Ville"
+  },
+  {
+   "code": "CH-GE-6602",
+   "name": "Anières"
+  },
+  {
+   "code": "CH-GE-6603",
+   "name": "Avully"
+  },
+  {
+   "code": "CH-GE-6604",
+   "name": "Avusy"
+  },
+  {
+   "code": "CH-GE-6605",
+   "name": "Bardonnex"
+  },
+  {
+   "code": "CH-GE-6606",
+   "name": "Bellevue"
+  },
+  {
+   "code": "CH-GE-6607",
+   "name": "Bernex"
+  },
+  {
+   "code": "CH-GE-6608",
+   "name": "Carouge (GE)"
+  },
+  {
+   "code": "CH-GE-6609",
+   "name": "Cartigny"
+  },
+  {
+   "code": "CH-GE-6610",
+   "name": "Céligny"
+  },
+  {
+   "code": "CH-GE-6611",
+   "name": "Chancy"
+  },
+  {
+   "code": "CH-GE-6612",
+   "name": "Chêne-Bougeries"
+  },
+  {
+   "code": "CH-GE-6613",
+   "name": "Chêne-Bourg"
+  },
+  {
+   "code": "CH-GE-6614",
+   "name": "Choulex"
+  },
+  {
+   "code": "CH-GE-6615",
+   "name": "Collex-Bossy"
+  },
+  {
+   "code": "CH-GE-6616",
+   "name": "Collonge-Bellerive"
+  },
+  {
+   "code": "CH-GE-6617",
+   "name": "Cologny"
+  },
+  {
+   "code": "CH-GE-6618",
+   "name": "Confignon"
+  },
+  {
+   "code": "CH-GE-6619",
+   "name": "Corsier (GE)"
+  },
+  {
+   "code": "CH-GE-6620",
+   "name": "Dardagny"
+  },
+  {
+   "code": "CH-GE-6621",
+   "name": "Genève"
+  },
+  {
+   "code": "CH-GE-6622",
+   "name": "Genthod"
+  },
+  {
+   "code": "CH-GE-6623",
+   "name": "Le Grand-Saconnex"
+  },
+  {
+   "code": "CH-GE-6624",
+   "name": "Gy"
+  },
+  {
+   "code": "CH-GE-6625",
+   "name": "Hermance"
+  },
+  {
+   "code": "CH-GE-6626",
+   "name": "Jussy"
+  },
+  {
+   "code": "CH-GE-6627",
+   "name": "Laconnex"
+  },
+  {
+   "code": "CH-GE-6628",
+   "name": "Lancy"
+  },
+  {
+   "code": "CH-GE-6629",
+   "name": "Meinier"
+  },
+  {
+   "code": "CH-GE-6630",
+   "name": "Meyrin"
+  },
+  {
+   "code": "CH-GE-6631",
+   "name": "Onex"
+  },
+  {
+   "code": "CH-GE-6632",
+   "name": "Perly-Certoux"
+  },
+  {
+   "code": "CH-GE-6633",
+   "name": "Plan-les-Ouates"
+  },
+  {
+   "code": "CH-GE-6634",
+   "name": "Pregny-Chambésy"
+  },
+  {
+   "code": "CH-GE-6635",
+   "name": "Presinge"
+  },
+  {
+   "code": "CH-GE-6636",
+   "name": "Puplinge"
+  },
+  {
+   "code": "CH-GE-6637",
+   "name": "Russin"
+  },
+  {
+   "code": "CH-GE-6638",
+   "name": "Satigny"
+  },
+  {
+   "code": "CH-GE-6639",
+   "name": "Soral"
+  },
+  {
+   "code": "CH-GE-6640",
+   "name": "Thônex"
+  },
+  {
+   "code": "CH-GE-6641",
+   "name": "Troinex"
+  },
+  {
+   "code": "CH-GE-6642",
+   "name": "Vandoeuvres"
+  },
+  {
+   "code": "CH-GE-6643",
+   "name": "Vernier"
+  },
+  {
+   "code": "CH-GE-6644",
+   "name": "Versoix"
+  },
+  {
+   "code": "CH-GE-6645",
+   "name": "Veyrier"
+  },
+  {
+   "code": "CH-GL-1630",
+   "name": "Glarus Nord"
+  },
+  {
+   "code": "CH-GL-1631",
+   "name": "Glarus Süd"
+  },
+  {
+   "code": "CH-GL-1632",
+   "name": "Glarus"
+  },
+  {
+   "code": "CH-GR-3506",
+   "name": "Vaz/Obervaz"
+  },
+  {
+   "code": "CH-GR-3513",
+   "name": "Lantsch/Lenz"
+  },
+  {
+   "code": "CH-GR-3514",
+   "name": "Schmitten (GR)"
+  },
+  {
+   "code": "CH-GR-3542",
+   "name": "Albula/Alvra"
+  },
+  {
+   "code": "CH-GR-3543",
+   "name": "Surses"
+  },
+  {
+   "code": "CH-GR-3544",
+   "name": "Bergün Filisur"
+  },
+  {
+   "code": "CH-GR-3551",
+   "name": "Brusio"
+  },
+  {
+   "code": "CH-GR-3561",
+   "name": "Poschiavo"
+  },
+  {
+   "code": "CH-GR-3572",
+   "name": "Falera"
+  },
+  {
+   "code": "CH-GR-3575",
+   "name": "Laax"
+  },
+  {
+   "code": "CH-GR-3581",
+   "name": "Sagogn"
+  },
+  {
+   "code": "CH-GR-3582",
+   "name": "Schluein"
+  },
+  {
+   "code": "CH-GR-3603",
+   "name": "Vals"
+  },
+  {
+   "code": "CH-GR-3618",
+   "name": "Lumnezia"
+  },
+  {
+   "code": "CH-GR-3619",
+   "name": "Ilanz/Glion"
+  },
+  {
+   "code": "CH-GR-3633",
+   "name": "Fürstenau"
+  },
+  {
+   "code": "CH-GR-3637",
+   "name": "Rothenbrunnen"
+  },
+  {
+   "code": "CH-GR-3638",
+   "name": "Scharans"
+  },
+  {
+   "code": "CH-GR-3640",
+   "name": "Sils im Domleschg"
+  },
+  {
+   "code": "CH-GR-3661",
+   "name": "Cazis"
+  },
+  {
+   "code": "CH-GR-3662",
+   "name": "Flerden"
+  },
+  {
+   "code": "CH-GR-3663",
+   "name": "Masein"
+  },
+  {
+   "code": "CH-GR-3668",
+   "name": "Thusis"
+  },
+  {
+   "code": "CH-GR-3669",
+   "name": "Tschappina"
+  },
+  {
+   "code": "CH-GR-3670",
+   "name": "Urmein"
+  },
+  {
+   "code": "CH-GR-3672",
+   "name": "Safiental"
+  },
+  {
+   "code": "CH-GR-3673",
+   "name": "Domleschg"
+  },
+  {
+   "code": "CH-GR-3681",
+   "name": "Avers"
+  },
+  {
+   "code": "CH-GR-3695",
+   "name": "Sufers"
+  },
+  {
+   "code": "CH-GR-3701",
+   "name": "Andeer"
+  },
+  {
+   "code": "CH-GR-3711",
+   "name": "Rongellen"
+  },
+  {
+   "code": "CH-GR-3712",
+   "name": "Zillis-Reischen"
+  },
+  {
+   "code": "CH-GR-3713",
+   "name": "Ferrera"
+  },
+  {
+   "code": "CH-GR-3714",
+   "name": "Rheinwald"
+  },
+  {
+   "code": "CH-GR-3715",
+   "name": "Muntogna da Schons"
+  },
+  {
+   "code": "CH-GR-3721",
+   "name": "Bonaduz"
+  },
+  {
+   "code": "CH-GR-3722",
+   "name": "Domat/Ems"
+  },
+  {
+   "code": "CH-GR-3723",
+   "name": "Rhäzüns"
+  },
+  {
+   "code": "CH-GR-3731",
+   "name": "Felsberg"
+  },
+  {
+   "code": "CH-GR-3732",
+   "name": "Flims"
+  },
+  {
+   "code": "CH-GR-3733",
+   "name": "Tamins"
+  },
+  {
+   "code": "CH-GR-3734",
+   "name": "Trin"
+  },
+  {
+   "code": "CH-GR-3746",
+   "name": "Zernez"
+  },
+  {
+   "code": "CH-GR-3752",
+   "name": "Samnaun"
+  },
+  {
+   "code": "CH-GR-3762",
+   "name": "Scuol"
+  },
+  {
+   "code": "CH-GR-3764",
+   "name": "Valsot"
+  },
+  {
+   "code": "CH-GR-3781",
+   "name": "Bever"
+  },
+  {
+   "code": "CH-GR-3782",
+   "name": "Celerina/Schlarigna"
+  },
+  {
+   "code": "CH-GR-3783",
+   "name": "Madulain"
+  },
+  {
+   "code": "CH-GR-3784",
+   "name": "Pontresina"
+  },
+  {
+   "code": "CH-GR-3785",
+   "name": "La Punt Chamues-ch"
+  },
+  {
+   "code": "CH-GR-3786",
+   "name": "Samedan"
+  },
+  {
+   "code": "CH-GR-3787",
+   "name": "St. Moritz"
+  },
+  {
+   "code": "CH-GR-3788",
+   "name": "S-chanf"
+  },
+  {
+   "code": "CH-GR-3789",
+   "name": "Sils im Engadin/Segl"
+  },
+  {
+   "code": "CH-GR-3790",
+   "name": "Silvaplana"
+  },
+  {
+   "code": "CH-GR-3791",
+   "name": "Zuoz"
+  },
+  {
+   "code": "CH-GR-3792",
+   "name": "Bregaglia"
+  },
+  {
+   "code": "CH-GR-3804",
+   "name": "Buseno"
+  },
+  {
+   "code": "CH-GR-3805",
+   "name": "Castaneda"
+  },
+  {
+   "code": "CH-GR-3808",
+   "name": "Rossa"
+  },
+  {
+   "code": "CH-GR-3810",
+   "name": "Santa Maria in Calanca"
+  },
+  {
+   "code": "CH-GR-3821",
+   "name": "Lostallo"
+  },
+  {
+   "code": "CH-GR-3822",
+   "name": "Mesocco"
+  },
+  {
+   "code": "CH-GR-3823",
+   "name": "Soazza"
+  },
+  {
+   "code": "CH-GR-3831",
+   "name": "Cama"
+  },
+  {
+   "code": "CH-GR-3832",
+   "name": "Grono"
+  },
+  {
+   "code": "CH-GR-3834",
+   "name": "Roveredo (GR)"
+  },
+  {
+   "code": "CH-GR-3835",
+   "name": "San Vittore"
+  },
+  {
+   "code": "CH-GR-3837",
+   "name": "Calanca"
+  },
+  {
+   "code": "CH-GR-3847",
+   "name": "Val Müstair"
+  },
+  {
+   "code": "CH-GR-3851",
+   "name": "Davos"
+  },
+  {
+   "code": "CH-GR-3861",
+   "name": "Fideris"
+  },
+  {
+   "code": "CH-GR-3862",
+   "name": "Furna"
+  },
+  {
+   "code": "CH-GR-3863",
+   "name": "Jenaz"
+  },
+  {
+   "code": "CH-GR-3871",
+   "name": "Klosters"
+  },
+  {
+   "code": "CH-GR-3881",
+   "name": "Conters im Prättigau"
+  },
+  {
+   "code": "CH-GR-3882",
+   "name": "Küblis"
+  },
+  {
+   "code": "CH-GR-3891",
+   "name": "Luzein"
+  },
+  {
+   "code": "CH-GR-3901",
+   "name": "Chur"
+  },
+  {
+   "code": "CH-GR-3911",
+   "name": "Churwalden"
+  },
+  {
+   "code": "CH-GR-3921",
+   "name": "Arosa"
+  },
+  {
+   "code": "CH-GR-3945",
+   "name": "Trimmis"
+  },
+  {
+   "code": "CH-GR-3946",
+   "name": "Untervaz"
+  },
+  {
+   "code": "CH-GR-3947",
+   "name": "Zizers"
+  },
+  {
+   "code": "CH-GR-3951",
+   "name": "Fläsch"
+  },
+  {
+   "code": "CH-GR-3952",
+   "name": "Jenins"
+  },
+  {
+   "code": "CH-GR-3953",
+   "name": "Maienfeld"
+  },
+  {
+   "code": "CH-GR-3954",
+   "name": "Malans"
+  },
+  {
+   "code": "CH-GR-3955",
+   "name": "Landquart"
+  },
+  {
+   "code": "CH-GR-3961",
+   "name": "Grüsch"
+  },
+  {
+   "code": "CH-GR-3962",
+   "name": "Schiers"
+  },
+  {
+   "code": "CH-GR-3972",
+   "name": "Seewis im Prättigau"
+  },
+  {
+   "code": "CH-GR-3981",
+   "name": "Breil/Brigels"
+  },
+  {
+   "code": "CH-GR-3982",
+   "name": "Disentis/Mustér"
+  },
+  {
+   "code": "CH-GR-3983",
+   "name": "Medel (Lucmagn)"
+  },
+  {
+   "code": "CH-GR-3985",
+   "name": "Sumvitg"
+  },
+  {
+   "code": "CH-GR-3986",
+   "name": "Tujetsch"
+  },
+  {
+   "code": "CH-GR-3987",
+   "name": "Trun"
+  },
+  {
+   "code": "CH-GR-3988",
+   "name": "Obersaxen Mundaun"
+  },
+  {
+   "code": "CH-JU-6702",
+   "name": "Boécourt"
+  },
+  {
+   "code": "CH-JU-6703",
+   "name": "Bourrignon"
+  },
+  {
+   "code": "CH-JU-6704",
+   "name": "Châtillon (JU)"
+  },
+  {
+   "code": "CH-JU-6706",
+   "name": "Courchapoix"
+  },
+  {
+   "code": "CH-JU-6708",
+   "name": "Courrendlin"
+  },
+  {
+   "code": "CH-JU-6709",
+   "name": "Courroux"
+  },
+  {
+   "code": "CH-JU-6710",
+   "name": "Courtételle"
+  },
+  {
+   "code": "CH-JU-6711",
+   "name": "Delémont"
+  },
+  {
+   "code": "CH-JU-6712",
+   "name": "Develier"
+  },
+  {
+   "code": "CH-JU-6713",
+   "name": "Ederswiler"
+  },
+  {
+   "code": "CH-JU-6715",
+   "name": "Mervelier"
+  },
+  {
+   "code": "CH-JU-6716",
+   "name": "Mettembert"
+  },
+  {
+   "code": "CH-JU-6718",
+   "name": "Movelier"
+  },
+  {
+   "code": "CH-JU-6719",
+   "name": "Pleigne"
+  },
+  {
+   "code": "CH-JU-6721",
+   "name": "Rossemaison"
+  },
+  {
+   "code": "CH-JU-6722",
+   "name": "Saulcy"
+  },
+  {
+   "code": "CH-JU-6724",
+   "name": "Soyhières"
+  },
+  {
+   "code": "CH-JU-6729",
+   "name": "Haute-Sorne"
+  },
+  {
+   "code": "CH-JU-6730",
+   "name": "Val Terbi"
+  },
+  {
+   "code": "CH-JU-6741",
+   "name": "Le Bémont (JU)"
+  },
+  {
+   "code": "CH-JU-6742",
+   "name": "Les Bois"
+  },
+  {
+   "code": "CH-JU-6743",
+   "name": "Les Breuleux"
+  },
+  {
+   "code": "CH-JU-6745",
+   "name": "Les Enfers"
+  },
+  {
+   "code": "CH-JU-6748",
+   "name": "Les Genevez (JU)"
+  },
+  {
+   "code": "CH-JU-6750",
+   "name": "Lajoux (JU)"
+  },
+  {
+   "code": "CH-JU-6751",
+   "name": "Montfaucon"
+  },
+  {
+   "code": "CH-JU-6753",
+   "name": "Muriaux"
+  },
+  {
+   "code": "CH-JU-6754",
+   "name": "Le Noirmont"
+  },
+  {
+   "code": "CH-JU-6757",
+   "name": "Saignelégier"
+  },
+  {
+   "code": "CH-JU-6758",
+   "name": "Saint-Brais"
+  },
+  {
+   "code": "CH-JU-6759",
+   "name": "Soubey"
+  },
+  {
+   "code": "CH-JU-6771",
+   "name": "Alle"
+  },
+  {
+   "code": "CH-JU-6774",
+   "name": "Boncourt"
+  },
+  {
+   "code": "CH-JU-6778",
+   "name": "Bure"
+  },
+  {
+   "code": "CH-JU-6781",
+   "name": "Coeuve"
+  },
+  {
+   "code": "CH-JU-6782",
+   "name": "Cornol"
+  },
+  {
+   "code": "CH-JU-6783",
+   "name": "Courchavon"
+  },
+  {
+   "code": "CH-JU-6784",
+   "name": "Courgenay"
+  },
+  {
+   "code": "CH-JU-6785",
+   "name": "Courtedoux"
+  },
+  {
+   "code": "CH-JU-6789",
+   "name": "Fahy"
+  },
+  {
+   "code": "CH-JU-6790",
+   "name": "Fontenais"
+  },
+  {
+   "code": "CH-JU-6792",
+   "name": "Grandfontaine"
+  },
+  {
+   "code": "CH-JU-6800",
+   "name": "Porrentruy"
+  },
+  {
+   "code": "CH-JU-6806",
+   "name": "Vendlincourt"
+  },
+  {
+   "code": "CH-JU-6807",
+   "name": "Basse-Allaine"
+  },
+  {
+   "code": "CH-JU-6808",
+   "name": "Clos du Doubs"
+  },
+  {
+   "code": "CH-JU-6809",
+   "name": "Haute-Ajoie"
+  },
+  {
+   "code": "CH-JU-6810",
+   "name": "La Baroche"
+  },
+  {
+   "code": "CH-JU-6811",
+   "name": "Damphreux-Lugnez"
+  },
+  {
+   "code": "CH-JU-6812",
+   "name": "Basse-Vendline"
+  },
+  {
+   "code": "CH-JU-6831",
+   "name": "Moutier"
+  },
+  {
+   "code": "CH-LU-1001",
+   "name": "Doppleschwand"
+  },
+  {
+   "code": "CH-LU-1002",
+   "name": "Entlebuch"
+  },
+  {
+   "code": "CH-LU-1004",
+   "name": "Flühli"
+  },
+  {
+   "code": "CH-LU-1005",
+   "name": "Hasle (LU)"
+  },
+  {
+   "code": "CH-LU-1007",
+   "name": "Romoos"
+  },
+  {
+   "code": "CH-LU-1008",
+   "name": "Schüpfheim"
+  },
+  {
+   "code": "CH-LU-1009",
+   "name": "Werthenstein"
+  },
+  {
+   "code": "CH-LU-1010",
+   "name": "Escholzmatt-Marbach"
+  },
+  {
+   "code": "CH-LU-1021",
+   "name": "Aesch (LU)"
+  },
+  {
+   "code": "CH-LU-1023",
+   "name": "Ballwil"
+  },
+  {
+   "code": "CH-LU-1024",
+   "name": "Emmen"
+  },
+  {
+   "code": "CH-LU-1025",
+   "name": "Ermensee"
+  },
+  {
+   "code": "CH-LU-1026",
+   "name": "Eschenbach (LU)"
+  },
+  {
+   "code": "CH-LU-1030",
+   "name": "Hitzkirch"
+  },
+  {
+   "code": "CH-LU-1031",
+   "name": "Hochdorf"
+  },
+  {
+   "code": "CH-LU-1032",
+   "name": "Hohenrain"
+  },
+  {
+   "code": "CH-LU-1033",
+   "name": "Inwil"
+  },
+  {
+   "code": "CH-LU-1037",
+   "name": "Rain"
+  },
+  {
+   "code": "CH-LU-1039",
+   "name": "Römerswil"
+  },
+  {
+   "code": "CH-LU-1040",
+   "name": "Rothenburg"
+  },
+  {
+   "code": "CH-LU-1041",
+   "name": "Schongau"
+  },
+  {
+   "code": "CH-LU-1051",
+   "name": "Adligenswil"
+  },
+  {
+   "code": "CH-LU-1052",
+   "name": "Buchrain"
+  },
+  {
+   "code": "CH-LU-1053",
+   "name": "Dierikon"
+  },
+  {
+   "code": "CH-LU-1054",
+   "name": "Ebikon"
+  },
+  {
+   "code": "CH-LU-1055",
+   "name": "Gisikon"
+  },
+  {
+   "code": "CH-LU-1056",
+   "name": "Greppen"
+  },
+  {
+   "code": "CH-LU-1058",
+   "name": "Horw"
+  },
+  {
+   "code": "CH-LU-1059",
+   "name": "Kriens"
+  },
+  {
+   "code": "CH-LU-1061",
+   "name": "Luzern"
+  },
+  {
+   "code": "CH-LU-1062",
+   "name": "Malters"
+  },
+  {
+   "code": "CH-LU-1063",
+   "name": "Meggen"
+  },
+  {
+   "code": "CH-LU-1064",
+   "name": "Meierskappel"
+  },
+  {
+   "code": "CH-LU-1065",
+   "name": "Root"
+  },
+  {
+   "code": "CH-LU-1066",
+   "name": "Schwarzenberg"
+  },
+  {
+   "code": "CH-LU-1067",
+   "name": "Udligenswil"
+  },
+  {
+   "code": "CH-LU-1068",
+   "name": "Vitznau"
+  },
+  {
+   "code": "CH-LU-1069",
+   "name": "Weggis"
+  },
+  {
+   "code": "CH-LU-1081",
+   "name": "Beromünster"
+  },
+  {
+   "code": "CH-LU-1082",
+   "name": "Büron"
+  },
+  {
+   "code": "CH-LU-1083",
+   "name": "Buttisholz"
+  },
+  {
+   "code": "CH-LU-1084",
+   "name": "Eich"
+  },
+  {
+   "code": "CH-LU-1085",
+   "name": "Geuensee"
+  },
+  {
+   "code": "CH-LU-1086",
+   "name": "Grosswangen"
+  },
+  {
+   "code": "CH-LU-1088",
+   "name": "Hildisrieden"
+  },
+  {
+   "code": "CH-LU-1089",
+   "name": "Knutwil"
+  },
+  {
+   "code": "CH-LU-1091",
+   "name": "Mauensee"
+  },
+  {
+   "code": "CH-LU-1093",
+   "name": "Neuenkirch"
+  },
+  {
+   "code": "CH-LU-1094",
+   "name": "Nottwil"
+  },
+  {
+   "code": "CH-LU-1095",
+   "name": "Oberkirch"
+  },
+  {
+   "code": "CH-LU-1097",
+   "name": "Rickenbach (LU)"
+  },
+  {
+   "code": "CH-LU-1098",
+   "name": "Ruswil"
+  },
+  {
+   "code": "CH-LU-1099",
+   "name": "Schenkon"
+  },
+  {
+   "code": "CH-LU-1100",
+   "name": "Schlierbach"
+  },
+  {
+   "code": "CH-LU-1102",
+   "name": "Sempach"
+  },
+  {
+   "code": "CH-LU-1103",
+   "name": "Sursee"
+  },
+  {
+   "code": "CH-LU-1104",
+   "name": "Triengen"
+  },
+  {
+   "code": "CH-LU-1107",
+   "name": "Wolhusen"
+  },
+  {
+   "code": "CH-LU-1121",
+   "name": "Alberswil"
+  },
+  {
+   "code": "CH-LU-1122",
+   "name": "Altbüron"
+  },
+  {
+   "code": "CH-LU-1123",
+   "name": "Altishofen"
+  },
+  {
+   "code": "CH-LU-1125",
+   "name": "Dagmersellen"
+  },
+  {
+   "code": "CH-LU-1127",
+   "name": "Egolzwil"
+  },
+  {
+   "code": "CH-LU-1128",
+   "name": "Ettiswil"
+  },
+  {
+   "code": "CH-LU-1129",
+   "name": "Fischbach"
+  },
+  {
+   "code": "CH-LU-1131",
+   "name": "Grossdietwil"
+  },
+  {
+   "code": "CH-LU-1132",
+   "name": "Hergiswil bei Willisau"
+  },
+  {
+   "code": "CH-LU-1135",
+   "name": "Luthern"
+  },
+  {
+   "code": "CH-LU-1136",
+   "name": "Menznau"
+  },
+  {
+   "code": "CH-LU-1137",
+   "name": "Nebikon"
+  },
+  {
+   "code": "CH-LU-1139",
+   "name": "Pfaffnau"
+  },
+  {
+   "code": "CH-LU-1140",
+   "name": "Reiden"
+  },
+  {
+   "code": "CH-LU-1142",
+   "name": "Roggliswil"
+  },
+  {
+   "code": "CH-LU-1143",
+   "name": "Schötz"
+  },
+  {
+   "code": "CH-LU-1145",
+   "name": "Ufhusen"
+  },
+  {
+   "code": "CH-LU-1146",
+   "name": "Wauwil"
+  },
+  {
+   "code": "CH-LU-1147",
+   "name": "Wikon"
+  },
+  {
+   "code": "CH-LU-1150",
+   "name": "Zell (LU)"
+  },
+  {
+   "code": "CH-LU-1151",
+   "name": "Willisau"
+  },
+  {
+   "code": "CH-NE-6404",
+   "name": "Boudry"
+  },
+  {
+   "code": "CH-NE-6408",
+   "name": "Cortaillod"
+  },
+  {
+   "code": "CH-NE-6413",
+   "name": "Rochefort"
+  },
+  {
+   "code": "CH-NE-6416",
+   "name": "Milvignes"
+  },
+  {
+   "code": "CH-NE-6417",
+   "name": "La Grande Béroche"
+  },
+  {
+   "code": "CH-NE-6421",
+   "name": "La Chaux-de-Fonds"
+  },
+  {
+   "code": "CH-NE-6422",
+   "name": "Les Planchettes"
+  },
+  {
+   "code": "CH-NE-6423",
+   "name": "La Sagne"
+  },
+  {
+   "code": "CH-NE-6432",
+   "name": "La Brévine"
+  },
+  {
+   "code": "CH-NE-6433",
+   "name": "Brot-Plamboz"
+  },
+  {
+   "code": "CH-NE-6434",
+   "name": "Le Cerneux-Péquignot"
+  },
+  {
+   "code": "CH-NE-6435",
+   "name": "La Chaux-du-Milieu"
+  },
+  {
+   "code": "CH-NE-6436",
+   "name": "Le Locle"
+  },
+  {
+   "code": "CH-NE-6437",
+   "name": "Les Ponts-de-Martel"
+  },
+  {
+   "code": "CH-NE-6451",
+   "name": "Cornaux"
+  },
+  {
+   "code": "CH-NE-6452",
+   "name": "Cressier (NE)"
+  },
+  {
+   "code": "CH-NE-6455",
+   "name": "Le Landeron"
+  },
+  {
+   "code": "CH-NE-6456",
+   "name": "Lignières"
+  },
+  {
+   "code": "CH-NE-6458",
+   "name": "Neuchâtel"
+  },
+  {
+   "code": "CH-NE-6487",
+   "name": "Val-de-Ruz"
+  },
+  {
+   "code": "CH-NE-6504",
+   "name": "La Côte-aux-Fées"
+  },
+  {
+   "code": "CH-NE-6511",
+   "name": "Les Verrières"
+  },
+  {
+   "code": "CH-NE-6512",
+   "name": "Val-de-Travers"
+  },
+  {
+   "code": "CH-NE-6513",
+   "name": "Laténa"
+  },
+  {
+   "code": "CH-NW-1501",
+   "name": "Beckenried"
+  },
+  {
+   "code": "CH-NW-1502",
+   "name": "Buochs"
+  },
+  {
+   "code": "CH-NW-1503",
+   "name": "Dallenwil"
+  },
+  {
+   "code": "CH-NW-1504",
+   "name": "Emmetten"
+  },
+  {
+   "code": "CH-NW-1505",
+   "name": "Ennetbürgen"
+  },
+  {
+   "code": "CH-NW-1506",
+   "name": "Ennetmoos"
+  },
+  {
+   "code": "CH-NW-1507",
+   "name": "Hergiswil (NW)"
+  },
+  {
+   "code": "CH-NW-1508",
+   "name": "Oberdorf (NW)"
+  },
+  {
+   "code": "CH-NW-1509",
+   "name": "Stans"
+  },
+  {
+   "code": "CH-NW-1510",
+   "name": "Stansstad"
+  },
+  {
+   "code": "CH-NW-1511",
+   "name": "Wolfenschiessen"
+  },
+  {
+   "code": "CH-OW-1401",
+   "name": "Alpnach"
+  },
+  {
+   "code": "CH-OW-1402",
+   "name": "Engelberg"
+  },
+  {
+   "code": "CH-OW-1403",
+   "name": "Giswil"
+  },
+  {
+   "code": "CH-OW-1404",
+   "name": "Kerns"
+  },
+  {
+   "code": "CH-OW-1405",
+   "name": "Lungern"
+  },
+  {
+   "code": "CH-OW-1406",
+   "name": "Sachseln"
+  },
+  {
+   "code": "CH-OW-1407",
+   "name": "Sarnen"
+  },
+  {
+   "code": "CH-SG-3201",
+   "name": "Häggenschwil"
+  },
+  {
+   "code": "CH-SG-3202",
+   "name": "Muolen"
+  },
+  {
+   "code": "CH-SG-3203",
+   "name": "St. Gallen"
+  },
+  {
+   "code": "CH-SG-3204",
+   "name": "Wittenbach"
+  },
+  {
+   "code": "CH-SG-3211",
+   "name": "Berg (SG)"
+  },
+  {
+   "code": "CH-SG-3212",
+   "name": "Eggersriet"
+  },
+  {
+   "code": "CH-SG-3213",
+   "name": "Goldach"
+  },
+  {
+   "code": "CH-SG-3214",
+   "name": "Mörschwil"
+  },
+  {
+   "code": "CH-SG-3215",
+   "name": "Rorschach"
+  },
+  {
+   "code": "CH-SG-3216",
+   "name": "Rorschacherberg"
+  },
+  {
+   "code": "CH-SG-3217",
+   "name": "Steinach"
+  },
+  {
+   "code": "CH-SG-3218",
+   "name": "Tübach"
+  },
+  {
+   "code": "CH-SG-3219",
+   "name": "Untereggen"
+  },
+  {
+   "code": "CH-SG-3231",
+   "name": "Au (SG)"
+  },
+  {
+   "code": "CH-SG-3232",
+   "name": "Balgach"
+  },
+  {
+   "code": "CH-SG-3233",
+   "name": "Berneck"
+  },
+  {
+   "code": "CH-SG-3234",
+   "name": "Diepoldsau"
+  },
+  {
+   "code": "CH-SG-3235",
+   "name": "Rheineck"
+  },
+  {
+   "code": "CH-SG-3236",
+   "name": "St. Margrethen"
+  },
+  {
+   "code": "CH-SG-3237",
+   "name": "Thal"
+  },
+  {
+   "code": "CH-SG-3238",
+   "name": "Widnau"
+  },
+  {
+   "code": "CH-SG-3251",
+   "name": "Altstätten"
+  },
+  {
+   "code": "CH-SG-3252",
+   "name": "Eichberg"
+  },
+  {
+   "code": "CH-SG-3253",
+   "name": "Marbach (SG)"
+  },
+  {
+   "code": "CH-SG-3254",
+   "name": "Oberriet (SG)"
+  },
+  {
+   "code": "CH-SG-3255",
+   "name": "Rebstein"
+  },
+  {
+   "code": "CH-SG-3256",
+   "name": "Rüthi (SG)"
+  },
+  {
+   "code": "CH-SG-3271",
+   "name": "Buchs (SG)"
+  },
+  {
+   "code": "CH-SG-3272",
+   "name": "Gams"
+  },
+  {
+   "code": "CH-SG-3273",
+   "name": "Grabs"
+  },
+  {
+   "code": "CH-SG-3274",
+   "name": "Sennwald"
+  },
+  {
+   "code": "CH-SG-3275",
+   "name": "Sevelen"
+  },
+  {
+   "code": "CH-SG-3276",
+   "name": "Wartau"
+  },
+  {
+   "code": "CH-SG-3291",
+   "name": "Bad Ragaz"
+  },
+  {
+   "code": "CH-SG-3292",
+   "name": "Flums"
+  },
+  {
+   "code": "CH-SG-3293",
+   "name": "Mels"
+  },
+  {
+   "code": "CH-SG-3294",
+   "name": "Pfäfers"
+  },
+  {
+   "code": "CH-SG-3295",
+   "name": "Quarten"
+  },
+  {
+   "code": "CH-SG-3296",
+   "name": "Sargans"
+  },
+  {
+   "code": "CH-SG-3297",
+   "name": "Vilters-Wangs"
+  },
+  {
+   "code": "CH-SG-3298",
+   "name": "Walenstadt"
+  },
+  {
+   "code": "CH-SG-3311",
+   "name": "Amden"
+  },
+  {
+   "code": "CH-SG-3312",
+   "name": "Benken (SG)"
+  },
+  {
+   "code": "CH-SG-3313",
+   "name": "Kaltbrunn"
+  },
+  {
+   "code": "CH-SG-3315",
+   "name": "Schänis"
+  },
+  {
+   "code": "CH-SG-3316",
+   "name": "Weesen"
+  },
+  {
+   "code": "CH-SG-3338",
+   "name": "Schmerikon"
+  },
+  {
+   "code": "CH-SG-3339",
+   "name": "Uznach"
+  },
+  {
+   "code": "CH-SG-3340",
+   "name": "Rapperswil-Jona"
+  },
+  {
+   "code": "CH-SG-3341",
+   "name": "Gommiswald"
+  },
+  {
+   "code": "CH-SG-3342",
+   "name": "Eschenbach (SG)"
+  },
+  {
+   "code": "CH-SG-3352",
+   "name": "Ebnat-Kappel"
+  },
+  {
+   "code": "CH-SG-3359",
+   "name": "Wildhaus-Alt St. Johann"
+  },
+  {
+   "code": "CH-SG-3360",
+   "name": "Nesslau"
+  },
+  {
+   "code": "CH-SG-3374",
+   "name": "Lichtensteig"
+  },
+  {
+   "code": "CH-SG-3379",
+   "name": "Wattwil"
+  },
+  {
+   "code": "CH-SG-3392",
+   "name": "Kirchberg (SG)"
+  },
+  {
+   "code": "CH-SG-3393",
+   "name": "Lütisburg"
+  },
+  {
+   "code": "CH-SG-3394",
+   "name": "Mosnang"
+  },
+  {
+   "code": "CH-SG-3395",
+   "name": "Bütschwil-Ganterschwil"
+  },
+  {
+   "code": "CH-SG-3396",
+   "name": "Neckertal"
+  },
+  {
+   "code": "CH-SG-3401",
+   "name": "Degersheim"
+  },
+  {
+   "code": "CH-SG-3402",
+   "name": "Flawil"
+  },
+  {
+   "code": "CH-SG-3405",
+   "name": "Jonschwil"
+  },
+  {
+   "code": "CH-SG-3407",
+   "name": "Oberuzwil"
+  },
+  {
+   "code": "CH-SG-3408",
+   "name": "Uzwil"
+  },
+  {
+   "code": "CH-SG-3422",
+   "name": "Niederbüren"
+  },
+  {
+   "code": "CH-SG-3423",
+   "name": "Niederhelfenschwil"
+  },
+  {
+   "code": "CH-SG-3424",
+   "name": "Oberbüren"
+  },
+  {
+   "code": "CH-SG-3426",
+   "name": "Zuzwil (SG)"
+  },
+  {
+   "code": "CH-SG-3427",
+   "name": "Wil (SG)"
+  },
+  {
+   "code": "CH-SG-3441",
+   "name": "Andwil (SG)"
+  },
+  {
+   "code": "CH-SG-3442",
+   "name": "Gaiserwald"
+  },
+  {
+   "code": "CH-SG-3443",
+   "name": "Gossau (SG)"
+  },
+  {
+   "code": "CH-SG-3444",
+   "name": "Waldkirch"
+  },
+  {
+   "code": "CH-SH-2901",
+   "name": "Gächlingen"
+  },
+  {
+   "code": "CH-SH-2903",
+   "name": "Löhningen"
+  },
+  {
+   "code": "CH-SH-2904",
+   "name": "Neunkirch"
+  },
+  {
+   "code": "CH-SH-2914",
+   "name": "Büttenhardt"
+  },
+  {
+   "code": "CH-SH-2915",
+   "name": "Dörflingen"
+  },
+  {
+   "code": "CH-SH-2917",
+   "name": "Lohn (SH)"
+  },
+  {
+   "code": "CH-SH-2919",
+   "name": "Stetten (SH)"
+  },
+  {
+   "code": "CH-SH-2920",
+   "name": "Thayngen"
+  },
+  {
+   "code": "CH-SH-2931",
+   "name": "Bargen (SH)"
+  },
+  {
+   "code": "CH-SH-2932",
+   "name": "Beringen"
+  },
+  {
+   "code": "CH-SH-2933",
+   "name": "Buchberg"
+  },
+  {
+   "code": "CH-SH-2936",
+   "name": "Merishausen"
+  },
+  {
+   "code": "CH-SH-2937",
+   "name": "Neuhausen am Rheinfall"
+  },
+  {
+   "code": "CH-SH-2938",
+   "name": "Rüdlingen"
+  },
+  {
+   "code": "CH-SH-2939",
+   "name": "Schaffhausen"
+  },
+  {
+   "code": "CH-SH-2951",
+   "name": "Beggingen"
+  },
+  {
+   "code": "CH-SH-2952",
+   "name": "Schleitheim"
+  },
+  {
+   "code": "CH-SH-2953",
+   "name": "Siblingen"
+  },
+  {
+   "code": "CH-SH-2961",
+   "name": "Buch (SH)"
+  },
+  {
+   "code": "CH-SH-2962",
+   "name": "Hemishofen"
+  },
+  {
+   "code": "CH-SH-2963",
+   "name": "Ramsen"
+  },
+  {
+   "code": "CH-SH-2964",
+   "name": "Stein am Rhein"
+  },
+  {
+   "code": "CH-SH-2971",
+   "name": "Hallau"
+  },
+  {
+   "code": "CH-SH-2972",
+   "name": "Oberhallau"
+  },
+  {
+   "code": "CH-SH-2973",
+   "name": "Trasadingen"
+  },
+  {
+   "code": "CH-SH-2974",
+   "name": "Wilchingen"
+  },
+  {
+   "code": "CH-SO-2401",
+   "name": "Egerkingen"
+  },
+  {
+   "code": "CH-SO-2402",
+   "name": "Härkingen"
+  },
+  {
+   "code": "CH-SO-2403",
+   "name": "Kestenholz"
+  },
+  {
+   "code": "CH-SO-2404",
+   "name": "Neuendorf"
+  },
+  {
+   "code": "CH-SO-2405",
+   "name": "Niederbuchsiten"
+  },
+  {
+   "code": "CH-SO-2406",
+   "name": "Oberbuchsiten"
+  },
+  {
+   "code": "CH-SO-2407",
+   "name": "Oensingen"
+  },
+  {
+   "code": "CH-SO-2408",
+   "name": "Wolfwil"
+  },
+  {
+   "code": "CH-SO-2421",
+   "name": "Aedermannsdorf"
+  },
+  {
+   "code": "CH-SO-2422",
+   "name": "Balsthal"
+  },
+  {
+   "code": "CH-SO-2424",
+   "name": "Herbetswil"
+  },
+  {
+   "code": "CH-SO-2425",
+   "name": "Holderbank (SO)"
+  },
+  {
+   "code": "CH-SO-2426",
+   "name": "Laupersdorf"
+  },
+  {
+   "code": "CH-SO-2427",
+   "name": "Matzendorf"
+  },
+  {
+   "code": "CH-SO-2428",
+   "name": "Mümliswil-Ramiswil"
+  },
+  {
+   "code": "CH-SO-2430",
+   "name": "Welschenrohr-Gänsbrunnen"
+  },
+  {
+   "code": "CH-SO-2445",
+   "name": "Biezwil"
+  },
+  {
+   "code": "CH-SO-2455",
+   "name": "Lüterkofen-Ichertswil"
+  },
+  {
+   "code": "CH-SO-2457",
+   "name": "Messen"
+  },
+  {
+   "code": "CH-SO-2461",
+   "name": "Schnottwil"
+  },
+  {
+   "code": "CH-SO-2463",
+   "name": "Unterramsern"
+  },
+  {
+   "code": "CH-SO-2464",
+   "name": "Lüsslingen-Nennigkofen"
+  },
+  {
+   "code": "CH-SO-2465",
+   "name": "Buchegg"
+  },
+  {
+   "code": "CH-SO-2471",
+   "name": "Bättwil"
+  },
+  {
+   "code": "CH-SO-2472",
+   "name": "Büren (SO)"
+  },
+  {
+   "code": "CH-SO-2473",
+   "name": "Dornach"
+  },
+  {
+   "code": "CH-SO-2474",
+   "name": "Gempen"
+  },
+  {
+   "code": "CH-SO-2475",
+   "name": "Hochwald"
+  },
+  {
+   "code": "CH-SO-2476",
+   "name": "Hofstetten-Flüh"
+  },
+  {
+   "code": "CH-SO-2477",
+   "name": "Metzerlen-Mariastein"
+  },
+  {
+   "code": "CH-SO-2478",
+   "name": "Nuglar-St. Pantaleon"
+  },
+  {
+   "code": "CH-SO-2479",
+   "name": "Rodersdorf"
+  },
+  {
+   "code": "CH-SO-2480",
+   "name": "Seewen"
+  },
+  {
+   "code": "CH-SO-2481",
+   "name": "Witterswil"
+  },
+  {
+   "code": "CH-SO-2491",
+   "name": "Hauenstein-Ifenthal"
+  },
+  {
+   "code": "CH-SO-2492",
+   "name": "Kienberg"
+  },
+  {
+   "code": "CH-SO-2493",
+   "name": "Lostorf"
+  },
+  {
+   "code": "CH-SO-2495",
+   "name": "Niedergösgen"
+  },
+  {
+   "code": "CH-SO-2497",
+   "name": "Obergösgen"
+  },
+  {
+   "code": "CH-SO-2499",
+   "name": "Stüsslingen"
+  },
+  {
+   "code": "CH-SO-2500",
+   "name": "Trimbach"
+  },
+  {
+   "code": "CH-SO-2501",
+   "name": "Winznau"
+  },
+  {
+   "code": "CH-SO-2502",
+   "name": "Wisen (SO)"
+  },
+  {
+   "code": "CH-SO-2503",
+   "name": "Erlinsbach (SO)"
+  },
+  {
+   "code": "CH-SO-2511",
+   "name": "Aeschi (SO)"
+  },
+  {
+   "code": "CH-SO-2513",
+   "name": "Biberist"
+  },
+  {
+   "code": "CH-SO-2514",
+   "name": "Bolken"
+  },
+  {
+   "code": "CH-SO-2516",
+   "name": "Deitingen"
+  },
+  {
+   "code": "CH-SO-2517",
+   "name": "Derendingen"
+  },
+  {
+   "code": "CH-SO-2518",
+   "name": "Etziken"
+  },
+  {
+   "code": "CH-SO-2519",
+   "name": "Gerlafingen"
+  },
+  {
+   "code": "CH-SO-2523",
+   "name": "Horriwil"
+  },
+  {
+   "code": "CH-SO-2524",
+   "name": "Hüniken"
+  },
+  {
+   "code": "CH-SO-2525",
+   "name": "Kriegstetten"
+  },
+  {
+   "code": "CH-SO-2526",
+   "name": "Lohn-Ammannsegg"
+  },
+  {
+   "code": "CH-SO-2527",
+   "name": "Luterbach"
+  },
+  {
+   "code": "CH-SO-2528",
+   "name": "Obergerlafingen"
+  },
+  {
+   "code": "CH-SO-2530",
+   "name": "Recherswil"
+  },
+  {
+   "code": "CH-SO-2532",
+   "name": "Subingen"
+  },
+  {
+   "code": "CH-SO-2534",
+   "name": "Zuchwil"
+  },
+  {
+   "code": "CH-SO-2535",
+   "name": "Drei Höfe"
+  },
+  {
+   "code": "CH-SO-2541",
+   "name": "Balm bei Günsberg"
+  },
+  {
+   "code": "CH-SO-2542",
+   "name": "Bellach"
+  },
+  {
+   "code": "CH-SO-2543",
+   "name": "Bettlach"
+  },
+  {
+   "code": "CH-SO-2544",
+   "name": "Feldbrunnen-St. Niklaus"
+  },
+  {
+   "code": "CH-SO-2545",
+   "name": "Flumenthal"
+  },
+  {
+   "code": "CH-SO-2546",
+   "name": "Grenchen"
+  },
+  {
+   "code": "CH-SO-2547",
+   "name": "Günsberg"
+  },
+  {
+   "code": "CH-SO-2548",
+   "name": "Hubersdorf"
+  },
+  {
+   "code": "CH-SO-2549",
+   "name": "Kammersrohr"
+  },
+  {
+   "code": "CH-SO-2550",
+   "name": "Langendorf"
+  },
+  {
+   "code": "CH-SO-2551",
+   "name": "Lommiswil"
+  },
+  {
+   "code": "CH-SO-2553",
+   "name": "Oberdorf (SO)"
+  },
+  {
+   "code": "CH-SO-2554",
+   "name": "Riedholz"
+  },
+  {
+   "code": "CH-SO-2555",
+   "name": "Rüttenen"
+  },
+  {
+   "code": "CH-SO-2556",
+   "name": "Selzach"
+  },
+  {
+   "code": "CH-SO-2571",
+   "name": "Boningen"
+  },
+  {
+   "code": "CH-SO-2572",
+   "name": "Däniken"
+  },
+  {
+   "code": "CH-SO-2573",
+   "name": "Dulliken"
+  },
+  {
+   "code": "CH-SO-2574",
+   "name": "Eppenberg-Wöschnau"
+  },
+  {
+   "code": "CH-SO-2575",
+   "name": "Fulenbach"
+  },
+  {
+   "code": "CH-SO-2576",
+   "name": "Gretzenbach"
+  },
+  {
+   "code": "CH-SO-2578",
+   "name": "Gunzgen"
+  },
+  {
+   "code": "CH-SO-2579",
+   "name": "Hägendorf"
+  },
+  {
+   "code": "CH-SO-2580",
+   "name": "Kappel (SO)"
+  },
+  {
+   "code": "CH-SO-2581",
+   "name": "Olten"
+  },
+  {
+   "code": "CH-SO-2582",
+   "name": "Rickenbach (SO)"
+  },
+  {
+   "code": "CH-SO-2583",
+   "name": "Schönenwerd"
+  },
+  {
+   "code": "CH-SO-2584",
+   "name": "Starrkirch-Wil"
+  },
+  {
+   "code": "CH-SO-2585",
+   "name": "Walterswil (SO)"
+  },
+  {
+   "code": "CH-SO-2586",
+   "name": "Wangen bei Olten"
+  },
+  {
+   "code": "CH-SO-2601",
+   "name": "Solothurn"
+  },
+  {
+   "code": "CH-SO-2611",
+   "name": "Bärschwil"
+  },
+  {
+   "code": "CH-SO-2612",
+   "name": "Beinwil (SO)"
+  },
+  {
+   "code": "CH-SO-2613",
+   "name": "Breitenbach"
+  },
+  {
+   "code": "CH-SO-2614",
+   "name": "Büsserach"
+  },
+  {
+   "code": "CH-SO-2615",
+   "name": "Erschwil"
+  },
+  {
+   "code": "CH-SO-2616",
+   "name": "Fehren"
+  },
+  {
+   "code": "CH-SO-2617",
+   "name": "Grindel"
+  },
+  {
+   "code": "CH-SO-2618",
+   "name": "Himmelried"
+  },
+  {
+   "code": "CH-SO-2619",
+   "name": "Kleinlützel"
+  },
+  {
+   "code": "CH-SO-2620",
+   "name": "Meltingen"
+  },
+  {
+   "code": "CH-SO-2621",
+   "name": "Nunningen"
+  },
+  {
+   "code": "CH-SO-2622",
+   "name": "Zullwil"
+  },
+  {
+   "code": "CH-SZ-1301",
+   "name": "Einsiedeln"
+  },
+  {
+   "code": "CH-SZ-1311",
+   "name": "Gersau"
+  },
+  {
+   "code": "CH-SZ-1321",
+   "name": "Feusisberg"
+  },
+  {
+   "code": "CH-SZ-1322",
+   "name": "Freienbach"
+  },
+  {
+   "code": "CH-SZ-1323",
+   "name": "Wollerau"
+  },
+  {
+   "code": "CH-SZ-1331",
+   "name": "Küssnacht (SZ)"
+  },
+  {
+   "code": "CH-SZ-1341",
+   "name": "Altendorf"
+  },
+  {
+   "code": "CH-SZ-1342",
+   "name": "Galgenen"
+  },
+  {
+   "code": "CH-SZ-1343",
+   "name": "Innerthal"
+  },
+  {
+   "code": "CH-SZ-1344",
+   "name": "Lachen"
+  },
+  {
+   "code": "CH-SZ-1345",
+   "name": "Reichenburg"
+  },
+  {
+   "code": "CH-SZ-1346",
+   "name": "Schübelbach"
+  },
+  {
+   "code": "CH-SZ-1347",
+   "name": "Tuggen"
+  },
+  {
+   "code": "CH-SZ-1348",
+   "name": "Vorderthal"
+  },
+  {
+   "code": "CH-SZ-1349",
+   "name": "Wangen (SZ)"
+  },
+  {
+   "code": "CH-SZ-1361",
+   "name": "Alpthal"
+  },
+  {
+   "code": "CH-SZ-1362",
+   "name": "Arth"
+  },
+  {
+   "code": "CH-SZ-1363",
+   "name": "Illgau"
+  },
+  {
+   "code": "CH-SZ-1364",
+   "name": "Ingenbohl"
+  },
+  {
+   "code": "CH-SZ-1365",
+   "name": "Lauerz"
+  },
+  {
+   "code": "CH-SZ-1366",
+   "name": "Morschach"
+  },
+  {
+   "code": "CH-SZ-1367",
+   "name": "Muotathal"
+  },
+  {
+   "code": "CH-SZ-1368",
+   "name": "Oberiberg"
+  },
+  {
+   "code": "CH-SZ-1369",
+   "name": "Riemenstalden"
+  },
+  {
+   "code": "CH-SZ-1370",
+   "name": "Rothenthurm"
+  },
+  {
+   "code": "CH-SZ-1371",
+   "name": "Sattel"
+  },
+  {
+   "code": "CH-SZ-1372",
+   "name": "Schwyz"
+  },
+  {
+   "code": "CH-SZ-1373",
+   "name": "Steinen"
+  },
+  {
+   "code": "CH-SZ-1374",
+   "name": "Steinerberg"
+  },
+  {
+   "code": "CH-SZ-1375",
+   "name": "Unteriberg"
+  },
+  {
+   "code": "CH-TG-4401",
+   "name": "Arbon"
+  },
+  {
+   "code": "CH-TG-4406",
+   "name": "Dozwil"
+  },
+  {
+   "code": "CH-TG-4411",
+   "name": "Egnach"
+  },
+  {
+   "code": "CH-TG-4416",
+   "name": "Hefenhofen"
+  },
+  {
+   "code": "CH-TG-4421",
+   "name": "Horn"
+  },
+  {
+   "code": "CH-TG-4426",
+   "name": "Kesswil"
+  },
+  {
+   "code": "CH-TG-4431",
+   "name": "Roggwil (TG)"
+  },
+  {
+   "code": "CH-TG-4436",
+   "name": "Romanshorn"
+  },
+  {
+   "code": "CH-TG-4441",
+   "name": "Salmsach"
+  },
+  {
+   "code": "CH-TG-4446",
+   "name": "Sommeri"
+  },
+  {
+   "code": "CH-TG-4451",
+   "name": "Uttwil"
+  },
+  {
+   "code": "CH-TG-4461",
+   "name": "Amriswil"
+  },
+  {
+   "code": "CH-TG-4471",
+   "name": "Bischofszell"
+  },
+  {
+   "code": "CH-TG-4476",
+   "name": "Erlen"
+  },
+  {
+   "code": "CH-TG-4486",
+   "name": "Hauptwil-Gottshaus"
+  },
+  {
+   "code": "CH-TG-4495",
+   "name": "Hohentannen"
+  },
+  {
+   "code": "CH-TG-4501",
+   "name": "Kradolf-Schönenberg"
+  },
+  {
+   "code": "CH-TG-4506",
+   "name": "Sulgen"
+  },
+  {
+   "code": "CH-TG-4511",
+   "name": "Zihlschlacht-Sitterdorf"
+  },
+  {
+   "code": "CH-TG-4536",
+   "name": "Basadingen-Schlattingen"
+  },
+  {
+   "code": "CH-TG-4545",
+   "name": "Diessenhofen"
+  },
+  {
+   "code": "CH-TG-4546",
+   "name": "Schlatt (TG)"
+  },
+  {
+   "code": "CH-TG-4551",
+   "name": "Aadorf"
+  },
+  {
+   "code": "CH-TG-4561",
+   "name": "Felben-Wellhausen"
+  },
+  {
+   "code": "CH-TG-4566",
+   "name": "Frauenfeld"
+  },
+  {
+   "code": "CH-TG-4571",
+   "name": "Gachnang"
+  },
+  {
+   "code": "CH-TG-4590",
+   "name": "Hüttlingen"
+  },
+  {
+   "code": "CH-TG-4591",
+   "name": "Matzingen"
+  },
+  {
+   "code": "CH-TG-4601",
+   "name": "Neunforn"
+  },
+  {
+   "code": "CH-TG-4606",
+   "name": "Stettfurt"
+  },
+  {
+   "code": "CH-TG-4611",
+   "name": "Thundorf"
+  },
+  {
+   "code": "CH-TG-4616",
+   "name": "Uesslingen-Buch"
+  },
+  {
+   "code": "CH-TG-4621",
+   "name": "Warth-Weiningen"
+  },
+  {
+   "code": "CH-TG-4641",
+   "name": "Altnau"
+  },
+  {
+   "code": "CH-TG-4643",
+   "name": "Bottighofen"
+  },
+  {
+   "code": "CH-TG-4646",
+   "name": "Ermatingen"
+  },
+  {
+   "code": "CH-TG-4651",
+   "name": "Gottlieben"
+  },
+  {
+   "code": "CH-TG-4656",
+   "name": "Güttingen"
+  },
+  {
+   "code": "CH-TG-4666",
+   "name": "Kemmental"
+  },
+  {
+   "code": "CH-TG-4671",
+   "name": "Kreuzlingen"
+  },
+  {
+   "code": "CH-TG-4681",
+   "name": "Langrickenbach"
+  },
+  {
+   "code": "CH-TG-4683",
+   "name": "Lengwil"
+  },
+  {
+   "code": "CH-TG-4691",
+   "name": "Münsterlingen"
+  },
+  {
+   "code": "CH-TG-4696",
+   "name": "Tägerwilen"
+  },
+  {
+   "code": "CH-TG-4701",
+   "name": "Wäldi"
+  },
+  {
+   "code": "CH-TG-4711",
+   "name": "Affeltrangen"
+  },
+  {
+   "code": "CH-TG-4716",
+   "name": "Bettwiesen"
+  },
+  {
+   "code": "CH-TG-4721",
+   "name": "Bichelsee-Balterswil"
+  },
+  {
+   "code": "CH-TG-4723",
+   "name": "Braunau"
+  },
+  {
+   "code": "CH-TG-4724",
+   "name": "Eschlikon"
+  },
+  {
+   "code": "CH-TG-4726",
+   "name": "Fischingen"
+  },
+  {
+   "code": "CH-TG-4741",
+   "name": "Lommis"
+  },
+  {
+   "code": "CH-TG-4746",
+   "name": "Münchwilen (TG)"
+  },
+  {
+   "code": "CH-TG-4751",
+   "name": "Rickenbach (TG)"
+  },
+  {
+   "code": "CH-TG-4756",
+   "name": "Schönholzerswilen"
+  },
+  {
+   "code": "CH-TG-4761",
+   "name": "Sirnach"
+  },
+  {
+   "code": "CH-TG-4776",
+   "name": "Tobel-Tägerschen"
+  },
+  {
+   "code": "CH-TG-4781",
+   "name": "Wängi"
+  },
+  {
+   "code": "CH-TG-4786",
+   "name": "Wilen (TG)"
+  },
+  {
+   "code": "CH-TG-4791",
+   "name": "Wuppenau"
+  },
+  {
+   "code": "CH-TG-4801",
+   "name": "Berlingen"
+  },
+  {
+   "code": "CH-TG-4806",
+   "name": "Eschenz"
+  },
+  {
+   "code": "CH-TG-4811",
+   "name": "Herdern"
+  },
+  {
+   "code": "CH-TG-4816",
+   "name": "Homburg"
+  },
+  {
+   "code": "CH-TG-4821",
+   "name": "Hüttwilen"
+  },
+  {
+   "code": "CH-TG-4826",
+   "name": "Mammern"
+  },
+  {
+   "code": "CH-TG-4831",
+   "name": "Müllheim"
+  },
+  {
+   "code": "CH-TG-4841",
+   "name": "Pfyn"
+  },
+  {
+   "code": "CH-TG-4846",
+   "name": "Raperswilen"
+  },
+  {
+   "code": "CH-TG-4851",
+   "name": "Salenstein"
+  },
+  {
+   "code": "CH-TG-4864",
+   "name": "Steckborn"
+  },
+  {
+   "code": "CH-TG-4871",
+   "name": "Wagenhausen"
+  },
+  {
+   "code": "CH-TG-4881",
+   "name": "Amlikon-Bissegg"
+  },
+  {
+   "code": "CH-TG-4891",
+   "name": "Berg (TG)"
+  },
+  {
+   "code": "CH-TG-4901",
+   "name": "Birwinken"
+  },
+  {
+   "code": "CH-TG-4911",
+   "name": "Bürglen (TG)"
+  },
+  {
+   "code": "CH-TG-4921",
+   "name": "Bussnang"
+  },
+  {
+   "code": "CH-TG-4941",
+   "name": "Märstetten"
+  },
+  {
+   "code": "CH-TG-4946",
+   "name": "Weinfelden"
+  },
+  {
+   "code": "CH-TG-4951",
+   "name": "Wigoltingen"
+  },
+  {
+   "code": "CH-TI-5001",
+   "name": "Arbedo-Castione"
+  },
+  {
+   "code": "CH-TI-5002",
+   "name": "Bellinzona"
+  },
+  {
+   "code": "CH-TI-5003",
+   "name": "Cadenazzo"
+  },
+  {
+   "code": "CH-TI-5009",
+   "name": "Isone"
+  },
+  {
+   "code": "CH-TI-5010",
+   "name": "Lumino"
+  },
+  {
+   "code": "CH-TI-5017",
+   "name": "Sant'Antonino"
+  },
+  {
+   "code": "CH-TI-5048",
+   "name": "Acquarossa"
+  },
+  {
+   "code": "CH-TI-5049",
+   "name": "Blenio"
+  },
+  {
+   "code": "CH-TI-5050",
+   "name": "Serravalle"
+  },
+  {
+   "code": "CH-TI-5061",
+   "name": "Airolo"
+  },
+  {
+   "code": "CH-TI-5063",
+   "name": "Bedretto"
+  },
+  {
+   "code": "CH-TI-5071",
+   "name": "Dalpe"
+  },
+  {
+   "code": "CH-TI-5072",
+   "name": "Faido"
+  },
+  {
+   "code": "CH-TI-5073",
+   "name": "Giornico"
+  },
+  {
+   "code": "CH-TI-5076",
+   "name": "Personico"
+  },
+  {
+   "code": "CH-TI-5077",
+   "name": "Pollegio"
+  },
+  {
+   "code": "CH-TI-5079",
+   "name": "Quinto"
+  },
+  {
+   "code": "CH-TI-5091",
+   "name": "Ascona"
+  },
+  {
+   "code": "CH-TI-5096",
+   "name": "Brione sopra Minusio"
+  },
+  {
+   "code": "CH-TI-5097",
+   "name": "Brissago"
+  },
+  {
+   "code": "CH-TI-5108",
+   "name": "Gordola"
+  },
+  {
+   "code": "CH-TI-5112",
+   "name": "Lavertezzo"
+  },
+  {
+   "code": "CH-TI-5113",
+   "name": "Locarno"
+  },
+  {
+   "code": "CH-TI-5115",
+   "name": "Losone"
+  },
+  {
+   "code": "CH-TI-5117",
+   "name": "Mergoscia"
+  },
+  {
+   "code": "CH-TI-5118",
+   "name": "Minusio"
+  },
+  {
+   "code": "CH-TI-5120",
+   "name": "Muralto"
+  },
+  {
+   "code": "CH-TI-5121",
+   "name": "Orselina"
+  },
+  {
+   "code": "CH-TI-5125",
+   "name": "Ronco sopra Ascona"
+  },
+  {
+   "code": "CH-TI-5131",
+   "name": "Tenero-Contra"
+  },
+  {
+   "code": "CH-TI-5136",
+   "name": "Onsernone"
+  },
+  {
+   "code": "CH-TI-5138",
+   "name": "Cugnasco-Gerra"
+  },
+  {
+   "code": "CH-TI-5141",
+   "name": "Agno"
+  },
+  {
+   "code": "CH-TI-5143",
+   "name": "Aranno"
+  },
+  {
+   "code": "CH-TI-5144",
+   "name": "Arogno"
+  },
+  {
+   "code": "CH-TI-5148",
+   "name": "Bedano"
+  },
+  {
+   "code": "CH-TI-5151",
+   "name": "Bioggio"
+  },
+  {
+   "code": "CH-TI-5154",
+   "name": "Bissone"
+  },
+  {
+   "code": "CH-TI-5160",
+   "name": "Brusino Arsizio"
+  },
+  {
+   "code": "CH-TI-5161",
+   "name": "Cademario"
+  },
+  {
+   "code": "CH-TI-5162",
+   "name": "Cadempino"
+  },
+  {
+   "code": "CH-TI-5167",
+   "name": "Canobbio"
+  },
+  {
+   "code": "CH-TI-5171",
+   "name": "Caslano"
+  },
+  {
+   "code": "CH-TI-5176",
+   "name": "Comano"
+  },
+  {
+   "code": "CH-TI-5180",
+   "name": "Cureglia"
+  },
+  {
+   "code": "CH-TI-5186",
+   "name": "Grancia"
+  },
+  {
+   "code": "CH-TI-5187",
+   "name": "Gravesano"
+  },
+  {
+   "code": "CH-TI-5189",
+   "name": "Lamone"
+  },
+  {
+   "code": "CH-TI-5192",
+   "name": "Lugano"
+  },
+  {
+   "code": "CH-TI-5193",
+   "name": "Magliaso"
+  },
+  {
+   "code": "CH-TI-5194",
+   "name": "Manno"
+  },
+  {
+   "code": "CH-TI-5196",
+   "name": "Massagno"
+  },
+  {
+   "code": "CH-TI-5198",
+   "name": "Melide"
+  },
+  {
+   "code": "CH-TI-5199",
+   "name": "Mezzovico-Vira"
+  },
+  {
+   "code": "CH-TI-5203",
+   "name": "Morcote"
+  },
+  {
+   "code": "CH-TI-5205",
+   "name": "Muzzano"
+  },
+  {
+   "code": "CH-TI-5206",
+   "name": "Neggio"
+  },
+  {
+   "code": "CH-TI-5208",
+   "name": "Origlio"
+  },
+  {
+   "code": "CH-TI-5210",
+   "name": "Paradiso"
+  },
+  {
+   "code": "CH-TI-5212",
+   "name": "Ponte Capriasca"
+  },
+  {
+   "code": "CH-TI-5214",
+   "name": "Porza"
+  },
+  {
+   "code": "CH-TI-5216",
+   "name": "Pura"
+  },
+  {
+   "code": "CH-TI-5221",
+   "name": "Savosa"
+  },
+  {
+   "code": "CH-TI-5225",
+   "name": "Sorengo"
+  },
+  {
+   "code": "CH-TI-5226",
+   "name": "Capriasca"
+  },
+  {
+   "code": "CH-TI-5227",
+   "name": "Torricella-Taverne"
+  },
+  {
+   "code": "CH-TI-5230",
+   "name": "Vernate"
+  },
+  {
+   "code": "CH-TI-5231",
+   "name": "Vezia"
+  },
+  {
+   "code": "CH-TI-5233",
+   "name": "Vico Morcote"
+  },
+  {
+   "code": "CH-TI-5236",
+   "name": "Collina d'Oro"
+  },
+  {
+   "code": "CH-TI-5237",
+   "name": "Alto Malcantone"
+  },
+  {
+   "code": "CH-TI-5238",
+   "name": "Monteceneri"
+  },
+  {
+   "code": "CH-TI-5239",
+   "name": "Tresa"
+  },
+  {
+   "code": "CH-TI-5240",
+   "name": "Val Mara"
+  },
+  {
+   "code": "CH-TI-5242",
+   "name": "Balerna"
+  },
+  {
+   "code": "CH-TI-5249",
+   "name": "Castel San Pietro"
+  },
+  {
+   "code": "CH-TI-5250",
+   "name": "Chiasso"
+  },
+  {
+   "code": "CH-TI-5251",
+   "name": "Coldrerio"
+  },
+  {
+   "code": "CH-TI-5254",
+   "name": "Mendrisio"
+  },
+  {
+   "code": "CH-TI-5257",
+   "name": "Morbio Inferiore"
+  },
+  {
+   "code": "CH-TI-5260",
+   "name": "Novazzano"
+  },
+  {
+   "code": "CH-TI-5263",
+   "name": "Riva San Vitale"
+  },
+  {
+   "code": "CH-TI-5266",
+   "name": "Stabio"
+  },
+  {
+   "code": "CH-TI-5268",
+   "name": "Vacallo"
+  },
+  {
+   "code": "CH-TI-5269",
+   "name": "Breggia"
+  },
+  {
+   "code": "CH-TI-5281",
+   "name": "Biasca"
+  },
+  {
+   "code": "CH-TI-5287",
+   "name": "Riviera"
+  },
+  {
+   "code": "CH-TI-5304",
+   "name": "Bosco/Gurin"
+  },
+  {
+   "code": "CH-TI-5307",
+   "name": "Campo (Vallemaggia)"
+  },
+  {
+   "code": "CH-TI-5309",
+   "name": "Cerentino"
+  },
+  {
+   "code": "CH-TI-5310",
+   "name": "Cevio"
+  },
+  {
+   "code": "CH-TI-5315",
+   "name": "Linescio"
+  },
+  {
+   "code": "CH-TI-5317",
+   "name": "Maggia"
+  },
+  {
+   "code": "CH-TI-5323",
+   "name": "Lavizzara"
+  },
+  {
+   "code": "CH-TI-5324",
+   "name": "Avegno Gordevio"
+  },
+  {
+   "code": "CH-TI-5395",
+   "name": "Lema"
+  },
+  {
+   "code": "CH-TI-5396",
+   "name": "Terre di Pedemonte"
+  },
+  {
+   "code": "CH-TI-5397",
+   "name": "Centovalli"
+  },
+  {
+   "code": "CH-TI-5398",
+   "name": "Gambarogno"
+  },
+  {
+   "code": "CH-TI-5399",
+   "name": "Verzasca"
+  },
+  {
+   "code": "CH-UR-1201",
+   "name": "Altdorf (UR)"
+  },
+  {
+   "code": "CH-UR-1202",
+   "name": "Andermatt"
+  },
+  {
+   "code": "CH-UR-1203",
+   "name": "Attinghausen"
+  },
+  {
+   "code": "CH-UR-1205",
+   "name": "Bürglen (UR)"
+  },
+  {
+   "code": "CH-UR-1206",
+   "name": "Erstfeld"
+  },
+  {
+   "code": "CH-UR-1207",
+   "name": "Flüelen"
+  },
+  {
+   "code": "CH-UR-1208",
+   "name": "Göschenen"
+  },
+  {
+   "code": "CH-UR-1209",
+   "name": "Gurtnellen"
+  },
+  {
+   "code": "CH-UR-1210",
+   "name": "Hospental"
+  },
+  {
+   "code": "CH-UR-1211",
+   "name": "Isenthal"
+  },
+  {
+   "code": "CH-UR-1212",
+   "name": "Realp"
+  },
+  {
+   "code": "CH-UR-1213",
+   "name": "Schattdorf"
+  },
+  {
+   "code": "CH-UR-1214",
+   "name": "Seedorf (UR)"
+  },
+  {
+   "code": "CH-UR-1215",
+   "name": "Seelisberg"
+  },
+  {
+   "code": "CH-UR-1216",
+   "name": "Silenen"
+  },
+  {
+   "code": "CH-UR-1217",
+   "name": "Sisikon"
+  },
+  {
+   "code": "CH-UR-1218",
+   "name": "Spiringen"
+  },
+  {
+   "code": "CH-UR-1219",
+   "name": "Unterschächen"
+  },
+  {
+   "code": "CH-UR-1220",
+   "name": "Wassen"
+  },
+  {
+   "code": "CH-VD-5401",
+   "name": "Aigle"
+  },
+  {
+   "code": "CH-VD-5402",
+   "name": "Bex"
+  },
+  {
+   "code": "CH-VD-5403",
+   "name": "Chessel"
+  },
+  {
+   "code": "CH-VD-5404",
+   "name": "Corbeyrier"
+  },
+  {
+   "code": "CH-VD-5405",
+   "name": "Gryon"
+  },
+  {
+   "code": "CH-VD-5406",
+   "name": "Lavey-Morcles"
+  },
+  {
+   "code": "CH-VD-5407",
+   "name": "Leysin"
+  },
+  {
+   "code": "CH-VD-5408",
+   "name": "Noville"
+  },
+  {
+   "code": "CH-VD-5409",
+   "name": "Ollon"
+  },
+  {
+   "code": "CH-VD-5410",
+   "name": "Ormont-Dessous"
+  },
+  {
+   "code": "CH-VD-5411",
+   "name": "Ormont-Dessus"
+  },
+  {
+   "code": "CH-VD-5412",
+   "name": "Rennaz"
+  },
+  {
+   "code": "CH-VD-5413",
+   "name": "Roche (VD)"
+  },
+  {
+   "code": "CH-VD-5414",
+   "name": "Villeneuve (VD)"
+  },
+  {
+   "code": "CH-VD-5415",
+   "name": "Yvorne"
+  },
+  {
+   "code": "CH-VD-5422",
+   "name": "Aubonne"
+  },
+  {
+   "code": "CH-VD-5423",
+   "name": "Ballens"
+  },
+  {
+   "code": "CH-VD-5424",
+   "name": "Berolle"
+  },
+  {
+   "code": "CH-VD-5425",
+   "name": "Bière"
+  },
+  {
+   "code": "CH-VD-5426",
+   "name": "Bougy-Villars"
+  },
+  {
+   "code": "CH-VD-5427",
+   "name": "Féchy"
+  },
+  {
+   "code": "CH-VD-5428",
+   "name": "Gimel"
+  },
+  {
+   "code": "CH-VD-5429",
+   "name": "Longirod"
+  },
+  {
+   "code": "CH-VD-5430",
+   "name": "Marchissy"
+  },
+  {
+   "code": "CH-VD-5431",
+   "name": "Mollens (VD)"
+  },
+  {
+   "code": "CH-VD-5434",
+   "name": "Saint-George"
+  },
+  {
+   "code": "CH-VD-5435",
+   "name": "Saint-Livres"
+  },
+  {
+   "code": "CH-VD-5436",
+   "name": "Saint-Oyens"
+  },
+  {
+   "code": "CH-VD-5437",
+   "name": "Saubraz"
+  },
+  {
+   "code": "CH-VD-5451",
+   "name": "Avenches"
+  },
+  {
+   "code": "CH-VD-5456",
+   "name": "Cudrefin"
+  },
+  {
+   "code": "CH-VD-5458",
+   "name": "Faoug"
+  },
+  {
+   "code": "CH-VD-5464",
+   "name": "Vully-les-Lacs"
+  },
+  {
+   "code": "CH-VD-5471",
+   "name": "Bettens"
+  },
+  {
+   "code": "CH-VD-5472",
+   "name": "Bournens"
+  },
+  {
+   "code": "CH-VD-5473",
+   "name": "Boussens"
+  },
+  {
+   "code": "CH-VD-5474",
+   "name": "La Chaux (Cossonay)"
+  },
+  {
+   "code": "CH-VD-5475",
+   "name": "Chavannes-le-Veyron"
+  },
+  {
+   "code": "CH-VD-5476",
+   "name": "Chevilly"
+  },
+  {
+   "code": "CH-VD-5477",
+   "name": "Cossonay"
+  },
+  {
+   "code": "CH-VD-5479",
+   "name": "Cuarnens"
+  },
+  {
+   "code": "CH-VD-5480",
+   "name": "Daillens"
+  },
+  {
+   "code": "CH-VD-5481",
+   "name": "Dizy"
+  },
+  {
+   "code": "CH-VD-5482",
+   "name": "Eclépens"
+  },
+  {
+   "code": "CH-VD-5483",
+   "name": "Ferreyres"
+  },
+  {
+   "code": "CH-VD-5484",
+   "name": "Gollion"
+  },
+  {
+   "code": "CH-VD-5485",
+   "name": "Grancy"
+  },
+  {
+   "code": "CH-VD-5486",
+   "name": "L'Isle"
+  },
+  {
+   "code": "CH-VD-5487",
+   "name": "Lussery-Villars"
+  },
+  {
+   "code": "CH-VD-5488",
+   "name": "Mauraz"
+  },
+  {
+   "code": "CH-VD-5489",
+   "name": "Mex (VD)"
+  },
+  {
+   "code": "CH-VD-5490",
+   "name": "Moiry"
+  },
+  {
+   "code": "CH-VD-5491",
+   "name": "Mont-la-Ville"
+  },
+  {
+   "code": "CH-VD-5492",
+   "name": "Montricher"
+  },
+  {
+   "code": "CH-VD-5493",
+   "name": "Orny"
+  },
+  {
+   "code": "CH-VD-5495",
+   "name": "Penthalaz"
+  },
+  {
+   "code": "CH-VD-5496",
+   "name": "Penthaz"
+  },
+  {
+   "code": "CH-VD-5497",
+   "name": "Pompaples"
+  },
+  {
+   "code": "CH-VD-5498",
+   "name": "La Sarraz"
+  },
+  {
+   "code": "CH-VD-5499",
+   "name": "Senarclens"
+  },
+  {
+   "code": "CH-VD-5501",
+   "name": "Sullens"
+  },
+  {
+   "code": "CH-VD-5503",
+   "name": "Vufflens-la-Ville"
+  },
+  {
+   "code": "CH-VD-5511",
+   "name": "Assens"
+  },
+  {
+   "code": "CH-VD-5512",
+   "name": "Bercher"
+  },
+  {
+   "code": "CH-VD-5514",
+   "name": "Bottens"
+  },
+  {
+   "code": "CH-VD-5515",
+   "name": "Bretigny-sur-Morrens"
+  },
+  {
+   "code": "CH-VD-5516",
+   "name": "Cugy (VD)"
+  },
+  {
+   "code": "CH-VD-5518",
+   "name": "Echallens"
+  },
+  {
+   "code": "CH-VD-5520",
+   "name": "Essertines-sur-Yverdon"
+  },
+  {
+   "code": "CH-VD-5521",
+   "name": "Etagnières"
+  },
+  {
+   "code": "CH-VD-5522",
+   "name": "Fey"
+  },
+  {
+   "code": "CH-VD-5523",
+   "name": "Froideville"
+  },
+  {
+   "code": "CH-VD-5527",
+   "name": "Morrens (VD)"
+  },
+  {
+   "code": "CH-VD-5529",
+   "name": "Oulens-sous-Echallens"
+  },
+  {
+   "code": "CH-VD-5530",
+   "name": "Pailly"
+  },
+  {
+   "code": "CH-VD-5531",
+   "name": "Penthéréaz"
+  },
+  {
+   "code": "CH-VD-5533",
+   "name": "Poliez-Pittet"
+  },
+  {
+   "code": "CH-VD-5534",
+   "name": "Rueyres"
+  },
+  {
+   "code": "CH-VD-5535",
+   "name": "Saint-Barthélemy (VD)"
+  },
+  {
+   "code": "CH-VD-5537",
+   "name": "Villars-le-Terroir"
+  },
+  {
+   "code": "CH-VD-5539",
+   "name": "Vuarrens"
+  },
+  {
+   "code": "CH-VD-5540",
+   "name": "Montilliez"
+  },
+  {
+   "code": "CH-VD-5541",
+   "name": "Goumoëns"
+  },
+  {
+   "code": "CH-VD-5551",
+   "name": "Bonvillars"
+  },
+  {
+   "code": "CH-VD-5552",
+   "name": "Bullet"
+  },
+  {
+   "code": "CH-VD-5553",
+   "name": "Champagne"
+  },
+  {
+   "code": "CH-VD-5554",
+   "name": "Concise"
+  },
+  {
+   "code": "CH-VD-5555",
+   "name": "Corcelles-près-Concise"
+  },
+  {
+   "code": "CH-VD-5556",
+   "name": "Fiez"
+  },
+  {
+   "code": "CH-VD-5557",
+   "name": "Fontaines-sur-Grandson"
+  },
+  {
+   "code": "CH-VD-5559",
+   "name": "Giez"
+  },
+  {
+   "code": "CH-VD-5560",
+   "name": "Grandevent"
+  },
+  {
+   "code": "CH-VD-5561",
+   "name": "Grandson"
+  },
+  {
+   "code": "CH-VD-5562",
+   "name": "Mauborget"
+  },
+  {
+   "code": "CH-VD-5563",
+   "name": "Mutrux"
+  },
+  {
+   "code": "CH-VD-5564",
+   "name": "Novalles"
+  },
+  {
+   "code": "CH-VD-5565",
+   "name": "Onnens (VD)"
+  },
+  {
+   "code": "CH-VD-5566",
+   "name": "Provence"
+  },
+  {
+   "code": "CH-VD-5568",
+   "name": "Sainte-Croix"
+  },
+  {
+   "code": "CH-VD-5571",
+   "name": "Tévenon"
+  },
+  {
+   "code": "CH-VD-5581",
+   "name": "Belmont-sur-Lausanne"
+  },
+  {
+   "code": "CH-VD-5582",
+   "name": "Cheseaux-sur-Lausanne"
+  },
+  {
+   "code": "CH-VD-5583",
+   "name": "Crissier"
+  },
+  {
+   "code": "CH-VD-5584",
+   "name": "Epalinges"
+  },
+  {
+   "code": "CH-VD-5585",
+   "name": "Jouxtens-Mézery"
+  },
+  {
+   "code": "CH-VD-5586",
+   "name": "Lausanne"
+  },
+  {
+   "code": "CH-VD-5587",
+   "name": "Le Mont-sur-Lausanne"
+  },
+  {
+   "code": "CH-VD-5588",
+   "name": "Paudex"
+  },
+  {
+   "code": "CH-VD-5589",
+   "name": "Prilly"
+  },
+  {
+   "code": "CH-VD-5590",
+   "name": "Pully"
+  },
+  {
+   "code": "CH-VD-5591",
+   "name": "Renens (VD)"
+  },
+  {
+   "code": "CH-VD-5592",
+   "name": "Romanel-sur-Lausanne"
+  },
+  {
+   "code": "CH-VD-5601",
+   "name": "Chexbres"
+  },
+  {
+   "code": "CH-VD-5604",
+   "name": "Forel (Lavaux)"
+  },
+  {
+   "code": "CH-VD-5606",
+   "name": "Lutry"
+  },
+  {
+   "code": "CH-VD-5607",
+   "name": "Puidoux"
+  },
+  {
+   "code": "CH-VD-5609",
+   "name": "Rivaz"
+  },
+  {
+   "code": "CH-VD-5610",
+   "name": "Saint-Saphorin (Lavaux)"
+  },
+  {
+   "code": "CH-VD-5611",
+   "name": "Savigny"
+  },
+  {
+   "code": "CH-VD-5613",
+   "name": "Bourg-en-Lavaux"
+  },
+  {
+   "code": "CH-VD-5621",
+   "name": "Aclens"
+  },
+  {
+   "code": "CH-VD-5622",
+   "name": "Bremblens"
+  },
+  {
+   "code": "CH-VD-5623",
+   "name": "Buchillon"
+  },
+  {
+   "code": "CH-VD-5624",
+   "name": "Bussigny"
+  },
+  {
+   "code": "CH-VD-5627",
+   "name": "Chavannes-près-Renens"
+  },
+  {
+   "code": "CH-VD-5628",
+   "name": "Chigny"
+  },
+  {
+   "code": "CH-VD-5629",
+   "name": "Clarmont"
+  },
+  {
+   "code": "CH-VD-5631",
+   "name": "Denens"
+  },
+  {
+   "code": "CH-VD-5632",
+   "name": "Denges"
+  },
+  {
+   "code": "CH-VD-5633",
+   "name": "Echandens"
+  },
+  {
+   "code": "CH-VD-5634",
+   "name": "Echichens"
+  },
+  {
+   "code": "CH-VD-5635",
+   "name": "Ecublens (VD)"
+  },
+  {
+   "code": "CH-VD-5636",
+   "name": "Etoy"
+  },
+  {
+   "code": "CH-VD-5637",
+   "name": "Lavigny"
+  },
+  {
+   "code": "CH-VD-5638",
+   "name": "Lonay"
+  },
+  {
+   "code": "CH-VD-5639",
+   "name": "Lully (VD)"
+  },
+  {
+   "code": "CH-VD-5640",
+   "name": "Lussy-sur-Morges"
+  },
+  {
+   "code": "CH-VD-5642",
+   "name": "Morges"
+  },
+  {
+   "code": "CH-VD-5643",
+   "name": "Préverenges"
+  },
+  {
+   "code": "CH-VD-5645",
+   "name": "Romanel-sur-Morges"
+  },
+  {
+   "code": "CH-VD-5646",
+   "name": "Saint-Prex"
+  },
+  {
+   "code": "CH-VD-5648",
+   "name": "Saint-Sulpice (VD)"
+  },
+  {
+   "code": "CH-VD-5649",
+   "name": "Tolochenaz"
+  },
+  {
+   "code": "CH-VD-5650",
+   "name": "Vaux-sur-Morges"
+  },
+  {
+   "code": "CH-VD-5651",
+   "name": "Villars-Sainte-Croix"
+  },
+  {
+   "code": "CH-VD-5652",
+   "name": "Villars-sous-Yens"
+  },
+  {
+   "code": "CH-VD-5653",
+   "name": "Vufflens-le-Château"
+  },
+  {
+   "code": "CH-VD-5654",
+   "name": "Vullierens"
+  },
+  {
+   "code": "CH-VD-5655",
+   "name": "Yens"
+  },
+  {
+   "code": "CH-VD-5656",
+   "name": "Hautemorges"
+  },
+  {
+   "code": "CH-VD-5661",
+   "name": "Boulens"
+  },
+  {
+   "code": "CH-VD-5663",
+   "name": "Bussy-sur-Moudon"
+  },
+  {
+   "code": "CH-VD-5665",
+   "name": "Chavannes-sur-Moudon"
+  },
+  {
+   "code": "CH-VD-5669",
+   "name": "Curtilles"
+  },
+  {
+   "code": "CH-VD-5671",
+   "name": "Dompierre (VD)"
+  },
+  {
+   "code": "CH-VD-5673",
+   "name": "Hermenches"
+  },
+  {
+   "code": "CH-VD-5674",
+   "name": "Lovatens"
+  },
+  {
+   "code": "CH-VD-5675",
+   "name": "Lucens"
+  },
+  {
+   "code": "CH-VD-5678",
+   "name": "Moudon"
+  },
+  {
+   "code": "CH-VD-5680",
+   "name": "Ogens"
+  },
+  {
+   "code": "CH-VD-5683",
+   "name": "Prévonloup"
+  },
+  {
+   "code": "CH-VD-5684",
+   "name": "Rossenges"
+  },
+  {
+   "code": "CH-VD-5688",
+   "name": "Syens"
+  },
+  {
+   "code": "CH-VD-5690",
+   "name": "Villars-le-Comte"
+  },
+  {
+   "code": "CH-VD-5692",
+   "name": "Vucherens"
+  },
+  {
+   "code": "CH-VD-5693",
+   "name": "Montanaire"
+  },
+  {
+   "code": "CH-VD-5701",
+   "name": "Arnex-sur-Nyon"
+  },
+  {
+   "code": "CH-VD-5702",
+   "name": "Arzier-Le Muids"
+  },
+  {
+   "code": "CH-VD-5703",
+   "name": "Bassins"
+  },
+  {
+   "code": "CH-VD-5704",
+   "name": "Begnins"
+  },
+  {
+   "code": "CH-VD-5705",
+   "name": "Bogis-Bossey"
+  },
+  {
+   "code": "CH-VD-5706",
+   "name": "Borex"
+  },
+  {
+   "code": "CH-VD-5707",
+   "name": "Chavannes-de-Bogis"
+  },
+  {
+   "code": "CH-VD-5708",
+   "name": "Chavannes-des-Bois"
+  },
+  {
+   "code": "CH-VD-5709",
+   "name": "Chéserex"
+  },
+  {
+   "code": "CH-VD-5710",
+   "name": "Coinsins"
+  },
+  {
+   "code": "CH-VD-5711",
+   "name": "Commugny"
+  },
+  {
+   "code": "CH-VD-5712",
+   "name": "Coppet"
+  },
+  {
+   "code": "CH-VD-5713",
+   "name": "Crans (VD)"
+  },
+  {
+   "code": "CH-VD-5714",
+   "name": "Crassier"
+  },
+  {
+   "code": "CH-VD-5715",
+   "name": "Duillier"
+  },
+  {
+   "code": "CH-VD-5716",
+   "name": "Eysins"
+  },
+  {
+   "code": "CH-VD-5717",
+   "name": "Founex"
+  },
+  {
+   "code": "CH-VD-5718",
+   "name": "Genolier"
+  },
+  {
+   "code": "CH-VD-5719",
+   "name": "Gingins"
+  },
+  {
+   "code": "CH-VD-5720",
+   "name": "Givrins"
+  },
+  {
+   "code": "CH-VD-5721",
+   "name": "Gland"
+  },
+  {
+   "code": "CH-VD-5722",
+   "name": "Grens"
+  },
+  {
+   "code": "CH-VD-5723",
+   "name": "Mies"
+  },
+  {
+   "code": "CH-VD-5724",
+   "name": "Nyon"
+  },
+  {
+   "code": "CH-VD-5725",
+   "name": "Prangins"
+  },
+  {
+   "code": "CH-VD-5726",
+   "name": "La Rippe"
+  },
+  {
+   "code": "CH-VD-5727",
+   "name": "Saint-Cergue"
+  },
+  {
+   "code": "CH-VD-5728",
+   "name": "Signy-Avenex"
+  },
+  {
+   "code": "CH-VD-5729",
+   "name": "Tannay"
+  },
+  {
+   "code": "CH-VD-5730",
+   "name": "Trélex"
+  },
+  {
+   "code": "CH-VD-5731",
+   "name": "Le Vaud"
+  },
+  {
+   "code": "CH-VD-5732",
+   "name": "Vich"
+  },
+  {
+   "code": "CH-VD-5741",
+   "name": "L'Abergement"
+  },
+  {
+   "code": "CH-VD-5742",
+   "name": "Agiez"
+  },
+  {
+   "code": "CH-VD-5743",
+   "name": "Arnex-sur-Orbe"
+  },
+  {
+   "code": "CH-VD-5744",
+   "name": "Ballaigues"
+  },
+  {
+   "code": "CH-VD-5745",
+   "name": "Baulmes"
+  },
+  {
+   "code": "CH-VD-5746",
+   "name": "Bavois"
+  },
+  {
+   "code": "CH-VD-5747",
+   "name": "Bofflens"
+  },
+  {
+   "code": "CH-VD-5748",
+   "name": "Bretonnières"
+  },
+  {
+   "code": "CH-VD-5749",
+   "name": "Chavornay"
+  },
+  {
+   "code": "CH-VD-5750",
+   "name": "Les Clées"
+  },
+  {
+   "code": "CH-VD-5752",
+   "name": "Croy"
+  },
+  {
+   "code": "CH-VD-5754",
+   "name": "Juriens"
+  },
+  {
+   "code": "CH-VD-5755",
+   "name": "Lignerolle"
+  },
+  {
+   "code": "CH-VD-5756",
+   "name": "Montcherand"
+  },
+  {
+   "code": "CH-VD-5757",
+   "name": "Orbe"
+  },
+  {
+   "code": "CH-VD-5758",
+   "name": "La Praz"
+  },
+  {
+   "code": "CH-VD-5759",
+   "name": "Premier"
+  },
+  {
+   "code": "CH-VD-5760",
+   "name": "Rances"
+  },
+  {
+   "code": "CH-VD-5761",
+   "name": "Romainmôtier-Envy"
+  },
+  {
+   "code": "CH-VD-5762",
+   "name": "Sergey"
+  },
+  {
+   "code": "CH-VD-5763",
+   "name": "Valeyres-sous-Rances"
+  },
+  {
+   "code": "CH-VD-5764",
+   "name": "Vallorbe"
+  },
+  {
+   "code": "CH-VD-5765",
+   "name": "Vaulion"
+  },
+  {
+   "code": "CH-VD-5766",
+   "name": "Vuiteboeuf"
+  },
+  {
+   "code": "CH-VD-5785",
+   "name": "Corcelles-le-Jorat"
+  },
+  {
+   "code": "CH-VD-5790",
+   "name": "Maracon"
+  },
+  {
+   "code": "CH-VD-5792",
+   "name": "Montpreveyres"
+  },
+  {
+   "code": "CH-VD-5798",
+   "name": "Ropraz"
+  },
+  {
+   "code": "CH-VD-5799",
+   "name": "Servion"
+  },
+  {
+   "code": "CH-VD-5803",
+   "name": "Vulliens"
+  },
+  {
+   "code": "CH-VD-5804",
+   "name": "Jorat-Menthue"
+  },
+  {
+   "code": "CH-VD-5805",
+   "name": "Oron"
+  },
+  {
+   "code": "CH-VD-5806",
+   "name": "Jorat-Mézières"
+  },
+  {
+   "code": "CH-VD-5812",
+   "name": "Champtauroz"
+  },
+  {
+   "code": "CH-VD-5813",
+   "name": "Chevroux"
+  },
+  {
+   "code": "CH-VD-5816",
+   "name": "Corcelles-près-Payerne"
+  },
+  {
+   "code": "CH-VD-5817",
+   "name": "Grandcour"
+  },
+  {
+   "code": "CH-VD-5819",
+   "name": "Henniez"
+  },
+  {
+   "code": "CH-VD-5821",
+   "name": "Missy"
+  },
+  {
+   "code": "CH-VD-5822",
+   "name": "Payerne"
+  },
+  {
+   "code": "CH-VD-5827",
+   "name": "Trey"
+  },
+  {
+   "code": "CH-VD-5828",
+   "name": "Treytorrens (Payerne)"
+  },
+  {
+   "code": "CH-VD-5830",
+   "name": "Villarzel"
+  },
+  {
+   "code": "CH-VD-5831",
+   "name": "Valbroye"
+  },
+  {
+   "code": "CH-VD-5841",
+   "name": "Château-d'Oex"
+  },
+  {
+   "code": "CH-VD-5842",
+   "name": "Rossinière"
+  },
+  {
+   "code": "CH-VD-5843",
+   "name": "Rougemont"
+  },
+  {
+   "code": "CH-VD-5851",
+   "name": "Allaman"
+  },
+  {
+   "code": "CH-VD-5852",
+   "name": "Bursinel"
+  },
+  {
+   "code": "CH-VD-5853",
+   "name": "Bursins"
+  },
+  {
+   "code": "CH-VD-5854",
+   "name": "Burtigny"
+  },
+  {
+   "code": "CH-VD-5855",
+   "name": "Dully"
+  },
+  {
+   "code": "CH-VD-5856",
+   "name": "Essertines-sur-Rolle"
+  },
+  {
+   "code": "CH-VD-5857",
+   "name": "Gilly"
+  },
+  {
+   "code": "CH-VD-5858",
+   "name": "Luins"
+  },
+  {
+   "code": "CH-VD-5859",
+   "name": "Mont-sur-Rolle"
+  },
+  {
+   "code": "CH-VD-5860",
+   "name": "Perroy"
+  },
+  {
+   "code": "CH-VD-5861",
+   "name": "Rolle"
+  },
+  {
+   "code": "CH-VD-5862",
+   "name": "Tartegnin"
+  },
+  {
+   "code": "CH-VD-5863",
+   "name": "Vinzel"
+  },
+  {
+   "code": "CH-VD-5871",
+   "name": "L'Abbaye"
+  },
+  {
+   "code": "CH-VD-5872",
+   "name": "Le Chenit"
+  },
+  {
+   "code": "CH-VD-5873",
+   "name": "Le Lieu"
+  },
+  {
+   "code": "CH-VD-5882",
+   "name": "Chardonne"
+  },
+  {
+   "code": "CH-VD-5883",
+   "name": "Corseaux"
+  },
+  {
+   "code": "CH-VD-5884",
+   "name": "Corsier-sur-Vevey"
+  },
+  {
+   "code": "CH-VD-5885",
+   "name": "Jongny"
+  },
+  {
+   "code": "CH-VD-5886",
+   "name": "Montreux"
+  },
+  {
+   "code": "CH-VD-5889",
+   "name": "La Tour-de-Peilz"
+  },
+  {
+   "code": "CH-VD-5890",
+   "name": "Vevey"
+  },
+  {
+   "code": "CH-VD-5891",
+   "name": "Veytaux"
+  },
+  {
+   "code": "CH-VD-5892",
+   "name": "Blonay - Saint-Légier"
+  },
+  {
+   "code": "CH-VD-5902",
+   "name": "Belmont-sur-Yverdon"
+  },
+  {
+   "code": "CH-VD-5903",
+   "name": "Bioley-Magnoux"
+  },
+  {
+   "code": "CH-VD-5904",
+   "name": "Chamblon"
+  },
+  {
+   "code": "CH-VD-5905",
+   "name": "Champvent"
+  },
+  {
+   "code": "CH-VD-5907",
+   "name": "Chavannes-le-Chêne"
+  },
+  {
+   "code": "CH-VD-5908",
+   "name": "Chêne-Pâquier"
+  },
+  {
+   "code": "CH-VD-5909",
+   "name": "Cheseaux-Noréaz"
+  },
+  {
+   "code": "CH-VD-5910",
+   "name": "Cronay"
+  },
+  {
+   "code": "CH-VD-5911",
+   "name": "Cuarny"
+  },
+  {
+   "code": "CH-VD-5912",
+   "name": "Démoret"
+  },
+  {
+   "code": "CH-VD-5913",
+   "name": "Donneloye"
+  },
+  {
+   "code": "CH-VD-5914",
+   "name": "Ependes (VD)"
+  },
+  {
+   "code": "CH-VD-5919",
+   "name": "Mathod"
+  },
+  {
+   "code": "CH-VD-5921",
+   "name": "Molondin"
+  },
+  {
+   "code": "CH-VD-5922",
+   "name": "Montagny-près-Yverdon"
+  },
+  {
+   "code": "CH-VD-5923",
+   "name": "Oppens"
+  },
+  {
+   "code": "CH-VD-5924",
+   "name": "Orges"
+  },
+  {
+   "code": "CH-VD-5925",
+   "name": "Orzens"
+  },
+  {
+   "code": "CH-VD-5926",
+   "name": "Pomy"
+  },
+  {
+   "code": "CH-VD-5928",
+   "name": "Rovray"
+  },
+  {
+   "code": "CH-VD-5929",
+   "name": "Suchy"
+  },
+  {
+   "code": "CH-VD-5930",
+   "name": "Suscévaz"
+  },
+  {
+   "code": "CH-VD-5931",
+   "name": "Treycovagnes"
+  },
+  {
+   "code": "CH-VD-5932",
+   "name": "Ursins"
+  },
+  {
+   "code": "CH-VD-5933",
+   "name": "Valeyres-sous-Montagny"
+  },
+  {
+   "code": "CH-VD-5934",
+   "name": "Valeyres-sous-Ursins"
+  },
+  {
+   "code": "CH-VD-5935",
+   "name": "Villars-Epeney"
+  },
+  {
+   "code": "CH-VD-5937",
+   "name": "Vugelles-La Mothe"
+  },
+  {
+   "code": "CH-VD-5938",
+   "name": "Yverdon-les-Bains"
+  },
+  {
+   "code": "CH-VD-5939",
+   "name": "Yvonand"
+  },
+  {
+   "code": "CH-VS-6002",
+   "name": "Brig-Glis"
+  },
+  {
+   "code": "CH-VS-6004",
+   "name": "Eggerberg"
+  },
+  {
+   "code": "CH-VS-6007",
+   "name": "Naters"
+  },
+  {
+   "code": "CH-VS-6008",
+   "name": "Ried-Brig"
+  },
+  {
+   "code": "CH-VS-6009",
+   "name": "Simplon"
+  },
+  {
+   "code": "CH-VS-6010",
+   "name": "Termen"
+  },
+  {
+   "code": "CH-VS-6011",
+   "name": "Zwischbergen"
+  },
+  {
+   "code": "CH-VS-6021",
+   "name": "Ardon"
+  },
+  {
+   "code": "CH-VS-6022",
+   "name": "Chamoson"
+  },
+  {
+   "code": "CH-VS-6023",
+   "name": "Conthey"
+  },
+  {
+   "code": "CH-VS-6024",
+   "name": "Nendaz"
+  },
+  {
+   "code": "CH-VS-6025",
+   "name": "Vétroz"
+  },
+  {
+   "code": "CH-VS-6032",
+   "name": "Bourg-Saint-Pierre"
+  },
+  {
+   "code": "CH-VS-6033",
+   "name": "Liddes"
+  },
+  {
+   "code": "CH-VS-6034",
+   "name": "Orsières"
+  },
+  {
+   "code": "CH-VS-6035",
+   "name": "Sembrancher"
+  },
+  {
+   "code": "CH-VS-6037",
+   "name": "Val de Bagnes"
+  },
+  {
+   "code": "CH-VS-6052",
+   "name": "Bellwald"
+  },
+  {
+   "code": "CH-VS-6054",
+   "name": "Binn"
+  },
+  {
+   "code": "CH-VS-6056",
+   "name": "Ernen"
+  },
+  {
+   "code": "CH-VS-6057",
+   "name": "Fiesch"
+  },
+  {
+   "code": "CH-VS-6058",
+   "name": "Fieschertal"
+  },
+  {
+   "code": "CH-VS-6061",
+   "name": "Lax"
+  },
+  {
+   "code": "CH-VS-6076",
+   "name": "Obergoms"
+  },
+  {
+   "code": "CH-VS-6077",
+   "name": "Goms"
+  },
+  {
+   "code": "CH-VS-6082",
+   "name": "Ayent"
+  },
+  {
+   "code": "CH-VS-6083",
+   "name": "Evolène"
+  },
+  {
+   "code": "CH-VS-6084",
+   "name": "Hérémence"
+  },
+  {
+   "code": "CH-VS-6087",
+   "name": "Saint-Martin (VS)"
+  },
+  {
+   "code": "CH-VS-6089",
+   "name": "Vex"
+  },
+  {
+   "code": "CH-VS-6090",
+   "name": "Mont-Noble"
+  },
+  {
+   "code": "CH-VS-6101",
+   "name": "Agarn"
+  },
+  {
+   "code": "CH-VS-6102",
+   "name": "Albinen"
+  },
+  {
+   "code": "CH-VS-6104",
+   "name": "Ergisch"
+  },
+  {
+   "code": "CH-VS-6109",
+   "name": "Inden"
+  },
+  {
+   "code": "CH-VS-6110",
+   "name": "Leuk"
+  },
+  {
+   "code": "CH-VS-6111",
+   "name": "Leukerbad"
+  },
+  {
+   "code": "CH-VS-6112",
+   "name": "Oberems"
+  },
+  {
+   "code": "CH-VS-6113",
+   "name": "Salgesch"
+  },
+  {
+   "code": "CH-VS-6116",
+   "name": "Varen"
+  },
+  {
+   "code": "CH-VS-6117",
+   "name": "Guttet-Feschel"
+  },
+  {
+   "code": "CH-VS-6118",
+   "name": "Gampel-Bratsch"
+  },
+  {
+   "code": "CH-VS-6119",
+   "name": "Turtmann-Unterems"
+  },
+  {
+   "code": "CH-VS-6131",
+   "name": "Bovernier"
+  },
+  {
+   "code": "CH-VS-6133",
+   "name": "Fully"
+  },
+  {
+   "code": "CH-VS-6134",
+   "name": "Isérables"
+  },
+  {
+   "code": "CH-VS-6135",
+   "name": "Leytron"
+  },
+  {
+   "code": "CH-VS-6136",
+   "name": "Martigny"
+  },
+  {
+   "code": "CH-VS-6137",
+   "name": "Martigny-Combe"
+  },
+  {
+   "code": "CH-VS-6139",
+   "name": "Riddes"
+  },
+  {
+   "code": "CH-VS-6140",
+   "name": "Saillon"
+  },
+  {
+   "code": "CH-VS-6141",
+   "name": "Saxon"
+  },
+  {
+   "code": "CH-VS-6142",
+   "name": "Trient"
+  },
+  {
+   "code": "CH-VS-6151",
+   "name": "Champéry"
+  },
+  {
+   "code": "CH-VS-6152",
+   "name": "Collombey-Muraz"
+  },
+  {
+   "code": "CH-VS-6153",
+   "name": "Monthey"
+  },
+  {
+   "code": "CH-VS-6154",
+   "name": "Port-Valais"
+  },
+  {
+   "code": "CH-VS-6155",
+   "name": "Saint-Gingolph"
+  },
+  {
+   "code": "CH-VS-6156",
+   "name": "Troistorrents"
+  },
+  {
+   "code": "CH-VS-6157",
+   "name": "Val-d'Illiez"
+  },
+  {
+   "code": "CH-VS-6158",
+   "name": "Vionnaz"
+  },
+  {
+   "code": "CH-VS-6159",
+   "name": "Vouvry"
+  },
+  {
+   "code": "CH-VS-6172",
+   "name": "Bister"
+  },
+  {
+   "code": "CH-VS-6173",
+   "name": "Bitsch"
+  },
+  {
+   "code": "CH-VS-6177",
+   "name": "Grengiols"
+  },
+  {
+   "code": "CH-VS-6181",
+   "name": "Riederalp"
+  },
+  {
+   "code": "CH-VS-6191",
+   "name": "Ausserberg"
+  },
+  {
+   "code": "CH-VS-6192",
+   "name": "Blatten"
+  },
+  {
+   "code": "CH-VS-6193",
+   "name": "Bürchen"
+  },
+  {
+   "code": "CH-VS-6194",
+   "name": "Eischoll"
+  },
+  {
+   "code": "CH-VS-6195",
+   "name": "Ferden"
+  },
+  {
+   "code": "CH-VS-6197",
+   "name": "Kippel"
+  },
+  {
+   "code": "CH-VS-6198",
+   "name": "Niedergesteln"
+  },
+  {
+   "code": "CH-VS-6199",
+   "name": "Raron"
+  },
+  {
+   "code": "CH-VS-6201",
+   "name": "Unterbäch"
+  },
+  {
+   "code": "CH-VS-6202",
+   "name": "Wiler (Lötschen)"
+  },
+  {
+   "code": "CH-VS-6203",
+   "name": "Mörel-Filet"
+  },
+  {
+   "code": "CH-VS-6204",
+   "name": "Steg-Hohtenn"
+  },
+  {
+   "code": "CH-VS-6205",
+   "name": "Bettmeralp"
+  },
+  {
+   "code": "CH-VS-6211",
+   "name": "Collonges"
+  },
+  {
+   "code": "CH-VS-6212",
+   "name": "Dorénaz"
+  },
+  {
+   "code": "CH-VS-6213",
+   "name": "Evionnaz"
+  },
+  {
+   "code": "CH-VS-6214",
+   "name": "Finhaut"
+  },
+  {
+   "code": "CH-VS-6215",
+   "name": "Massongex"
+  },
+  {
+   "code": "CH-VS-6217",
+   "name": "Saint-Maurice"
+  },
+  {
+   "code": "CH-VS-6218",
+   "name": "Salvan"
+  },
+  {
+   "code": "CH-VS-6219",
+   "name": "Vernayaz"
+  },
+  {
+   "code": "CH-VS-6220",
+   "name": "Vérossaz"
+  },
+  {
+   "code": "CH-VS-6232",
+   "name": "Chalais"
+  },
+  {
+   "code": "CH-VS-6235",
+   "name": "Chippis"
+  },
+  {
+   "code": "CH-VS-6238",
+   "name": "Grône"
+  },
+  {
+   "code": "CH-VS-6239",
+   "name": "Icogne"
+  },
+  {
+   "code": "CH-VS-6240",
+   "name": "Lens"
+  },
+  {
+   "code": "CH-VS-6246",
+   "name": "Saint-Léonard"
+  },
+  {
+   "code": "CH-VS-6248",
+   "name": "Sierre"
+  },
+  {
+   "code": "CH-VS-6252",
+   "name": "Anniviers"
+  },
+  {
+   "code": "CH-VS-6253",
+   "name": "Crans-Montana"
+  },
+  {
+   "code": "CH-VS-6254",
+   "name": "Noble-Contrée"
+  },
+  {
+   "code": "CH-VS-6261",
+   "name": "Arbaz"
+  },
+  {
+   "code": "CH-VS-6263",
+   "name": "Grimisuat"
+  },
+  {
+   "code": "CH-VS-6265",
+   "name": "Savièse"
+  },
+  {
+   "code": "CH-VS-6266",
+   "name": "Sion"
+  },
+  {
+   "code": "CH-VS-6267",
+   "name": "Veysonnaz"
+  },
+  {
+   "code": "CH-VS-6281",
+   "name": "Baltschieder"
+  },
+  {
+   "code": "CH-VS-6282",
+   "name": "Eisten"
+  },
+  {
+   "code": "CH-VS-6283",
+   "name": "Embd"
+  },
+  {
+   "code": "CH-VS-6285",
+   "name": "Grächen"
+  },
+  {
+   "code": "CH-VS-6286",
+   "name": "Lalden"
+  },
+  {
+   "code": "CH-VS-6287",
+   "name": "Randa"
+  },
+  {
+   "code": "CH-VS-6288",
+   "name": "Saas-Almagell"
+  },
+  {
+   "code": "CH-VS-6289",
+   "name": "Saas-Balen"
+  },
+  {
+   "code": "CH-VS-6290",
+   "name": "Saas-Fee"
+  },
+  {
+   "code": "CH-VS-6291",
+   "name": "Saas-Grund"
+  },
+  {
+   "code": "CH-VS-6292",
+   "name": "St. Niklaus"
+  },
+  {
+   "code": "CH-VS-6293",
+   "name": "Stalden (VS)"
+  },
+  {
+   "code": "CH-VS-6294",
+   "name": "Staldenried"
+  },
+  {
+   "code": "CH-VS-6295",
+   "name": "Täsch"
+  },
+  {
+   "code": "CH-VS-6296",
+   "name": "Törbel"
+  },
+  {
+   "code": "CH-VS-6297",
+   "name": "Visp"
+  },
+  {
+   "code": "CH-VS-6298",
+   "name": "Visperterminen"
+  },
+  {
+   "code": "CH-VS-6299",
+   "name": "Zeneggen"
+  },
+  {
+   "code": "CH-VS-6300",
+   "name": "Zermatt"
+  },
+  {
+   "code": "CH-ZG-1701",
+   "name": "Baar"
+  },
+  {
+   "code": "CH-ZG-1702",
+   "name": "Cham"
+  },
+  {
+   "code": "CH-ZG-1703",
+   "name": "Hünenberg"
+  },
+  {
+   "code": "CH-ZG-1704",
+   "name": "Menzingen"
+  },
+  {
+   "code": "CH-ZG-1705",
+   "name": "Neuheim"
+  },
+  {
+   "code": "CH-ZG-1706",
+   "name": "Oberägeri"
+  },
+  {
+   "code": "CH-ZG-1707",
+   "name": "Risch"
+  },
+  {
+   "code": "CH-ZG-1708",
+   "name": "Steinhausen"
+  },
+  {
+   "code": "CH-ZG-1709",
+   "name": "Unterägeri"
+  },
+  {
+   "code": "CH-ZG-1710",
+   "name": "Walchwil"
+  },
+  {
+   "code": "CH-ZG-1711",
+   "name": "Zug"
+  },
+  {
+   "code": "CH-ZH-1",
+   "name": "Aeugst am Albis"
+  },
+  {
+   "code": "CH-ZH-2",
+   "name": "Affoltern am Albis"
+  },
+  {
+   "code": "CH-ZH-3",
+   "name": "Bonstetten"
+  },
+  {
+   "code": "CH-ZH-4",
+   "name": "Hausen am Albis"
+  },
+  {
+   "code": "CH-ZH-5",
+   "name": "Hedingen"
+  },
+  {
+   "code": "CH-ZH-6",
+   "name": "Kappel am Albis"
+  },
+  {
+   "code": "CH-ZH-7",
+   "name": "Knonau"
+  },
+  {
+   "code": "CH-ZH-8",
+   "name": "Maschwanden"
+  },
+  {
+   "code": "CH-ZH-9",
+   "name": "Mettmenstetten"
+  },
+  {
+   "code": "CH-ZH-10",
+   "name": "Obfelden"
+  },
+  {
+   "code": "CH-ZH-11",
+   "name": "Ottenbach"
+  },
+  {
+   "code": "CH-ZH-12",
+   "name": "Rifferswil"
+  },
+  {
+   "code": "CH-ZH-13",
+   "name": "Stallikon"
+  },
+  {
+   "code": "CH-ZH-14",
+   "name": "Wettswil am Albis"
+  },
+  {
+   "code": "CH-ZH-22",
+   "name": "Benken (ZH)"
+  },
+  {
+   "code": "CH-ZH-23",
+   "name": "Berg am Irchel"
+  },
+  {
+   "code": "CH-ZH-24",
+   "name": "Buch am Irchel"
+  },
+  {
+   "code": "CH-ZH-25",
+   "name": "Dachsen"
+  },
+  {
+   "code": "CH-ZH-26",
+   "name": "Dorf"
+  },
+  {
+   "code": "CH-ZH-27",
+   "name": "Feuerthalen"
+  },
+  {
+   "code": "CH-ZH-28",
+   "name": "Flaach"
+  },
+  {
+   "code": "CH-ZH-29",
+   "name": "Flurlingen"
+  },
+  {
+   "code": "CH-ZH-31",
+   "name": "Henggart"
+  },
+  {
+   "code": "CH-ZH-33",
+   "name": "Kleinandelfingen"
+  },
+  {
+   "code": "CH-ZH-34",
+   "name": "Laufen-Uhwiesen"
+  },
+  {
+   "code": "CH-ZH-35",
+   "name": "Marthalen"
+  },
+  {
+   "code": "CH-ZH-37",
+   "name": "Ossingen"
+  },
+  {
+   "code": "CH-ZH-38",
+   "name": "Rheinau"
+  },
+  {
+   "code": "CH-ZH-39",
+   "name": "Thalheim an der Thur"
+  },
+  {
+   "code": "CH-ZH-40",
+   "name": "Trüllikon"
+  },
+  {
+   "code": "CH-ZH-41",
+   "name": "Truttikon"
+  },
+  {
+   "code": "CH-ZH-43",
+   "name": "Volken"
+  },
+  {
+   "code": "CH-ZH-51",
+   "name": "Bachenbülach"
+  },
+  {
+   "code": "CH-ZH-52",
+   "name": "Bassersdorf"
+  },
+  {
+   "code": "CH-ZH-53",
+   "name": "Bülach"
+  },
+  {
+   "code": "CH-ZH-54",
+   "name": "Dietlikon"
+  },
+  {
+   "code": "CH-ZH-55",
+   "name": "Eglisau"
+  },
+  {
+   "code": "CH-ZH-56",
+   "name": "Embrach"
+  },
+  {
+   "code": "CH-ZH-57",
+   "name": "Freienstein-Teufen"
+  },
+  {
+   "code": "CH-ZH-58",
+   "name": "Glattfelden"
+  },
+  {
+   "code": "CH-ZH-59",
+   "name": "Hochfelden"
+  },
+  {
+   "code": "CH-ZH-60",
+   "name": "Höri"
+  },
+  {
+   "code": "CH-ZH-61",
+   "name": "Hüntwangen"
+  },
+  {
+   "code": "CH-ZH-62",
+   "name": "Kloten"
+  },
+  {
+   "code": "CH-ZH-63",
+   "name": "Lufingen"
+  },
+  {
+   "code": "CH-ZH-64",
+   "name": "Nürensdorf"
+  },
+  {
+   "code": "CH-ZH-65",
+   "name": "Oberembrach"
+  },
+  {
+   "code": "CH-ZH-66",
+   "name": "Opfikon"
+  },
+  {
+   "code": "CH-ZH-67",
+   "name": "Rafz"
+  },
+  {
+   "code": "CH-ZH-68",
+   "name": "Rorbas"
+  },
+  {
+   "code": "CH-ZH-69",
+   "name": "Wallisellen"
+  },
+  {
+   "code": "CH-ZH-70",
+   "name": "Wasterkingen"
+  },
+  {
+   "code": "CH-ZH-71",
+   "name": "Wil (ZH)"
+  },
+  {
+   "code": "CH-ZH-72",
+   "name": "Winkel"
+  },
+  {
+   "code": "CH-ZH-81",
+   "name": "Bachs"
+  },
+  {
+   "code": "CH-ZH-82",
+   "name": "Boppelsen"
+  },
+  {
+   "code": "CH-ZH-83",
+   "name": "Buchs (ZH)"
+  },
+  {
+   "code": "CH-ZH-84",
+   "name": "Dällikon"
+  },
+  {
+   "code": "CH-ZH-85",
+   "name": "Dänikon"
+  },
+  {
+   "code": "CH-ZH-86",
+   "name": "Dielsdorf"
+  },
+  {
+   "code": "CH-ZH-87",
+   "name": "Hüttikon"
+  },
+  {
+   "code": "CH-ZH-88",
+   "name": "Neerach"
+  },
+  {
+   "code": "CH-ZH-89",
+   "name": "Niederglatt"
+  },
+  {
+   "code": "CH-ZH-90",
+   "name": "Niederhasli"
+  },
+  {
+   "code": "CH-ZH-91",
+   "name": "Niederweningen"
+  },
+  {
+   "code": "CH-ZH-92",
+   "name": "Oberglatt"
+  },
+  {
+   "code": "CH-ZH-93",
+   "name": "Oberweningen"
+  },
+  {
+   "code": "CH-ZH-94",
+   "name": "Otelfingen"
+  },
+  {
+   "code": "CH-ZH-95",
+   "name": "Regensberg"
+  },
+  {
+   "code": "CH-ZH-96",
+   "name": "Regensdorf"
+  },
+  {
+   "code": "CH-ZH-97",
+   "name": "Rümlang"
+  },
+  {
+   "code": "CH-ZH-98",
+   "name": "Schleinikon"
+  },
+  {
+   "code": "CH-ZH-99",
+   "name": "Schöfflisdorf"
+  },
+  {
+   "code": "CH-ZH-100",
+   "name": "Stadel"
+  },
+  {
+   "code": "CH-ZH-101",
+   "name": "Steinmaur"
+  },
+  {
+   "code": "CH-ZH-102",
+   "name": "Weiach"
+  },
+  {
+   "code": "CH-ZH-111",
+   "name": "Bäretswil"
+  },
+  {
+   "code": "CH-ZH-112",
+   "name": "Bubikon"
+  },
+  {
+   "code": "CH-ZH-113",
+   "name": "Dürnten"
+  },
+  {
+   "code": "CH-ZH-114",
+   "name": "Fischenthal"
+  },
+  {
+   "code": "CH-ZH-115",
+   "name": "Gossau (ZH)"
+  },
+  {
+   "code": "CH-ZH-116",
+   "name": "Grüningen"
+  },
+  {
+   "code": "CH-ZH-117",
+   "name": "Hinwil"
+  },
+  {
+   "code": "CH-ZH-118",
+   "name": "Rüti (ZH)"
+  },
+  {
+   "code": "CH-ZH-119",
+   "name": "Seegräben"
+  },
+  {
+   "code": "CH-ZH-120",
+   "name": "Wald (ZH)"
+  },
+  {
+   "code": "CH-ZH-121",
+   "name": "Wetzikon (ZH)"
+  },
+  {
+   "code": "CH-ZH-131",
+   "name": "Adliswil"
+  },
+  {
+   "code": "CH-ZH-135",
+   "name": "Kilchberg (ZH)"
+  },
+  {
+   "code": "CH-ZH-136",
+   "name": "Langnau am Albis"
+  },
+  {
+   "code": "CH-ZH-137",
+   "name": "Oberrieden"
+  },
+  {
+   "code": "CH-ZH-138",
+   "name": "Richterswil"
+  },
+  {
+   "code": "CH-ZH-139",
+   "name": "Rüschlikon"
+  },
+  {
+   "code": "CH-ZH-141",
+   "name": "Thalwil"
+  },
+  {
+   "code": "CH-ZH-151",
+   "name": "Erlenbach (ZH)"
+  },
+  {
+   "code": "CH-ZH-152",
+   "name": "Herrliberg"
+  },
+  {
+   "code": "CH-ZH-153",
+   "name": "Hombrechtikon"
+  },
+  {
+   "code": "CH-ZH-154",
+   "name": "Küsnacht (ZH)"
+  },
+  {
+   "code": "CH-ZH-155",
+   "name": "Männedorf"
+  },
+  {
+   "code": "CH-ZH-156",
+   "name": "Meilen"
+  },
+  {
+   "code": "CH-ZH-157",
+   "name": "Oetwil am See"
+  },
+  {
+   "code": "CH-ZH-158",
+   "name": "Stäfa"
+  },
+  {
+   "code": "CH-ZH-159",
+   "name": "Uetikon am See"
+  },
+  {
+   "code": "CH-ZH-160",
+   "name": "Zumikon"
+  },
+  {
+   "code": "CH-ZH-161",
+   "name": "Zollikon"
+  },
+  {
+   "code": "CH-ZH-172",
+   "name": "Fehraltorf"
+  },
+  {
+   "code": "CH-ZH-173",
+   "name": "Hittnau"
+  },
+  {
+   "code": "CH-ZH-176",
+   "name": "Lindau"
+  },
+  {
+   "code": "CH-ZH-177",
+   "name": "Pfäffikon"
+  },
+  {
+   "code": "CH-ZH-178",
+   "name": "Russikon"
+  },
+  {
+   "code": "CH-ZH-180",
+   "name": "Weisslingen"
+  },
+  {
+   "code": "CH-ZH-181",
+   "name": "Wila"
+  },
+  {
+   "code": "CH-ZH-182",
+   "name": "Wildberg"
+  },
+  {
+   "code": "CH-ZH-191",
+   "name": "Dübendorf"
+  },
+  {
+   "code": "CH-ZH-192",
+   "name": "Egg"
+  },
+  {
+   "code": "CH-ZH-193",
+   "name": "Fällanden"
+  },
+  {
+   "code": "CH-ZH-194",
+   "name": "Greifensee"
+  },
+  {
+   "code": "CH-ZH-195",
+   "name": "Maur"
+  },
+  {
+   "code": "CH-ZH-196",
+   "name": "Mönchaltorf"
+  },
+  {
+   "code": "CH-ZH-197",
+   "name": "Schwerzenbach"
+  },
+  {
+   "code": "CH-ZH-198",
+   "name": "Uster"
+  },
+  {
+   "code": "CH-ZH-199",
+   "name": "Volketswil"
+  },
+  {
+   "code": "CH-ZH-200",
+   "name": "Wangen-Brüttisellen"
+  },
+  {
+   "code": "CH-ZH-211",
+   "name": "Altikon"
+  },
+  {
+   "code": "CH-ZH-213",
+   "name": "Brütten"
+  },
+  {
+   "code": "CH-ZH-214",
+   "name": "Dägerlen"
+  },
+  {
+   "code": "CH-ZH-215",
+   "name": "Dättlikon"
+  },
+  {
+   "code": "CH-ZH-216",
+   "name": "Dinhard"
+  },
+  {
+   "code": "CH-ZH-218",
+   "name": "Ellikon an der Thur"
+  },
+  {
+   "code": "CH-ZH-219",
+   "name": "Elsau"
+  },
+  {
+   "code": "CH-ZH-220",
+   "name": "Hagenbuch"
+  },
+  {
+   "code": "CH-ZH-221",
+   "name": "Hettlingen"
+  },
+  {
+   "code": "CH-ZH-223",
+   "name": "Neftenbach"
+  },
+  {
+   "code": "CH-ZH-224",
+   "name": "Pfungen"
+  },
+  {
+   "code": "CH-ZH-225",
+   "name": "Rickenbach (ZH)"
+  },
+  {
+   "code": "CH-ZH-226",
+   "name": "Schlatt (ZH)"
+  },
+  {
+   "code": "CH-ZH-227",
+   "name": "Seuzach"
+  },
+  {
+   "code": "CH-ZH-228",
+   "name": "Turbenthal"
+  },
+  {
+   "code": "CH-ZH-230",
+   "name": "Winterthur"
+  },
+  {
+   "code": "CH-ZH-231",
+   "name": "Zell (ZH)"
+  },
+  {
+   "code": "CH-ZH-241",
+   "name": "Aesch (ZH)"
+  },
+  {
+   "code": "CH-ZH-242",
+   "name": "Birmensdorf (ZH)"
+  },
+  {
+   "code": "CH-ZH-243",
+   "name": "Dietikon"
+  },
+  {
+   "code": "CH-ZH-244",
+   "name": "Geroldswil"
+  },
+  {
+   "code": "CH-ZH-245",
+   "name": "Oberengstringen"
+  },
+  {
+   "code": "CH-ZH-246",
+   "name": "Oetwil an der Limmat"
+  },
+  {
+   "code": "CH-ZH-247",
+   "name": "Schlieren"
+  },
+  {
+   "code": "CH-ZH-248",
+   "name": "Uitikon"
+  },
+  {
+   "code": "CH-ZH-249",
+   "name": "Unterengstringen"
+  },
+  {
+   "code": "CH-ZH-250",
+   "name": "Urdorf"
+  },
+  {
+   "code": "CH-ZH-251",
+   "name": "Weiningen (ZH)"
+  },
+  {
+   "code": "CH-ZH-261",
+   "name": "Zürich"
+  },
+  {
+   "code": "CH-ZH-291",
+   "name": "Andelfingen"
+  },
+  {
+   "code": "CH-ZH-292",
+   "name": "Stammheim"
+  },
+  {
+   "code": "CH-ZH-293",
+   "name": "Wädenswil"
+  },
+  {
+   "code": "CH-ZH-294",
+   "name": "Elgg"
+  },
+  {
+   "code": "CH-ZH-295",
+   "name": "Horgen"
+  },
+  {
+   "code": "CH-ZH-296",
+   "name": "Illnau-Effretikon"
+  },
+  {
+   "code": "CH-ZH-297",
+   "name": "Bauma"
+  },
+  {
+   "code": "CH-ZH-298",
+   "name": "Wiesendangen"
+  }
+ ]
+}

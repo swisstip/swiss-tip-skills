@@ -1,0 +1,11 @@
+{
+  "name": "swisstip",
+  "owner": { "name": "Alexander Bobrovsky" },
+  "plugins": [
+    {
+      "name": "swisstip-kb-builder",
+      "source": "./",
+      "description": "Build a grounded, citable knowledge base of Swiss public information from official pages, end to end."
+    }
+  ]
+}

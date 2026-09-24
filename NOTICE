@@ -1,0 +1,26 @@
+Swiss TIP knowledge-base builder - a Claude Code plugin
+Copyright 2026 The UBS Hackathon 2026 team: Alexander Bobrovsky and contributors
+
+Licensed under the Apache License, Version 2.0 (see LICENSE).
+
+This plugin drives the Swiss TIP tooling (https://github.com/swisstip/swiss-tip),
+which it installs from PyPI as swisstip-builder and swisstip-mcp. It contains
+no copy of those packages.
+
+skills/build-knowledge-base/scripts/replay.py is a derived work of
+scripts/test/regression/run_regression.py of the Swiss TIP packs repository
+(https://github.com/swisstip/swiss-tip-mvp), Apache-2.0, adapted to run against
+a workspace instead of a repository checkout.
+
+skills/build-knowledge-base/data/places/ch-register.json is built from the
+register of municipalities of the Swiss Federal Statistical Office
+(https://www.agvchapp.bfs.admin.ch/), a snapshot of 18 September 2026; it holds
+official place names and codes only. ch-aliases.json holds hand-written
+other-language names next to them. Municipalities merge, usually on 1 January;
+refresh the register with "swisstip-places --output config/places/ch-register.json".
+
+A knowledge release built with this plugin quotes excerpts of official
+publications as cited evidence, with their source URLs and access times. Those
+texts remain the property of their publishers and are not relicensed under the
+Apache License. Consult the publishers' terms of use before redistributing a
+release, and observe their crawling terms when acquiring pages.
